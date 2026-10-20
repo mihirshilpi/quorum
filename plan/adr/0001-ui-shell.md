@@ -33,3 +33,12 @@ Official Tauri 2 plugins (MIT/Apache-2.0): `tauri-plugin-notification` (native n
 `-single-instance`, `-window-state`, `-deep-link` (`quorum://`, `mailto:`), `-autostart` (login
 item), plus tauri's `tray-icon` feature for the menu-bar presence icon. Idle time comes from
 `ioreg HIDIdleTime` behind an `IdleSource` trait, so no `unsafe`.
+
+## Addendum (2026-10-20): idle time on Windows and Linux
+
+Presence goes Away after the configured idle time. macOS reads `HIDIdleTime` from `ioreg`.
+Windows uses **`user-idle-time`** 0.7 (MIT OR Apache-2.0, `default-features = false`, Windows
+target only), a thin safe wrapper over `GetLastInputInfo`, because calling it ourselves would need
+`unsafe` (forbidden). Linux calls GNOME's `org.gnome.Mutter.IdleMonitor.GetIdletime` with `gdbus`
+(works on Wayland; no X11 or libXss link); other desktops report unknown and only window focus
+decides. Rejected: the crate's X11 backend (no Wayland, extra system libraries).

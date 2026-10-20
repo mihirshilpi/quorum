@@ -3910,6 +3910,7 @@ dependencies = [
  "tracing",
  "tracing-subscriber",
  "url",
+ "user-idle-time",
 ]
 
 [[package]]
@@ -6201,6 +6202,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "user-idle-time"
+version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "657ffe01f35a35308c81110e56aedc4bd83788e5c4ac54679c85b0e0b47e49ca"
+dependencies = [
+ "anyhow",
+ "windows-sys 0.59.0",
+]
+
+[[package]]
 name = "utf8_iter"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6710,6 +6721,15 @@ name = "windows-sys"
 version = "0.52.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "282be5f36a8ce781fad8c8ae18fa3f9beff57ec1b52cb3de0789201425d9a33d"
+dependencies = [
+ "windows-targets 0.52.6",
+]
+
+[[package]]
+name = "windows-sys"
+version = "0.59.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1e38bc4d79ed67fd075bcc251a1c39b32a1776bbe92e5bef1f0bf1f8c531853b"
 dependencies = [
  "windows-targets 0.52.6",
 ]

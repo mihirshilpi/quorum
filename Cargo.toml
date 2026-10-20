@@ -38,6 +38,7 @@ base64 = "0.22"
 sha2 = "0.10"
 url = "2"
 mimalloc = "0.1"
+user-idle-time = { version = "0.7", default-features = false }
 clap = { version = "4", features = ["derive"] }
 
 # network / auth

@@ -22,20 +22,74 @@ pub trait IdleSource: Send + Sync + 'static {
     fn idle_seconds(&self) -> Option<u64>;
 }
 
-/// macOS: `ioreg -c IOHIDSystem` → `HIDIdleTime` (nanoseconds). Elsewhere: unknown.
+/// How long the user has been idle, from the operating system:
+/// - macOS: `ioreg -c IOHIDSystem` → `HIDIdleTime` (nanoseconds).
+/// - Windows: `GetLastInputInfo` (through `user-idle-time`).
+/// - Linux: GNOME's idle monitor over D-Bus (`gdbus`), which works on Wayland and X11.
+///   Other desktops report unknown, so only window focus decides.
 #[derive(Debug, Default)]
 pub struct SystemIdle;
 
 impl IdleSource for SystemIdle {
     fn idle_seconds(&self) -> Option<u64> {
-        if !cfg!(target_os = "macos") {
-            return None;
-        }
-        let out = std::process::Command::new("/usr/sbin/ioreg").args(["-c", "IOHIDSystem", "-d", "4"]).output().ok()?;
-        parse_hid_idle(&String::from_utf8_lossy(out.stdout.get(..out.stdout.len().min(1 << 20))?))
+        platform_idle_seconds()
     }
 }
 
+#[cfg(target_os = "macos")]
+fn platform_idle_seconds() -> Option<u64> {
+    let out = std::process::Command::new("/usr/sbin/ioreg").args(["-c", "IOHIDSystem", "-d", "4"]).output().ok()?;
+    parse_hid_idle(&String::from_utf8_lossy(out.stdout.get(..out.stdout.len().min(1 << 20))?))
+}
+
+#[cfg(windows)]
+fn platform_idle_seconds() -> Option<u64> {
+    user_idle_time::get_idle_time().ok().map(|d| d.as_secs())
+}
+
+#[cfg(target_os = "linux")]
+fn platform_idle_seconds() -> Option<u64> {
+    let out = std::process::Command::new("gdbus")
+        .args([
+            "call",
+            "--session",
+            "--timeout",
+            "2",
+            "--dest",
+            "org.gnome.Mutter.IdleMonitor",
+            "--object-path",
+            "/org/gnome/Mutter/IdleMonitor/Core",
+            "--method",
+            "org.gnome.Mutter.IdleMonitor.GetIdletime",
+        ])
+        .output()
+        .ok()?;
+    if !out.status.success() {
+        return None;
+    }
+    parse_gdbus_idle(&String::from_utf8_lossy(out.stdout.get(..out.stdout.len().min(4096))?))
+}
+
+#[cfg(not(any(target_os = "macos", windows, target_os = "linux")))]
+fn platform_idle_seconds() -> Option<u64> {
+    None
+}
+
+#[cfg(any(target_os = "linux", test))]
+/// Parses gdbus's `(uint64 123456,)` (milliseconds) into seconds (pure, tested).
+pub fn parse_gdbus_idle(text: &str) -> Option<u64> {
+    let digits: String = text
+        .trim()
+        .trim_start_matches('(')
+        .trim_start_matches("uint64")
+        .trim()
+        .chars()
+        .take_while(char::is_ascii_digit)
+        .collect();
+    digits.parse::<u64>().ok().map(|ms| ms / 1000)
+}
+
+#[cfg(any(target_os = "macos", test))]
 /// Parses `"HIDIdleTime" = 123456789` (nanoseconds) into seconds (pure, tested).
 pub fn parse_hid_idle(text: &str) -> Option<u64> {
     let line = text.lines().find(|l| l.contains("\"HIDIdleTime\""))?;
@@ -96,6 +150,15 @@ pub async fn run(session: Session, focus: Arc<Focus>, idle: impl IdleSource) {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn gdbus_idle_parses_milliseconds_and_rejects_junk() {
+        assert_eq!(parse_gdbus_idle("(uint64 123456,)\n"), Some(123));
+        assert_eq!(parse_gdbus_idle("(uint64 999,)"), Some(0));
+        for junk in ["", "()", "(uint64 ,)", "Error: no such name", "(uint64 99999999999999999999999,)"] {
+            assert_eq!(parse_gdbus_idle(junk), None, "{junk}");
+        }
+    }
 
     #[test]
     fn hid_idle_parses_and_tolerates_junk() {
