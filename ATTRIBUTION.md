@@ -7,6 +7,8 @@ product icons, Fluent artwork or Segoe fonts.
 | Path | Author | Source | Licence |
 |---|---|---|---|
 | `apps/quorum/icons/icon.png` | Quorum contributors | Generated in code by `cargo xtask icon` (`xtask/src/icon.rs`) | MIT OR Apache-2.0 |
+| `apps/quorum/icons/icon.icns` | Quorum contributors | Derived from `icon.png` by `cargo tauri icon` | MIT OR Apache-2.0 |
+| `apps/quorum/icons/icon.ico` | Quorum contributors | Derived from `icon.png` by `cargo tauri icon` | MIT OR Apache-2.0 |
 | `docs/screenshots/mail.png` | Quorum contributors | Screenshot of Quorum with synthetic sample data | MIT OR Apache-2.0 |
 | `docs/screenshots/calendar.png` | Quorum contributors | Screenshot of Quorum with synthetic sample data | MIT OR Apache-2.0 |
 | `docs/screenshots/chat.png` | Quorum contributors | Screenshot of Quorum with synthetic sample data | MIT OR Apache-2.0 |

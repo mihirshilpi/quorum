@@ -24,13 +24,14 @@
   },
   "bundle": {
     "active": true,
-    "targets": [
-      "app",
-      "dmg"
-    ],
+    "targets": "all",
     "icon": [
-      "icons/icon.png"
+      "icons/icon.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
     ],
+    "shortDescription": "Microsoft 365 mail, calendar, Teams and files in one window",
+    "license": "MIT OR Apache-2.0",
     "category": "Productivity"
   },
   "plugins": {

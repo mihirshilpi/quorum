@@ -19,14 +19,14 @@ fn main() -> Result<()> {
         "layers" => layers(),
         "assets" => assets(),
         "wasm" => wasm(),
-        "ui" => ui_build(false),
+        "ui" => ui_build(rest.iter().any(|a| a == "--release")),
         "dev" => dev(rest),
         "contributors" => contributors(rest),
         "fixtures" => fixtures(),
         "icon" => icon(),
         _ => {
             println!(
-                "tasks: ci, layers, assets, fixtures [check], wasm, ui, dev [-- app args], contributors [--check]"
+                "tasks: ci, layers, assets, fixtures [check], wasm, ui [--release], dev [-- app args], contributors [--check]"
             );
             Ok(())
         }
