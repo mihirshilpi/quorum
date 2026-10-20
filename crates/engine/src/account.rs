@@ -81,13 +81,20 @@ impl AccountConfig {
     }
 }
 
-/// Quorum's per-user data folder.
+/// Quorum's per-user data folder: `~/Library/Application Support/Quorum` (macOS),
+/// `%APPDATA%\Quorum` (Windows), `$XDG_DATA_HOME/quorum` or `~/.local/share/quorum` (Linux).
 pub fn data_dir() -> PathBuf {
-    let home = std::env::var_os("HOME").map(PathBuf::from).unwrap_or_default();
+    let var = |k: &str| std::env::var_os(k).filter(|v| !v.is_empty()).map(PathBuf::from);
+    data_dir_from(var("HOME"), var("APPDATA"), var("XDG_DATA_HOME"))
+}
+
+fn data_dir_from(home: Option<PathBuf>, appdata: Option<PathBuf>, xdg: Option<PathBuf>) -> PathBuf {
     if cfg!(target_os = "macos") {
-        home.join("Library/Application Support/Quorum")
+        home.unwrap_or_default().join("Library/Application Support/Quorum")
+    } else if cfg!(target_os = "windows") {
+        appdata.or_else(|| home.map(|h| h.join("AppData").join("Roaming"))).unwrap_or_default().join("Quorum")
     } else {
-        home.join(".local/share/quorum")
+        xdg.filter(|p| p.is_absolute()).unwrap_or_else(|| home.unwrap_or_default().join(".local/share")).join("quorum")
     }
 }
 
@@ -242,4 +249,25 @@ fn auth_err(e: quorum_auth::Error) -> Error {
         _ => format!("Sign-in failed: {}.", e.kind()),
     };
     Error::new(kind, message).with_source(e)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn data_dir_follows_platform_conventions_and_never_lands_in_the_working_folder() {
+        let home = Some(PathBuf::from("/home/u"));
+        let dir = data_dir_from(home.clone(), Some(PathBuf::from("/appdata")), Some(PathBuf::from("/xdg")));
+        let fallback = data_dir_from(home, None, Some(PathBuf::from("relative")));
+        if cfg!(target_os = "macos") {
+            assert_eq!(dir, PathBuf::from("/home/u/Library/Application Support/Quorum"));
+        } else if cfg!(target_os = "windows") {
+            assert_eq!(dir, PathBuf::from("/appdata").join("Quorum"));
+            assert_eq!(fallback, PathBuf::from("/home/u").join("AppData").join("Roaming").join("Quorum"));
+        } else {
+            assert_eq!(dir, PathBuf::from("/xdg/quorum"));
+            assert_eq!(fallback, PathBuf::from("/home/u/.local/share/quorum"));
+        }
+    }
 }

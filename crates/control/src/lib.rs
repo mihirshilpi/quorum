@@ -45,14 +45,10 @@ pub trait UiHooks: Send + Sync {
     fn screenshot(&self, path: &Path) -> Result<(), String>;
 }
 
-/// Where the control token lives: `~/Library/Application Support/Quorum/control-token` on macOS.
+/// Where the control token lives: `control-token` in Quorum's data folder
+/// (`~/Library/Application Support/Quorum/control-token` on macOS).
 pub fn token_path() -> PathBuf {
-    let home = std::env::var_os("HOME").map(PathBuf::from).unwrap_or_default();
-    if cfg!(target_os = "macos") {
-        home.join("Library/Application Support/Quorum/control-token")
-    } else {
-        home.join(".local/share/quorum/control-token")
-    }
+    quorum_engine::account::data_dir().join("control-token")
 }
 
 fn write_token() -> Result<String, Error> {

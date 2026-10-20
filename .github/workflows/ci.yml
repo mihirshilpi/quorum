@@ -8,9 +8,18 @@ concurrency:
   cancel-in-progress: true
 jobs:
   ci:
-    runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-24.04]
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
+      - name: Linux system libraries (WebKitGTK, tray, keyring)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev libxdo-dev libssl-dev libdbus-1-dev pkg-config
       - uses: dtolnay/rust-toolchain@stable
         with:
           targets: wasm32-unknown-unknown
