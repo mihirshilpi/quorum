@@ -1,0 +1,9 @@
+{
+  "id": "mock-folder-sent",
+  "displayName": "Sent Items",
+  "parentFolderId": "mock-folder-root",
+  "childFolderCount": 0,
+  "unreadItemCount": 1,
+  "totalItemCount": 4,
+  "isHidden": false
+}

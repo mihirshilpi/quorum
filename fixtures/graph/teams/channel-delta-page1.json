@@ -1,0 +1,116 @@
+{
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/teams/00000000-0000-0000-0000-0000000000b1/channels/19:synthetic-channel-0001@thread.tacv2/messages/delta?$skiptoken=channel-delta-2",
+  "value": [
+    {
+      "id": "1760000001000",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T08:00:00Z",
+      "deletedDateTime": null,
+      "subject": "Synthetic announcement",
+      "channelIdentity": {
+        "teamId": "00000000-0000-0000-0000-0000000000b1",
+        "channelId": "19:synthetic-channel-0001@thread.tacv2"
+      },
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>post 1760000001000</p>"
+      },
+      "replies": [
+        {
+          "id": "1760000001001",
+          "replyToId": "1760000001000",
+          "messageType": "message",
+          "createdDateTime": "2026-10-16T08:00:00Z",
+          "lastModifiedDateTime": "2026-10-16T08:05:00Z",
+          "deletedDateTime": null,
+          "subject": null,
+          "channelIdentity": {
+            "teamId": "00000000-0000-0000-0000-0000000000b1",
+            "channelId": "19:synthetic-channel-0001@thread.tacv2"
+          },
+          "from": {
+            "user": {
+              "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+              "id": "00000000-0000-0000-0000-000000000012",
+              "displayName": "Alex Sample",
+              "userIdentityType": "aadUser",
+              "tenantId": "00000000-0000-0000-0000-0000000000f1"
+            },
+            "application": null,
+            "device": null
+          },
+          "body": {
+            "contentType": "html",
+            "content": "<p>post 1760000001001</p>"
+          }
+        },
+        {
+          "id": "1760000001002",
+          "replyToId": null,
+          "messageType": "message",
+          "createdDateTime": "2026-10-16T08:00:00Z",
+          "lastModifiedDateTime": "2026-10-16T08:06:00Z",
+          "deletedDateTime": null,
+          "subject": null,
+          "channelIdentity": null,
+          "from": {
+            "user": {
+              "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+              "id": "00000000-0000-0000-0000-000000000012",
+              "displayName": "Alex Sample",
+              "userIdentityType": "aadUser",
+              "tenantId": "00000000-0000-0000-0000-0000000000f1"
+            },
+            "application": null,
+            "device": null
+          },
+          "body": {
+            "contentType": "html",
+            "content": "<p>post 1760000001002</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1760000002000",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T09:00:00Z",
+      "deletedDateTime": "2026-10-16T09:00:00Z",
+      "subject": null,
+      "channelIdentity": {
+        "teamId": "00000000-0000-0000-0000-0000000000b1",
+        "channelId": "19:synthetic-channel-0001@thread.tacv2"
+      },
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>post 1760000002000</p>"
+      }
+    }
+  ]
+}

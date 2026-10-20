@@ -1,0 +1,28 @@
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.aadUserConversationMember",
+      "id": "dGVhbS1tZW1iZXItMQ==",
+      "roles": [
+        "owner"
+      ],
+      "displayName": "Test User",
+      "visibleHistoryStartDateTime": "0001-01-01T00:00:00Z",
+      "userId": "00000000-0000-0000-0000-000000000011",
+      "email": "test.user@contoso.example",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1"
+    },
+    {
+      "@odata.type": "#microsoft.graph.aadUserConversationMember",
+      "id": "dGVhbS1tZW1iZXItMg==",
+      "roles": [
+        "guest"
+      ],
+      "displayName": "Guest Person",
+      "visibleHistoryStartDateTime": "0001-01-01T00:00:00Z",
+      "userId": "00000000-0000-0000-0000-000000000013",
+      "email": null,
+      "tenantId": "00000000-0000-0000-0000-0000000000f1"
+    }
+  ]
+}

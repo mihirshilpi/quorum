@@ -1,0 +1,22 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('00000000-0000-0000-0000-000000000001')/messages",
+  "value": [
+    {
+      "id": "AAMkAGI2-00000000-0000-0000-0000-000000000101",
+      "subject": "Welcome to the test mailbox",
+      "bodyPreview": "This is a synthetic message.",
+      "isRead": false,
+      "receivedDateTime": "2026-01-02T09:00:00Z",
+      "from": { "emailAddress": { "name": "Alex Example", "address": "alex@example.com" } }
+    },
+    {
+      "id": "AAMkAGI2-00000000-0000-0000-0000-000000000102",
+      "subject": "Second synthetic message",
+      "bodyPreview": "Nothing to see here.",
+      "isRead": true,
+      "receivedDateTime": "2026-01-02T08:00:00Z",
+      "from": { "emailAddress": { "name": "Sam Example", "address": "sam@contoso.example" } }
+    }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/messages?%24top=2&%24skiptoken=page2"
+}

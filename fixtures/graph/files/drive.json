@@ -1,0 +1,17 @@
+{
+  "id": "b!synthetic-drive-0001",
+  "driveType": "business",
+  "name": "OneDrive",
+  "owner": {
+    "user": {
+      "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+      "id": "00000000-0000-0000-0000-000000000011",
+      "displayName": "Test User",
+      "userIdentityType": "aadUser",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1"
+    },
+    "application": null,
+    "device": null
+  },
+  "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents"
+}

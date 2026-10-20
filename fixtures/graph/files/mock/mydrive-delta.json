@@ -1,0 +1,662 @@
+{
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/drives/b!synthetic-drive-0001/root/delta?token=mock-mine-1",
+  "value": [
+    {
+      "id": "01MOCKROOT0000000000000000000000",
+      "name": "root",
+      "size": 0,
+      "createdDateTime": "2026-09-10T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-10T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/root",
+      "eTag": "\"{01MOCKROOT0000000000000000000000},1\"",
+      "cTag": "\"c:{01MOCKROOT0000000000000000000000},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "root": {},
+      "folder": {
+        "childCount": 9
+      }
+    },
+    {
+      "id": "01MOCKFOLDER00000000000000000001",
+      "name": "Documents",
+      "size": 5400000,
+      "createdDateTime": "2026-09-15T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-15T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Documents",
+      "eTag": "\"{01MOCKFOLDER00000000000000000001},1\"",
+      "cTag": "\"c:{01MOCKFOLDER00000000000000000001},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKROOT0000000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "folder": {
+        "childCount": 6
+      }
+    },
+    {
+      "id": "01MOCKFOLDER00000000000000000002",
+      "name": "Projects",
+      "size": 12000000,
+      "createdDateTime": "2026-09-14T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-14T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Projects",
+      "eTag": "\"{01MOCKFOLDER00000000000000000002},1\"",
+      "cTag": "\"c:{01MOCKFOLDER00000000000000000002},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKROOT0000000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "folder": {
+        "childCount": 2
+      },
+      "shared": {
+        "scope": "users"
+      }
+    },
+    {
+      "id": "01MOCKFOLDER00000000000000000003",
+      "name": "Photos",
+      "size": 48000000,
+      "createdDateTime": "2026-09-08T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-08T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Photos",
+      "eTag": "\"{01MOCKFOLDER00000000000000000003},1\"",
+      "cTag": "\"c:{01MOCKFOLDER00000000000000000003},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKROOT0000000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "folder": {
+        "childCount": 3
+      }
+    },
+    {
+      "id": "01MOCKFOLDER00000000000000000007",
+      "name": "Archive",
+      "size": 90000000,
+      "createdDateTime": "2026-09-02T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-02T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Archive",
+      "eTag": "\"{01MOCKFOLDER00000000000000000007},1\"",
+      "cTag": "\"c:{01MOCKFOLDER00000000000000000007},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKROOT0000000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "folder": {
+        "childCount": 1
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000001",
+      "name": "Welcome.docx",
+      "size": 24576,
+      "createdDateTime": "2026-09-16T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Welcome.docx",
+      "eTag": "\"{01MOCKITEM0000000000000000000001},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000001},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKROOT0000000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      "shared": {
+        "scope": "users"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000002",
+      "name": "Meeting notes.one",
+      "size": 110000,
+      "createdDateTime": "2026-09-13T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-13T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Meeting%20notes.one",
+      "eTag": "\"{01MOCKITEM0000000000000000000002},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000002},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKROOT0000000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "application/msonenote"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000003",
+      "name": "Expenses.xlsx",
+      "size": 58000,
+      "createdDateTime": "2026-09-12T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-12T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Expenses.xlsx",
+      "eTag": "\"{01MOCKITEM0000000000000000000003},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000003},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKROOT0000000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000013",
+          "displayName": "Robin Example"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000004",
+      "name": "readme.md",
+      "size": 2100,
+      "createdDateTime": "2026-09-01T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-01T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/readme.md",
+      "eTag": "\"{01MOCKITEM0000000000000000000004},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000004},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKROOT0000000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "text/markdown"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000005",
+      "name": "Q4 plan.docx",
+      "size": 81920,
+      "createdDateTime": "2026-09-17T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-17T08:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Q4%20plan.docx",
+      "eTag": "\"{01MOCKITEM0000000000000000000005},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000005},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000001"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      "shared": {
+        "scope": "users"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000006",
+      "name": "Budget 2027.xlsx",
+      "size": 220000,
+      "createdDateTime": "2026-09-16T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Budget%202027.xlsx",
+      "eTag": "\"{01MOCKITEM0000000000000000000006},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000006},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000001"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000013",
+          "displayName": "Robin Example"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000007",
+      "name": "Board deck.pptx",
+      "size": 3400000,
+      "createdDateTime": "2026-09-15T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-15T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Board%20deck.pptx",
+      "eTag": "\"{01MOCKITEM0000000000000000000007},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000007},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000001"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000008",
+      "name": "Notes.txt",
+      "size": 900,
+      "createdDateTime": "2026-09-11T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-11T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Notes.txt",
+      "eTag": "\"{01MOCKITEM0000000000000000000008},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000008},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000001"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "text/plain"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000009",
+      "name": "Contract.pdf",
+      "size": 640000,
+      "createdDateTime": "2026-09-09T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-09T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Contract.pdf",
+      "eTag": "\"{01MOCKITEM0000000000000000000009},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000009},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000001"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000014",
+          "displayName": "Skyler Placeholder"
+        }
+      },
+      "file": {
+        "mimeType": "application/pdf"
+      }
+    },
+    {
+      "id": "01MOCKFOLDER00000000000000000004",
+      "name": "Drafts",
+      "size": 40000,
+      "createdDateTime": "2026-09-07T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-07T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Drafts",
+      "eTag": "\"{01MOCKFOLDER00000000000000000004},1\"",
+      "cTag": "\"c:{01MOCKFOLDER00000000000000000004},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000001"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "folder": {
+        "childCount": 1
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000010",
+      "name": "Proposal draft.docx",
+      "size": 40000,
+      "createdDateTime": "2026-09-07T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-07T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Proposal%20draft.docx",
+      "eTag": "\"{01MOCKITEM0000000000000000000010},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000010},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000004"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "id": "01MOCKFOLDER00000000000000000005",
+      "name": "Apollo",
+      "size": 9000000,
+      "createdDateTime": "2026-09-14T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-14T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Apollo",
+      "eTag": "\"{01MOCKFOLDER00000000000000000005},1\"",
+      "cTag": "\"c:{01MOCKFOLDER00000000000000000005},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000002"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "folder": {
+        "childCount": 3
+      }
+    },
+    {
+      "id": "01MOCKFOLDER00000000000000000006",
+      "name": "Hermes",
+      "size": 3000000,
+      "createdDateTime": "2026-09-13T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-13T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Hermes",
+      "eTag": "\"{01MOCKFOLDER00000000000000000006},1\"",
+      "cTag": "\"c:{01MOCKFOLDER00000000000000000006},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000002"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "folder": {
+        "childCount": 2
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000011",
+      "name": "Roadmap.xlsx",
+      "size": 300000,
+      "createdDateTime": "2026-09-14T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-14T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Roadmap.xlsx",
+      "eTag": "\"{01MOCKITEM0000000000000000000011},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000011},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000005"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000012",
+      "name": "Architecture.vsdx",
+      "size": 1200000,
+      "createdDateTime": "2026-09-12T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-12T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Architecture.vsdx",
+      "eTag": "\"{01MOCKITEM0000000000000000000012},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000012},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000005"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.ms-visio.drawing"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000013",
+      "name": "Timeline.mpp",
+      "size": 700000,
+      "createdDateTime": "2026-09-10T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-10T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Timeline.mpp",
+      "eTag": "\"{01MOCKITEM0000000000000000000013},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000013},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000005"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000013",
+          "displayName": "Robin Example"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.ms-project"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000014",
+      "name": "Spec.docx",
+      "size": 150000,
+      "createdDateTime": "2026-09-13T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-13T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Spec.docx",
+      "eTag": "\"{01MOCKITEM0000000000000000000014},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000014},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000006"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000015",
+      "name": "Logo.png",
+      "size": 2800000,
+      "createdDateTime": "2026-09-06T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-06T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Logo.png",
+      "eTag": "\"{01MOCKITEM0000000000000000000015},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000015},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000006"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000014",
+          "displayName": "Skyler Placeholder"
+        }
+      },
+      "file": {
+        "mimeType": "image/png"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000016",
+      "name": "Team offsite.jpg",
+      "size": 4200000,
+      "createdDateTime": "2026-09-08T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-08T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Team%20offsite.jpg",
+      "eTag": "\"{01MOCKITEM0000000000000000000016},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000016},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000003"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "image/jpeg"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000017",
+      "name": "Whiteboard.png",
+      "size": 1900000,
+      "createdDateTime": "2026-09-05T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-05T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Whiteboard.png",
+      "eTag": "\"{01MOCKITEM0000000000000000000017},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000017},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000003"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "image/png"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000018",
+      "name": "Demo.mp4",
+      "size": 42000000,
+      "createdDateTime": "2026-09-04T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-04T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Demo.mp4",
+      "eTag": "\"{01MOCKITEM0000000000000000000018},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000018},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000003"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "video/mp4"
+      }
+    },
+    {
+      "id": "01MOCKITEM0000000000000000000019",
+      "name": "Old export.zip",
+      "size": 90000000,
+      "createdDateTime": "2026-09-02T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-02T09:15:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Old%20export.zip",
+      "eTag": "\"{01MOCKITEM0000000000000000000019},1\"",
+      "cTag": "\"c:{01MOCKITEM0000000000000000000019},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01MOCKFOLDER00000000000000000007"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "application/zip"
+      }
+    }
+  ]
+}

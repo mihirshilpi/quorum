@@ -1,0 +1,46 @@
+{
+  "id": "mock-msg-0015",
+  "conversationId": "mock-conv-0009",
+  "parentFolderId": "mock-folder-inbox",
+  "subject": "Reminder: September expense reports due October 20",
+  "from": {
+    "emailAddress": {
+      "name": "Finley Fischer",
+      "address": "finley.fischer@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Finley Fischer",
+      "address": "finley.fischer@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Engineering",
+        "address": "engineering@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-12T09:00:00Z",
+  "sentDateTime": "2026-10-12T09:00:00Z",
+  "bodyPreview": "Hi everyone, A reminder that September expense reports are due by Tuesday, October 20. Reports submitted after that date",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "other",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi everyone,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">A reminder that September expense reports are due by <b>Tuesday, October 20</b>. Reports submitted after that date roll into the November payment run.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Submit them here: <a href=\"https://example.com/finance/expenses\">https://example.com/finance/expenses</a></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Finley</div></body></html>"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "mock-msg-0021",
+  "conversationId": "mock-conv-0000",
+  "parentFolderId": "mock-folder-archive",
+  "subject": "RE: Q4 team offsite logistics",
+  "from": {
+    "emailAddress": {
+      "name": "Casey Castillo",
+      "address": "casey.castillo@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Casey Castillo",
+      "address": "casey.castillo@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Alex Example",
+        "address": "you@example.com"
+      }
+    },
+    {
+      "emailAddress": {
+        "name": "Avery Adler",
+        "address": "avery.adler@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [
+    {
+      "emailAddress": {
+        "name": "Blake Brook",
+        "address": "blake.brook@example.com"
+      }
+    }
+  ],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-13T10:05:00Z",
+  "sentDateTime": "2026-10-13T10:05:00Z",
+  "bodyPreview": "I've started the day 2 outline here: https://example.com/docs/offsite-day-2 Rough shape: retro in the morning, planning",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">I've started the day 2 outline here: <a href=\"https://example.com/docs/offsite-day-2\">https://example.com/docs/offsite-day-2</a></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Rough shape: retro in the morning, planning breakouts in the afternoon, and a 30-minute wrap-up. Avery, Room B seats 24 and we're 19 including the two remote folks, so we should be fine.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Casey</div><div id=\"appendonsend\"></div><hr style=\"display:inline-block;width:98%\" tabindex=\"-1\"><div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" style=\"font-size:11pt\" color=\"#000000\"><b>From:</b> Alex Example &lt;you@example.com&gt;<br><b>Sent:</b> Monday, October 12, 2026 8:45 AM<br><b>To:</b> Avery Adler &lt;avery.adler@example.com&gt;; Casey Castillo &lt;casey.castillo@example.com&gt;<br><b>Cc:</b> Blake Brook &lt;blake.brook@example.com&gt;<br><b>Subject:</b> RE: Q4 team offsite logistics</font><div>&nbsp;</div></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Avery,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Happy to take day 2 with Casey. Two questions before we start:</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">1. Is there budget for an external facilitator for the planning session?<br>2. Do we have AV for hybrid attendees? Jordan and Parker will join remotely.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Alex</div><div id=\"appendonsend\"></div><hr style=\"display:inline-block;width:98%\" tabindex=\"-1\"><div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" style=\"font-size:11pt\" color=\"#000000\"><b>From:</b> Avery Adler &lt;avery.adler@example.com&gt;<br><b>Sent:</b> Friday, October 9, 2026 3:20 PM<br><b>To:</b> Alex Example &lt;you@example.com&gt;; Casey Castillo &lt;casey.castillo@example.com&gt;<br><b>Cc:</b> Blake Brook &lt;blake.brook@example.com&gt;<br><b>Subject:</b> Q4 team offsite logistics</font><div>&nbsp;</div></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Alex, hi Casey,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Here's where we've landed for the team offsite on <b>November 5&ndash;6</b> at the Riverside venue (Room B both days):<ul><li>Travel: please book by <b>October 20</b> through the travel portal: <a href=\"https://example.com/travel\">https://example.com/travel</a></li><li>Hotel: the room block is held until October 23 (booking code OFFSITE26)</li><li>Dietary requirements: send them to me by October 16</li></ul></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Could you two own the agenda for day 2? A rough draft by Thursday would be great.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Avery</div></body></html>"
+  }
+}

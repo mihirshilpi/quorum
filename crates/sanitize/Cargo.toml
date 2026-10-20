@@ -1,0 +1,15 @@
+[package]
+name = "quorum-sanitize"
+description = "Sanitising untrusted mail and chat HTML for display."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+ammonia.workspace = true
+html5ever.workspace = true
+
+[lints]
+workspace = true

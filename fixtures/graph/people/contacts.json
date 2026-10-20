@@ -1,0 +1,35 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-contact-1=",
+      "displayName": "Casey Contact",
+      "givenName": "Casey",
+      "surname": "Contact",
+      "emailAddresses": [
+        {
+          "name": "Casey",
+          "address": "casey@example.com"
+        }
+      ],
+      "jobTitle": "Synthetic Consultant",
+      "businessPhones": [],
+      "mobilePhone": "+1 555 0110",
+      "companyName": "Example Ltd"
+    },
+    {
+      "id": "AAMkAD-contact-2=",
+      "displayName": "No email",
+      "emailAddresses": [
+        {
+          "name": "x",
+          "address": "nope"
+        }
+      ],
+      "companyName": ""
+    },
+    {
+      "id": "",
+      "displayName": "bad"
+    }
+  ]
+}

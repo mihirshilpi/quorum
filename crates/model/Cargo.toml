@@ -1,0 +1,16 @@
+[package]
+name = "quorum-model"
+description = "Quorum domain types: strongly typed Graph ids, mail, calendar, chat, presence and file models."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+jiff.workspace = true
+
+[lints]
+workspace = true

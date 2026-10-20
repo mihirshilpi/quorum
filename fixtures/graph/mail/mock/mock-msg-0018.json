@@ -1,0 +1,53 @@
+{
+  "id": "mock-msg-0018",
+  "conversationId": "mock-conv-0001",
+  "parentFolderId": "mock-folder-sent",
+  "subject": "FW: Analytics vendor contract renewal",
+  "from": {
+    "emailAddress": {
+      "name": "Alex Example",
+      "address": "you@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Alex Example",
+      "address": "you@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Kai Jensen",
+        "address": "kai.jensen@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [
+    {
+      "emailAddress": {
+        "name": "Finley Fischer",
+        "address": "finley.fischer@example.com"
+      }
+    }
+  ],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-13T09:15:00Z",
+  "sentDateTime": "2026-10-13T09:15:00Z",
+  "bodyPreview": "Hi Kai, Forwarding our procurement summary below. Would you be able to hold the current licence price if we commit to a",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Kai,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Forwarding our procurement summary below. Would you be able to hold the current licence price if we commit to a two-year term? We don't need the Premium support tier.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Best,<br>Alex</div><div id=\"appendonsend\"></div><hr style=\"display:inline-block;width:98%\" tabindex=\"-1\"><div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" style=\"font-size:11pt\" color=\"#000000\"><b>From:</b> Finley Fischer &lt;finley.fischer@example.com&gt;<br><b>Sent:</b> Friday, October 9, 2026 1:00 PM<br><b>To:</b> Alex Example &lt;you@example.com&gt;<br><b>Cc:</b> Parker Patel &lt;parker.patel@example.com&gt;<br><b>Subject:</b> Analytics vendor contract renewal</font><div>&nbsp;</div></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Alex,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The analytics platform contract renews on <b>November 1</b> and procurement needs a decision by October 22. Here's the renewal quote next to what we pay today:<table style=\"border-collapse:collapse;font-family:Calibri, Helvetica, sans-serif;font-size:11pt\"><thead><tr><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Line item</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Current</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Renewal quote</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">Platform licence (25 seats)</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$18,000</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$21,600</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">Data retention add-on</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$2,400</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$2,400</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">Support tier</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Standard</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Premium (bundled)</td></tr></tbody></table></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The 20% licence increase is well above our 8% guideline. Could you ask the vendor whether they'd hold current pricing for a two-year term?</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Finley</div></body></html>"
+  }
+}

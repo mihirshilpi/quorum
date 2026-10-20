@@ -1,0 +1,43 @@
+{
+ "value": [
+  {
+   "id": "mock-cal-own",
+   "name": "Calendar",
+   "color": "auto",
+   "hexColor": "",
+   "isDefaultCalendar": true,
+   "canShare": true,
+   "canEdit": true,
+   "owner": {
+    "name": "Test User",
+    "address": "test.user@contoso.example"
+   }
+  },
+  {
+   "id": "mock-cal-birthdays",
+   "name": "Birthdays",
+   "color": "lightPink",
+   "hexColor": "",
+   "isDefaultCalendar": false,
+   "canShare": true,
+   "canEdit": true,
+   "owner": {
+    "name": "Test User",
+    "address": "test.user@contoso.example"
+   }
+  },
+  {
+   "id": "mock-cal-team",
+   "name": "Avery's calendar",
+   "color": "lightGreen",
+   "hexColor": "",
+   "isDefaultCalendar": false,
+   "canShare": false,
+   "canEdit": false,
+   "owner": {
+    "name": "Avery Example",
+    "address": "avery@contoso.example"
+   }
+  }
+ ]
+}

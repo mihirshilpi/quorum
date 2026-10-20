@@ -1,0 +1,163 @@
+{
+  "value": [
+    {
+      "id": "mock-msg-0021",
+      "conversationId": "mock-conv-0000",
+      "parentFolderId": "mock-folder-archive",
+      "subject": "RE: Q4 team offsite logistics",
+      "from": {
+        "emailAddress": {
+          "name": "Casey Castillo",
+          "address": "casey.castillo@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Casey Castillo",
+          "address": "casey.castillo@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Avery Adler",
+            "address": "avery.adler@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Blake Brook",
+            "address": "blake.brook@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-13T10:05:00Z",
+      "sentDateTime": "2026-10-13T10:05:00Z",
+      "bodyPreview": "I've started the day 2 outline here: https://example.com/docs/offsite-day-2 Rough shape: retro in the morning, planning",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0020",
+      "conversationId": "mock-conv-0000",
+      "parentFolderId": "mock-folder-archive",
+      "subject": "Q4 team offsite logistics",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Adler",
+          "address": "avery.adler@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Adler",
+          "address": "avery.adler@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Casey Castillo",
+            "address": "casey.castillo@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Blake Brook",
+            "address": "blake.brook@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-09T15:20:00Z",
+      "sentDateTime": "2026-10-09T15:20:00Z",
+      "bodyPreview": "Hi Alex, hi Casey, Here's where we've landed for the team offsite on November 5–6 at the Riverside venue (Room B both",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0022",
+      "conversationId": "mock-conv-0001",
+      "parentFolderId": "mock-folder-archive",
+      "subject": "Analytics vendor contract renewal",
+      "from": {
+        "emailAddress": {
+          "name": "Finley Fischer",
+          "address": "finley.fischer@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Finley Fischer",
+          "address": "finley.fischer@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Parker Patel",
+            "address": "parker.patel@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-09T13:00:00Z",
+      "sentDateTime": "2026-10-09T13:00:00Z",
+      "bodyPreview": "Hi Alex, The analytics platform contract renews on November 1 and procurement needs a decision by October 22. Here's the",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "high",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    }
+  ]
+}

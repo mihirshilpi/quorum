@@ -1,0 +1,9 @@
+{
+  "id": "mock-folder-archive",
+  "displayName": "Archive",
+  "parentFolderId": "mock-folder-root",
+  "childFolderCount": 0,
+  "unreadItemCount": 1,
+  "totalItemCount": 3,
+  "isHidden": false
+}

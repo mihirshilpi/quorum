@@ -1,0 +1,31 @@
+[package]
+name = "quorum-store"
+description = "Local-first SQLite cache: migrations, delta state, outbox, drafts and full-text search."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[features]
+# Test helpers (M-TEST-UTIL): `FixedKeySource` and the `testing` module.
+test-util = []
+
+[dependencies]
+quorum-model.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+tokio.workspace = true
+rusqlite.workspace = true
+chacha20poly1305.workspace = true
+jiff.workspace = true
+rand.workspace = true
+
+[dev-dependencies]
+quorum-store = { path = ".", features = ["test-util"] }
+tempfile.workspace = true
+tokio = { workspace = true, features = ["rt-multi-thread", "macros"] }
+
+[lints]
+workspace = true

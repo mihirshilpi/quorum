@@ -1,0 +1,24 @@
+{
+  "id": "01MOCKCREATED0000000000000000001",
+  "name": "New folder",
+  "size": 0,
+  "createdDateTime": "2026-09-17T08:00:00Z",
+  "lastModifiedDateTime": "2026-10-17T09:15:00Z",
+  "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/New%20folder",
+  "eTag": "\"{01MOCKCREATED0000000000000000001},1\"",
+  "cTag": "\"c:{01MOCKCREATED0000000000000000001},1\"",
+  "parentReference": {
+    "driveId": "b!synthetic-drive-0001",
+    "driveType": "business",
+    "id": "01MOCKROOT0000000000000000000000"
+  },
+  "lastModifiedBy": {
+    "user": {
+      "id": "00000000-0000-0000-0000-000000000011",
+      "displayName": "Test User"
+    }
+  },
+  "folder": {
+    "childCount": 0
+  }
+}

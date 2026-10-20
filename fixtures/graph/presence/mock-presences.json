@@ -1,0 +1,12 @@
+{
+  "value": [
+    { "id": "00000000-0000-0000-0000-000000000101", "availability": "Busy", "activity": "InAMeeting", "statusMessage": null },
+    { "id": "00000000-0000-0000-0000-000000000102", "availability": "Away", "activity": "Away", "statusMessage": null },
+    { "id": "00000000-0000-0000-0000-000000000103", "availability": "Available", "activity": "Available", "statusMessage": { "message": { "content": "Synthetic focus time", "contentType": "text" } } },
+    { "id": "00000000-0000-0000-0000-000000000104", "availability": "DoNotDisturb", "activity": "Presenting", "statusMessage": null },
+    { "id": "00000000-0000-0000-0000-000000000105", "availability": "BeRightBack", "activity": "BeRightBack", "statusMessage": null },
+    { "id": "00000000-0000-0000-0000-000000000106", "availability": "Offline", "activity": "OffWork", "statusMessage": null },
+    { "id": "00000000-0000-0000-0000-000000000107", "availability": "Available", "activity": "Available", "statusMessage": null },
+    { "id": "00000000-0000-0000-0000-000000000108", "availability": "Busy", "activity": "Busy", "statusMessage": null }
+  ]
+}

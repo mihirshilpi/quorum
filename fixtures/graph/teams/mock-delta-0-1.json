@@ -1,0 +1,35 @@
+{
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/teams/00000000-0000-0000-0000-00000000f001/channels/19:mock-product-launch@thread.tacv2/messages/delta?$deltatoken=mock-0-1",
+  "value": [
+    {
+      "id": "1760510000001",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T10:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T10:00:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "Launch retro",
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000104",
+          "displayName": "Jordan Fixture",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Launch retro is scheduled for next Wednesday.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "replies": []
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "value": [
+    {
+      "id": "mock-msg-0026",
+      "conversationId": "mock-conv-0010",
+      "parentFolderId": "mock-folder-deleted",
+      "subject": "Platform Digest: October 2026",
+      "from": {
+        "emailAddress": {
+          "name": "Harper Hale",
+          "address": "harper.hale@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Harper Hale",
+          "address": "harper.hale@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Engineering",
+            "address": "engineering@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-12T07:00:00Z",
+      "sentDateTime": "2026-10-12T07:00:00Z",
+      "bodyPreview": "Platform Digest. October 2026 · Issue 14. Your monthly round-up of what the Platform team shipped, who joined and what",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    }
+  ],
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-deleted/messages/delta?$deltatoken=mock-1"
+}

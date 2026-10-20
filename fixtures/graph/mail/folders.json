@@ -1,0 +1,41 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('me')/mailFolders",
+  "value": [
+    {
+      "id": "AAMkAD-folder-inbox=",
+      "displayName": "Inbox",
+      "parentFolderId": "AAMkAD-folder-root=",
+      "childFolderCount": 1,
+      "unreadItemCount": 3,
+      "totalItemCount": 10,
+      "isHidden": false
+    },
+    {
+      "id": "AAMkAD-folder-sent=",
+      "displayName": "Sent Items",
+      "parentFolderId": "AAMkAD-folder-root=",
+      "childFolderCount": 0,
+      "unreadItemCount": 0,
+      "totalItemCount": 4,
+      "isHidden": false
+    },
+    {
+      "id": "AAMkAD-folder-hidden=",
+      "displayName": "Hidden synthetic",
+      "parentFolderId": "AAMkAD-folder-root=",
+      "childFolderCount": null,
+      "unreadItemCount": null,
+      "totalItemCount": null,
+      "isHidden": true
+    },
+    {
+      "id": "",
+      "displayName": "bad: empty id"
+    },
+    {
+      "id": "AAMkAD-folder-neg=",
+      "displayName": "bad: negative count",
+      "unreadItemCount": -5
+    }
+  ]
+}

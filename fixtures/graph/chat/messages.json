@@ -1,0 +1,142 @@
+{
+  "@odata.count": 3,
+  "value": [
+    {
+      "id": "1760000000002",
+      "replyToId": null,
+      "etag": "1760000000002",
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T10:15:00Z",
+      "lastModifiedDateTime": "2026-10-16T10:20:00.5Z",
+      "lastEditedDateTime": "2026-10-16T10:20:00.5Z",
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:00000000000000000000000000000001_00000000000000000000000000000002@unq.gbl.spaces",
+      "importance": "high",
+      "locale": "en-us",
+      "webUrl": null,
+      "channelIdentity": null,
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<div><at id=\"0\">Test</at> see <attachment id=\"5b6c8a52-0000-4000-8000-000000000001\"></attachment><img src=\"https://graph.microsoft.com/v1.0/chats/x/messages/1760000000002/hostedContents/aWQ9/$value\"></div>"
+      },
+      "attachments": [
+        {
+          "id": "5b6c8a52-0000-4000-8000-000000000001",
+          "contentType": "reference",
+          "contentUrl": "https://contoso.sharepoint.com/personal/x/Documents/Report.docx",
+          "content": null,
+          "name": "Report.docx",
+          "thumbnailUrl": null,
+          "teamsAppId": null
+        },
+        {
+          "id": "card-1",
+          "contentType": "application/vnd.microsoft.card.adaptive",
+          "contentUrl": null,
+          "content": {
+            "type": "AdaptiveCard",
+            "body": []
+          },
+          "name": null,
+          "thumbnailUrl": "javascript:alert(1)"
+        }
+      ],
+      "mentions": [
+        {
+          "id": 0,
+          "mentionText": "Test",
+          "mentioned": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000011",
+              "displayName": "Test User",
+              "userIdentityType": "aadUser"
+            }
+          }
+        },
+        {
+          "id": 1,
+          "mentionText": "General",
+          "mentioned": {
+            "conversation": {
+              "id": "19:synthetic-channel-0001@thread.tacv2",
+              "displayName": "General",
+              "conversationIdentityType": "channel"
+            }
+          }
+        }
+      ],
+      "reactions": [
+        {
+          "reactionType": "like",
+          "displayName": "Like",
+          "createdDateTime": "2026-10-16T10:16:00Z",
+          "user": {
+            "user": {
+              "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+              "id": "00000000-0000-0000-0000-000000000011",
+              "displayName": "",
+              "userIdentityType": "aadUser",
+              "tenantId": "00000000-0000-0000-0000-0000000000f1"
+            },
+            "application": null,
+            "device": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "1760000000001",
+      "messageType": "systemEventMessage",
+      "createdDateTime": "2026-10-16T09:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T09:00:00Z",
+      "from": null,
+      "body": {
+        "contentType": "html",
+        "content": "<systemEventMessage/>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "eventDetail": {
+        "@odata.type": "#microsoft.graph.membersAddedEventMessageDetail"
+      }
+    },
+    {
+      "id": "1760000000000",
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T08:30:00Z",
+      "deletedDateTime": "2026-10-16T08:30:00Z",
+      "chatId": "19:00000000000000000000000000000001_00000000000000000000000000000002@unq.gbl.spaces",
+      "from": {
+        "application": {
+          "id": "00000000-0000-0000-0000-0000000000a1",
+          "displayName": "Synthetic Bot"
+        },
+        "device": null,
+        "user": null
+      },
+      "body": {
+        "contentType": "text",
+        "content": ""
+      },
+      "importance": "weird-new-value",
+      "attachments": null,
+      "mentions": null,
+      "reactions": null
+    }
+  ]
+}

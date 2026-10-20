@@ -1,0 +1,4 @@
+{
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/teams/00000000-0000-0000-0000-00000000f001/channels/19:mock-product-design@thread.tacv2/messages/delta?$deltatoken=mock-0-2",
+  "value": []
+}

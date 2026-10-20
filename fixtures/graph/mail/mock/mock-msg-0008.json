@@ -1,0 +1,52 @@
+{
+  "id": "mock-msg-0008",
+  "conversationId": "mock-conv-0003",
+  "parentFolderId": "mock-folder-inbox",
+  "subject": "RE: Interview loop: Senior Backend Engineer",
+  "from": {
+    "emailAddress": {
+      "name": "Harper Hale",
+      "address": "harper.hale@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Harper Hale",
+      "address": "harper.hale@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Blake Brook",
+        "address": "blake.brook@example.com"
+      }
+    },
+    {
+      "emailAddress": {
+        "name": "Alex Example",
+        "address": "you@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-13T07:30:00Z",
+  "sentDateTime": "2026-10-13T07:30:00Z",
+  "bodyPreview": "I can do the coding session, but 11:00 clashes with the architecture review. Could we swap, so I go first at 10:00 and",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body style=\"overflow-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;\"><div>I can do the coding session, but 11:00 clashes with the architecture review.</div><div><br></div><div>Could we swap, so I go first at 10:00 and Alex takes 11:00?</div><div><br></div><div>Harper</div><div><br></div><div><br><blockquote type=\"cite\"><div>On 12 Oct 2026, at 15:00, Blake Brook &lt;blake.brook@example.com&gt; wrote:</div><br><div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Alex and Harper,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">We have a strong candidate for the Senior Backend Engineer role coming on site next week. Proposed loop for <b>Wednesday, October 21</b>:<table style=\"border-collapse:collapse;font-family:Calibri, Helvetica, sans-serif;font-size:11pt\"><thead><tr><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Time</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Session</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Interviewer</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">10:00&ndash;10:45</td><td style=\"border:1px solid #ccc;padding:3px 6px\">System design</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Alex</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">11:00&ndash;11:45</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Coding</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Harper</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">13:00&ndash;13:30</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Hiring manager</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Parker</td></tr></tbody></table></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Can you both confirm? Scorecards are due within 24 hours of the interview: <a href=\"https://example.com/hiring/scorecards\">https://example.com/hiring/scorecards</a></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Blake</div></div></blockquote></div></body></html>"
+  }
+}

@@ -1,0 +1,250 @@
+{
+ "value": [
+  {
+   "scheduleId": "riley.ito@contoso.example",
+   "availabilityView": "",
+   "scheduleItems": [
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-13T10:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-13T12:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "tentative",
+     "start": {
+      "dateTime": "2026-10-14T08:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-14T09:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-15T13:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-15T15:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "oof",
+     "start": {
+      "dateTime": "2026-10-16T09:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-16T10:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-17T11:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-17T12:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-20T09:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-20T11:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-21T14:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-21T15:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    }
+   ]
+  },
+  {
+   "scheduleId": "sage.moreau@contoso.example",
+   "availabilityView": "",
+   "scheduleItems": [
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-13T13:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-13T14:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-15T09:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-15T10:30:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-20T10:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-20T12:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    }
+   ]
+  },
+  {
+   "scheduleId": "avery@contoso.example",
+   "availabilityView": "",
+   "scheduleItems": [
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-13T09:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-13T10:30:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-14T13:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-14T13:30:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-20T13:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-20T14:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    }
+   ]
+  },
+  {
+   "scheduleId": "kai.novak@contoso.example",
+   "availabilityView": "",
+   "scheduleItems": [
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-14T15:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-14T16:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-16T08:30:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-16T11:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-20T15:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-20T16:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    }
+   ]
+  },
+  {
+   "scheduleId": "room1@contoso.example",
+   "availabilityView": "",
+   "scheduleItems": [
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-13T09:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-13T10:30:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    },
+    {
+     "status": "busy",
+     "start": {
+      "dateTime": "2026-10-20T11:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "end": {
+      "dateTime": "2026-10-20T12:00:00.0000000",
+      "timeZone": "UTC"
+     },
+     "isPrivate": false
+    }
+   ]
+  }
+ ]
+}

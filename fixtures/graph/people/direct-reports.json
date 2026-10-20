@@ -1,0 +1,23 @@
+{
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-000000000006",
+      "displayName": "Report One",
+      "mail": "user06@contoso.example",
+      "userPrincipalName": "user06@contoso.example",
+      "jobTitle": "Synthetic Engineer",
+      "department": "Synthetic R&D",
+      "officeLocation": "Building 1",
+      "businessPhones": [
+        "+1 555 0100"
+      ],
+      "mobilePhone": null,
+      "@odata.type": "#microsoft.graph.user"
+    },
+    {
+      "@odata.type": "#microsoft.graph.orgContact",
+      "id": "00000000-0000-0000-0000-0000000000c7",
+      "displayName": "Org contact"
+    }
+  ]
+}

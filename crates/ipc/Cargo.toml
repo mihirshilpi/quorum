@@ -1,0 +1,15 @@
+[package]
+name = "quorum-ipc"
+description = "Wire types shared by the Quorum UI and core over Tauri IPC."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,24 @@
+{
+  "value": [
+    {
+      "id": "cGlubmVkLTE=",
+      "message": {
+        "id": "1760000000002",
+        "chatId": "19:00000000000000000000000000000001_00000000000000000000000000000002@unq.gbl.spaces",
+        "body": {
+          "contentType": "text",
+          "content": "pinned"
+        }
+      }
+    },
+    {
+      "id": "cGlubmVkLTI=",
+      "message": null
+    },
+    {
+      "message": {
+        "id": "x"
+      }
+    }
+  ]
+}

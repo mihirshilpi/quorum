@@ -1,0 +1,53 @@
+{
+  "id": "mock-msg-0022",
+  "conversationId": "mock-conv-0001",
+  "parentFolderId": "mock-folder-archive",
+  "subject": "Analytics vendor contract renewal",
+  "from": {
+    "emailAddress": {
+      "name": "Finley Fischer",
+      "address": "finley.fischer@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Finley Fischer",
+      "address": "finley.fischer@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Alex Example",
+        "address": "you@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [
+    {
+      "emailAddress": {
+        "name": "Parker Patel",
+        "address": "parker.patel@example.com"
+      }
+    }
+  ],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-09T13:00:00Z",
+  "sentDateTime": "2026-10-09T13:00:00Z",
+  "bodyPreview": "Hi Alex, The analytics platform contract renews on November 1 and procurement needs a decision by October 22. Here's the",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "high",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Alex,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The analytics platform contract renews on <b>November 1</b> and procurement needs a decision by October 22. Here's the renewal quote next to what we pay today:<table style=\"border-collapse:collapse;font-family:Calibri, Helvetica, sans-serif;font-size:11pt\"><thead><tr><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Line item</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Current</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Renewal quote</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">Platform licence (25 seats)</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$18,000</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$21,600</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">Data retention add-on</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$2,400</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$2,400</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">Support tier</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Standard</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Premium (bundled)</td></tr></tbody></table></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The 20% licence increase is well above our 8% guideline. Could you ask the vendor whether they'd hold current pricing for a two-year term?</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Finley</div></body></html>"
+  }
+}

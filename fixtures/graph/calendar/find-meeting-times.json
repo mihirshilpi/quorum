@@ -1,0 +1,55 @@
+{
+  "emptySuggestionsReason": "",
+  "meetingTimeSuggestions": [
+    {
+      "confidence": 100.0,
+      "organizerAvailability": "free",
+      "suggestionReason": "Suggested because it is one of the nearest times when all attendees are available.",
+      "meetingTimeSlot": {
+        "start": {
+          "dateTime": "2026-10-21T10:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "end": {
+          "dateTime": "2026-10-21T11:00:00.0000000",
+          "timeZone": "UTC"
+        }
+      },
+      "attendeeAvailability": [
+        {
+          "availability": "free",
+          "attendee": {
+            "type": "required",
+            "emailAddress": {
+              "address": "person01@contoso.example"
+            }
+          }
+        }
+      ],
+      "locations": [
+        {
+          "displayName": "Room Synthetic 1",
+          "locationEmailAddress": "room1@contoso.example"
+        }
+      ]
+    },
+    {
+      "confidence": "NaN",
+      "organizerAvailability": "busy",
+      "meetingTimeSlot": {
+        "start": {
+          "dateTime": "2026-10-21T12:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "end": {
+          "dateTime": "2026-10-21T13:00:00.0000000",
+          "timeZone": "UTC"
+        }
+      }
+    },
+    {
+      "confidence": 50,
+      "meetingTimeSlot": null
+    }
+  ]
+}

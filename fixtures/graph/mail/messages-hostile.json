@@ -1,0 +1,238 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-msg-min="
+    },
+    {
+      "id": "AAMkAD-msg-0006=",
+      "conversationId": "AAQkAD-conv-0000=",
+      "parentFolderId": "AAMkAD-folder-inbox=",
+      "subject": "Synthetic subject 6",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-14T09:00:00Z",
+      "sentDateTime": "2026-10-14T08:59:58Z",
+      "bodyPreview": "Synthetic preview text.",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "superUrgent",
+      "flag": {
+        "flagStatus": "tomorrowish"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "somethingNew",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "AAMkAD-msg-0007=",
+      "conversationId": "AAQkAD-conv-0001=",
+      "parentFolderId": "AAMkAD-folder-inbox=",
+      "subject": "Synthetic subject 7",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-13T09:00:00Z",
+      "sentDateTime": "2026-10-13T08:59:58Z",
+      "bodyPreview": "Synthetic preview text.",
+      "isRead": "yes",
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": 12345,
+      "subject": "wrong id type"
+    },
+    {
+      "subject": "no id"
+    },
+    {
+      "id": "AAMkAD-msg-0008=",
+      "conversationId": "AAQkAD-conv-0000=",
+      "parentFolderId": "AAMkAD-folder-inbox=",
+      "subject": "Synthetic subject 8",
+      "from": null,
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": null
+        },
+        {
+          "emailAddress": {
+            "name": "No address"
+          }
+        },
+        {
+          "emailAddress": {
+            "address": "not an address"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-12T09:00:00Z",
+      "sentDateTime": "2026-10-12T08:59:58Z",
+      "bodyPreview": "Synthetic preview text.",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "AAMkAD-msg-0009=",
+      "conversationId": "AAQkAD-conv-0001=",
+      "parentFolderId": "AAMkAD-folder-inbox=",
+      "subject": "Synthetic subject 9",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "yesterday",
+      "sentDateTime": "2026-10-11T08:59:58Z",
+      "bodyPreview": "Synthetic preview text.",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    "not an object",
+    null,
+    {
+      "id": "AAMkAD-msg-0010=",
+      "conversationId": "AAQkAD-conv-0000=",
+      "parentFolderId": "AAMkAD-folder-inbox=",
+      "subject": "Synthetic subject 10",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-10T09:00:00Z",
+      "sentDateTime": "2026-10-10T08:59:58Z",
+      "bodyPreview": "Synthetic preview text.",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": null,
+      "categories": null,
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+      "body": null,
+      "unknownFutureField": {
+        "deep": [
+          1,
+          [
+            2,
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+ "value": [],
+ "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/calendarView/delta?$deltatoken=mock-cal-1"
+}

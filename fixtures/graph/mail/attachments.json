@@ -1,0 +1,46 @@
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.fileAttachment",
+      "id": "AAMkAD-att-0001=",
+      "name": "synthetic.pdf",
+      "contentType": "application/pdf",
+      "size": 12345,
+      "isInline": false,
+      "lastModifiedDateTime": "2026-10-19T09:00:00Z"
+    },
+    {
+      "@odata.type": "#microsoft.graph.itemAttachment",
+      "id": "AAMkAD-att-0002=",
+      "name": "Forwarded synthetic",
+      "contentType": null,
+      "size": 2048,
+      "isInline": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.referenceAttachment",
+      "id": "AAMkAD-att-0003=",
+      "name": "Shared synthetic.docx",
+      "size": 0,
+      "isInline": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.futureAttachment",
+      "id": "AAMkAD-att-0004=",
+      "name": "future"
+    },
+    {
+      "id": "AAMkAD-att-0005=",
+      "name": "no odata type"
+    },
+    {
+      "@odata.type": "#microsoft.graph.fileAttachment",
+      "id": "AAMkAD-att-0006=",
+      "size": -1
+    },
+    {
+      "@odata.type": "#microsoft.graph.fileAttachment",
+      "name": "no id"
+    }
+  ]
+}

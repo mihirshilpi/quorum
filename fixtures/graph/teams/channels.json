@@ -1,0 +1,24 @@
+{
+  "value": [
+    {
+      "id": "19:synthetic-channel-0001@thread.tacv2",
+      "displayName": "General",
+      "description": null,
+      "membershipType": "standard",
+      "email": "general@contoso.example",
+      "createdDateTime": "2026-01-01T00:00:00Z",
+      "webUrl": "https://teams.example.com/l/channel/1"
+    },
+    {
+      "id": "19:synthetic-shared-0001@thread.tacv2",
+      "displayName": "Shared With Partners",
+      "membershipType": "shared",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1"
+    },
+    {
+      "id": "19:synthetic-private-0001@thread.tacv2",
+      "displayName": "Private",
+      "membershipType": "somethingNew"
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "value": [
+    {
+      "id": "mock-msg-0000",
+      "conversationId": "mock-conv-0000",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: Q4 team offsite logistics",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Adler",
+          "address": "avery.adler@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Adler",
+          "address": "avery.adler@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Casey Castillo",
+            "address": "casey.castillo@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Blake Brook",
+            "address": "blake.brook@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-18T09:40:00Z",
+      "sentDateTime": "2026-10-18T09:40:00Z",
+      "bodyPreview": "Sorry for the Sunday email, no need to reply before Monday. Good news on both questions: Item Status Room B, Nov 5–6",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0001",
+      "conversationId": "mock-conv-0004",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: Q1 planning: roadmap draft",
+      "from": {
+        "emailAddress": {
+          "name": "Devon Dahl",
+          "address": "devon.dahl@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Devon Dahl",
+          "address": "devon.dahl@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Parker Patel",
+            "address": "parker.patel@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Harper Hale",
+            "address": "harper.hale@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-16T18:05:00Z",
+      "sentDateTime": "2026-10-16T18:05:00Z",
+      "bodyPreview": "My marked-up copy is attached; it's mostly estimate tweaks on the sync work. Main point: offline sync depends on the",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": true,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0012",
+      "conversationId": "mock-conv-0008",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "Out of office October 19-23",
+      "from": {
+        "emailAddress": {
+          "name": "Jordan Ito",
+          "address": "jordan.ito@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Jordan Ito",
+          "address": "jordan.ito@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Platform Team",
+            "address": "platform-team@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-16T17:05:00Z",
+      "sentDateTime": "2026-10-16T17:05:00Z",
+      "bodyPreview": "Hi all, I'm out of office from Monday, October 19 to Friday, October 23, with limited access to email. For anything",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "other",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0003",
+      "conversationId": "mock-conv-0003",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: Interview loop: Senior Backend Engineer",
+      "from": {
+        "emailAddress": {
+          "name": "Blake Brook",
+          "address": "blake.brook@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Blake Brook",
+          "address": "blake.brook@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Harper Hale",
+            "address": "harper.hale@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-16T16:45:00Z",
+      "sentDateTime": "2026-10-16T16:45:00Z",
+      "bodyPreview": "Updated schedule for Wednesday: 10:00 Coding (Harper) 11:00 System design (Alex) 13:00 Hiring manager (Parker) Calendar",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0002",
+      "conversationId": "mock-conv-0002",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: Release 2.4 go/no-go",
+      "from": {
+        "emailAddress": {
+          "name": "Emery Ellis",
+          "address": "emery.ellis@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Emery Ellis",
+          "address": "emery.ellis@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Devon Dahl",
+            "address": "devon.dahl@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Jordan Ito",
+            "address": "jordan.ito@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-16T15:40:00Z",
+      "sentDateTime": "2026-10-16T15:40:00Z",
+      "bodyPreview": "Decision: GO for Monday. Thanks everyone. Rollout plan: 10% on Monday morning, 50% on Tuesday, and 100% on Wednesday if",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "high",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0007",
+      "conversationId": "mock-conv-0001",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: FW: Analytics vendor contract renewal",
+      "from": {
+        "emailAddress": {
+          "name": "Finley Fischer",
+          "address": "finley.fischer@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Finley Fischer",
+          "address": "finley.fischer@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Kai Jensen",
+            "address": "kai.jensen@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-16T11:20:00Z",
+      "sentDateTime": "2026-10-16T11:20:00Z",
+      "bodyPreview": "Thanks Kai, that works for us. Alex, if you're happy with the revised order form I'll raise the PO on Monday. Please",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "flagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0010",
+      "conversationId": "mock-conv-0005",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: Security review findings: file upload service",
+      "from": {
+        "emailAddress": {
+          "name": "Devon Dahl",
+          "address": "devon.dahl@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Devon Dahl",
+          "address": "devon.dahl@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Emery Ellis",
+            "address": "emery.ellis@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-16T10:15:00Z",
+      "sentDateTime": "2026-10-16T10:15:00Z",
+      "bodyPreview": "I'll take the high finding. We already have a normaliser for attachment names, so the fix is small; PR by Tuesday. On",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0004",
+      "conversationId": "mock-conv-0005",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "Security review findings: file upload service",
+      "from": {
+        "emailAddress": {
+          "name": "Emery Ellis",
+          "address": "emery.ellis@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Emery Ellis",
+          "address": "emery.ellis@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Devon Dahl",
+            "address": "devon.dahl@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-15T13:30:00Z",
+      "sentDateTime": "2026-10-15T13:30:00Z",
+      "bodyPreview": "Hi Alex, The security review of the file upload service is complete. Summary: High: uploaded file names are not",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [
+        "Blue category"
+      ],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0006",
+      "conversationId": "mock-conv-0004",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: Q1 planning: roadmap draft",
+      "from": {
+        "emailAddress": {
+          "name": "Parker Patel",
+          "address": "parker.patel@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Parker Patel",
+          "address": "parker.patel@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Harper Hale",
+            "address": "harper.hale@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Devon Dahl",
+            "address": "devon.dahl@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-15T08:20:00Z",
+      "sentDateTime": "2026-10-15T08:20:00Z",
+      "bodyPreview": "Thanks Harper. v2 is attached as a PDF. Changes since the first draft: Calendar overlay now spans sprints 2 and 3 Inline",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": true,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0005",
+      "conversationId": "mock-conv-0001",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: FW: Analytics vendor contract renewal",
+      "from": {
+        "emailAddress": {
+          "name": "Kai Jensen",
+          "address": "kai.jensen@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Kai Jensen",
+          "address": "kai.jensen@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Finley Fischer",
+            "address": "finley.fischer@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-14T17:40:00Z",
+      "sentDateTime": "2026-10-14T17:40:00Z",
+      "bodyPreview": "Hi Alex, Thanks for forwarding this. We can hold the current licence price for a two-year term if the order is signed by",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0009",
+      "conversationId": "mock-conv-0006",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "Team lunch on Friday",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Adler",
+          "address": "avery.adler@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Adler",
+          "address": "avery.adler@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Platform Team",
+            "address": "platform-team@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-14T12:00:00Z",
+      "sentDateTime": "2026-10-14T12:00:00Z",
+      "bodyPreview": "Hi team, Lunch is on us this Friday at 12:30 in the fourth-floor kitchen to celebrate getting 2.4 out the door. Menu",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "other",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0013",
+      "conversationId": "mock-conv-0002",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: Release 2.4 go/no-go",
+      "from": {
+        "emailAddress": {
+          "name": "Jordan Ito",
+          "address": "jordan.ito@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Jordan Ito",
+          "address": "jordan.ito@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Emery Ellis",
+            "address": "emery.ellis@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Devon Dahl",
+            "address": "devon.dahl@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-13T13:25:00Z",
+      "sentDateTime": "2026-10-13T13:25:00Z",
+      "bodyPreview": "The regression suite finished on staging: 1,284 passed, 3 failed. The three failures: Two are the known REL-219 problem",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0008",
+      "conversationId": "mock-conv-0003",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: Interview loop: Senior Backend Engineer",
+      "from": {
+        "emailAddress": {
+          "name": "Harper Hale",
+          "address": "harper.hale@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Harper Hale",
+          "address": "harper.hale@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Blake Brook",
+            "address": "blake.brook@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-13T07:30:00Z",
+      "sentDateTime": "2026-10-13T07:30:00Z",
+      "bodyPreview": "I can do the coding session, but 11:00 clashes with the architecture review. Could we swap, so I go first at 10:00 and",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0011",
+      "conversationId": "mock-conv-0003",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "Interview loop: Senior Backend Engineer",
+      "from": {
+        "emailAddress": {
+          "name": "Blake Brook",
+          "address": "blake.brook@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Blake Brook",
+          "address": "blake.brook@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Harper Hale",
+            "address": "harper.hale@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-12T15:00:00Z",
+      "sentDateTime": "2026-10-12T15:00:00Z",
+      "bodyPreview": "Hi Alex and Harper, We have a strong candidate for the Senior Backend Engineer role coming on site next week. Proposed",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0014",
+      "conversationId": "mock-conv-0004",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "RE: Q1 planning: roadmap draft",
+      "from": {
+        "emailAddress": {
+          "name": "Harper Hale",
+          "address": "harper.hale@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Harper Hale",
+          "address": "harper.hale@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Parker Patel",
+            "address": "parker.patel@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Alex Example",
+            "address": "you@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Devon Dahl",
+            "address": "devon.dahl@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-12T11:10:00Z",
+      "sentDateTime": "2026-10-12T11:10:00Z",
+      "bodyPreview": "A few comments: Reliability first is right. The calendar overlay is two sprints, not one, if we include free/busy for",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0015",
+      "conversationId": "mock-conv-0009",
+      "parentFolderId": "mock-folder-inbox",
+      "subject": "Reminder: September expense reports due October 20",
+      "from": {
+        "emailAddress": {
+          "name": "Finley Fischer",
+          "address": "finley.fischer@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Finley Fischer",
+          "address": "finley.fischer@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Engineering",
+            "address": "engineering@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-12T09:00:00Z",
+      "sentDateTime": "2026-10-12T09:00:00Z",
+      "bodyPreview": "Hi everyone, A reminder that September expense reports are due by Tuesday, October 20. Reports submitted after that date",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "other",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    }
+  ],
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-inbox/messages/delta?$deltatoken=mock-1"
+}

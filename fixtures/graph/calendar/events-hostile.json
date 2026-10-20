@@ -1,0 +1,375 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-evt-min=",
+      "start": {
+        "dateTime": "2026-10-20T09:00:00",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2026-10-20T10:00:00",
+        "timeZone": "UTC"
+      }
+    },
+    {
+      "id": "AAMkAD-evt-0006=",
+      "subject": "Synthetic meeting 6",
+      "start": {
+        "dateTime": "2026-10-26T09:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2026-10-26T09:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "isAllDay": false,
+      "location": {
+        "displayName": "Room Synthetic 1",
+        "locationUri": "room1@contoso.example",
+        "locationEmailAddress": "room1@contoso.example"
+      },
+      "locations": [
+        {
+          "displayName": "Room Synthetic 1",
+          "locationEmailAddress": "room1@contoso.example"
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "attendees": null,
+      "showAs": "focusTime",
+      "type": "newKind",
+      "recurrence": null,
+      "seriesMasterId": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "zoomish",
+      "onlineMeeting": null,
+      "responseStatus": null,
+      "sensitivity": "topSecret",
+      "bodyPreview": "Synthetic agenda",
+      "isCancelled": false,
+      "isOrganizer": false,
+      "isReminderOn": true,
+      "reminderMinutesBeforeStart": 15,
+      "webLink": "https://outlook.office.example/calendar/item/synthetic"
+    },
+    {
+      "id": "AAMkAD-evt-nostart=",
+      "subject": "no start"
+    },
+    {
+      "id": "AAMkAD-evt-0007=",
+      "subject": "Synthetic meeting 7",
+      "start": {
+        "dateTime": "not a date",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2026-10-27T09:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "isAllDay": false,
+      "location": {
+        "displayName": "Room Synthetic 1",
+        "locationUri": "room1@contoso.example",
+        "locationEmailAddress": "room1@contoso.example"
+      },
+      "locations": [
+        {
+          "displayName": "Room Synthetic 1",
+          "locationEmailAddress": "room1@contoso.example"
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-10-15T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        },
+        {
+          "type": "resource",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Room Synthetic 1",
+            "address": "room1@contoso.example"
+          }
+        }
+      ],
+      "showAs": "busy",
+      "type": "singleInstance",
+      "recurrence": null,
+      "seriesMasterId": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "onlineMeeting": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2026-10-15T10:00:00Z"
+      },
+      "sensitivity": "normal",
+      "bodyPreview": "Synthetic agenda",
+      "isCancelled": false,
+      "isOrganizer": false,
+      "isReminderOn": true,
+      "reminderMinutesBeforeStart": 15,
+      "webLink": "https://outlook.office.example/calendar/item/synthetic"
+    },
+    {
+      "id": "AAMkAD-evt-0008=",
+      "subject": "Synthetic meeting 8",
+      "start": {
+        "dateTime": "2026-10-28T09:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2026-10-28T09:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "isAllDay": false,
+      "location": {
+        "displayName": "Room Synthetic 1",
+        "locationUri": "room1@contoso.example",
+        "locationEmailAddress": "room1@contoso.example"
+      },
+      "locations": [
+        {
+          "displayName": "Room Synthetic 1",
+          "locationEmailAddress": "room1@contoso.example"
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-10-15T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        },
+        {
+          "type": "resource",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Room Synthetic 1",
+            "address": "room1@contoso.example"
+          }
+        }
+      ],
+      "showAs": "busy",
+      "type": "singleInstance",
+      "recurrence": {
+        "pattern": {
+          "type": "weekly",
+          "interval": "every"
+        }
+      },
+      "seriesMasterId": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "onlineMeeting": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2026-10-15T10:00:00Z"
+      },
+      "sensitivity": "normal",
+      "bodyPreview": "Synthetic agenda",
+      "isCancelled": false,
+      "isOrganizer": false,
+      "isReminderOn": true,
+      "reminderMinutesBeforeStart": 15,
+      "webLink": "https://outlook.office.example/calendar/item/synthetic"
+    },
+    {
+      "id": "AAMkAD-evt-0009=",
+      "subject": "Synthetic meeting 9",
+      "start": {
+        "dateTime": "2026-10-29T09:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2026-10-29T09:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "isAllDay": false,
+      "location": {
+        "displayName": "Room Synthetic 1",
+        "locationUri": "room1@contoso.example",
+        "locationEmailAddress": "room1@contoso.example"
+      },
+      "locations": [
+        {
+          "displayName": "Room Synthetic 1",
+          "locationEmailAddress": "room1@contoso.example"
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-10-15T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        },
+        {
+          "type": "resource",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Room Synthetic 1",
+            "address": "room1@contoso.example"
+          }
+        }
+      ],
+      "showAs": "busy",
+      "type": "singleInstance",
+      "recurrence": {
+        "pattern": {
+          "type": "lunar",
+          "interval": 1,
+          "daysOfWeek": [
+            "funday"
+          ]
+        },
+        "range": {
+          "type": "someday",
+          "startDate": "bad"
+        }
+      },
+      "seriesMasterId": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "onlineMeeting": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2026-10-15T10:00:00Z"
+      },
+      "sensitivity": "normal",
+      "bodyPreview": "Synthetic agenda",
+      "isCancelled": false,
+      "isOrganizer": false,
+      "isReminderOn": true,
+      "reminderMinutesBeforeStart": 15,
+      "webLink": "https://outlook.office.example/calendar/item/synthetic"
+    },
+    {
+      "id": "AAMkAD-evt-0010=",
+      "subject": "Synthetic meeting 10",
+      "start": {
+        "dateTime": "2026-10-20T09:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2026-10-20T09:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "isAllDay": false,
+      "location": {
+        "displayName": "Room Synthetic 1",
+        "locationUri": "room1@contoso.example",
+        "locationEmailAddress": "room1@contoso.example"
+      },
+      "locations": [
+        {
+          "displayName": "Room Synthetic 1",
+          "locationEmailAddress": "room1@contoso.example"
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-10-15T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        },
+        {
+          "type": "resource",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Room Synthetic 1",
+            "address": "room1@contoso.example"
+          }
+        }
+      ],
+      "showAs": "busy",
+      "type": "singleInstance",
+      "recurrence": null,
+      "seriesMasterId": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "onlineMeeting": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2026-10-15T10:00:00Z"
+      },
+      "sensitivity": "normal",
+      "bodyPreview": "Synthetic agenda",
+      "isCancelled": false,
+      "isOrganizer": false,
+      "isReminderOn": true,
+      "reminderMinutesBeforeStart": -15,
+      "webLink": "https://outlook.office.example/calendar/item/synthetic"
+    },
+    [
+      1,
+      2,
+      3
+    ]
+  ]
+}

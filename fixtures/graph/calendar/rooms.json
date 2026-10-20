@@ -1,0 +1,25 @@
+{
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-0000000000d1",
+      "displayName": "Room Synthetic 1",
+      "emailAddress": "room1@contoso.example",
+      "capacity": 8,
+      "building": "Synthetic HQ",
+      "floorNumber": 2,
+      "isWheelchairAccessible": true
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2",
+      "displayName": "Room Synthetic 2",
+      "emailAddress": "not-an-address",
+      "capacity": null,
+      "building": "",
+      "floorNumber": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d3",
+      "capacity": -4
+    }
+  ]
+}

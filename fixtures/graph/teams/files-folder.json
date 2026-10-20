@@ -1,0 +1,13 @@
+{
+  "id": "01SYNTHETICFOLDER0000000000000001",
+  "name": "General",
+  "webUrl": "https://contoso.sharepoint.com/sites/SyntheticTeam/Shared%20Documents/General",
+  "size": 0,
+  "parentReference": {
+    "driveId": "b!synthetic-drive-team-0001",
+    "driveType": "documentLibrary"
+  },
+  "folder": {
+    "childCount": 3
+  }
+}

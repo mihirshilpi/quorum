@@ -1,0 +1,14 @@
+{
+  "id": "00000000-0000-0000-0000-000000000002",
+  "displayName": "Avery Example",
+  "mail": "user02@contoso.example",
+  "userPrincipalName": "user02@contoso.example",
+  "jobTitle": "Synthetic Engineer",
+  "department": "Synthetic R&D",
+  "officeLocation": "Building 1",
+  "businessPhones": [
+    "+1 555 0100"
+  ],
+  "mobilePhone": null,
+  "@odata.type": "#microsoft.graph.user"
+}

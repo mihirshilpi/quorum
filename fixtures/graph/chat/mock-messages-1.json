@@ -1,0 +1,195 @@
+{
+  "value": [
+    {
+      "id": "1760680000005",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-17T08:15:00Z",
+      "lastModifiedDateTime": "2026-10-17T08:15:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000105",
+          "displayName": "Casey Mockwell",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Here's the timeline we agreed on:</p><ul><li>Code freeze Monday</li><li>Launch Thursday</li></ul>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    },
+    {
+      "id": "1760680000004",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T14:12:00Z",
+      "lastModifiedDateTime": "2026-10-16T14:12:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": "2026-10-16T14:13:00Z",
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000105",
+          "displayName": "Casey Mockwell",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": ""
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    },
+    {
+      "id": "1760680000003",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T14:10:00Z",
+      "lastModifiedDateTime": "2026-10-16T14:11:00Z",
+      "lastEditedDateTime": "2026-10-16T14:11:00Z",
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000001",
+          "displayName": "Test User",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>On it. Draft by tomorrow morning.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reactionType": "👍",
+          "createdDateTime": "2026-10-16T14:10:00Z",
+          "user": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000104",
+              "displayName": "Jordan Fixture",
+              "userIdentityType": "aadUser"
+            }
+          }
+        },
+        {
+          "reactionType": "👍",
+          "createdDateTime": "2026-10-16T14:10:00Z",
+          "user": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000103",
+              "displayName": "Riley Placeholder",
+              "userIdentityType": "aadUser"
+            }
+          }
+        },
+        {
+          "reactionType": "🎉",
+          "createdDateTime": "2026-10-16T14:10:00Z",
+          "user": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000105",
+              "displayName": "Casey Mockwell",
+              "userIdentityType": "aadUser"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "1760680000002",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T14:03:00Z",
+      "lastModifiedDateTime": "2026-10-16T14:03:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000104",
+          "displayName": "Jordan Fixture",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p><at id=\"0\">Test</at> can you own the comms section?</p>"
+      },
+      "attachments": [],
+      "mentions": [
+        {
+          "id": 0,
+          "mentionText": "Test",
+          "mentioned": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "displayName": "Test User",
+              "userIdentityType": "aadUser"
+            }
+          }
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "1760680000001",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T14:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T14:00:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000103",
+          "displayName": "Riley Placeholder",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Launch checklist is ready for review.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    }
+  ]
+}

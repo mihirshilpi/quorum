@@ -1,0 +1,29 @@
+{
+  "value": [
+    {
+      "id": "AQAAAJ-rule-1=",
+      "displayName": "Synthetic newsletters",
+      "sequence": 1,
+      "isEnabled": true,
+      "hasError": false,
+      "isReadOnly": false,
+      "conditions": {
+        "senderContains": [
+          "newsletter@example.com"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkAD-folder-news=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAAJ-rule-2=",
+      "displayName": "Broken",
+      "sequence": null,
+      "isEnabled": false,
+      "hasError": true,
+      "isReadOnly": true
+    }
+  ]
+}

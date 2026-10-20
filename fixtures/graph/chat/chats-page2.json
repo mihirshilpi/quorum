@@ -1,0 +1,21 @@
+{
+  "value": [
+    {
+      "id": "19:meeting_synthetic-0001@thread.v2",
+      "topic": "Synthetic weekly sync",
+      "chatType": "meeting",
+      "createdDateTime": "2026-07-01T08:00:00Z",
+      "members": null,
+      "lastMessagePreview": null,
+      "viewpoint": null
+    },
+    {
+      "id": "19:broken@thread.v2",
+      "topic": "no chat type"
+    },
+    {
+      "id": "",
+      "chatType": "group"
+    }
+  ]
+}

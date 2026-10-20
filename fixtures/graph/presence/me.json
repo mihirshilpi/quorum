@@ -1,0 +1,16 @@
+{
+  "id": "00000000-0000-0000-0000-000000000011",
+  "availability": "Available",
+  "activity": "Available",
+  "statusMessage": {
+    "message": {
+      "content": "Heads down on synthetic work",
+      "contentType": "text"
+    },
+    "expiryDateTime": {
+      "dateTime": "2026-10-18T08:00:00.0000000",
+      "timeZone": "Pacific Standard Time"
+    },
+    "publishedDateTime": "2026-10-17T08:00:00Z"
+  }
+}

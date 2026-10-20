@@ -1,0 +1,13 @@
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.sitePage",
+      "id": "00000000-0000-0000-0000-0000000000e1",
+      "name": "Home.aspx",
+      "title": "Synthetic Home",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/SitePages/Home.aspx",
+      "pageLayout": "home",
+      "lastModifiedDateTime": "2026-10-01T08:00:00Z"
+    }
+  ]
+}

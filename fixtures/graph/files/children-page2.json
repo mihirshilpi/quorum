@@ -1,0 +1,41 @@
+{
+  "value": [
+    {
+      "id": "01SYNTHETICITEM00000000000000003",
+      "name": "Notes.txt",
+      "size": 1234,
+      "createdDateTime": "2026-10-01T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-02T08:00:00Z",
+      "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Notes.txt",
+      "eTag": "\"{5B6C8A52-0000-4000-8000-000000000001},3\"",
+      "cTag": "\"c:{5B6C8A52-0000-4000-8000-000000000001},2\"",
+      "parentReference": {
+        "driveId": "b!synthetic-drive-0001",
+        "driveType": "business",
+        "id": "01SYNTHETICROOT00000000000000000",
+        "path": "/drive/root:"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "hashes": {
+          "quickXorHash": "AAAA"
+        }
+      }
+    },
+    {
+      "id": "01SYNTHETICITEM00000000000000004",
+      "name": "no parent ref"
+    }
+  ]
+}

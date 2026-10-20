@@ -1,0 +1,53 @@
+{
+  "id": "mock-msg-0005",
+  "conversationId": "mock-conv-0001",
+  "parentFolderId": "mock-folder-inbox",
+  "subject": "RE: FW: Analytics vendor contract renewal",
+  "from": {
+    "emailAddress": {
+      "name": "Kai Jensen",
+      "address": "kai.jensen@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Kai Jensen",
+      "address": "kai.jensen@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Alex Example",
+        "address": "you@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [
+    {
+      "emailAddress": {
+        "name": "Finley Fischer",
+        "address": "finley.fischer@example.com"
+      }
+    }
+  ],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-14T17:40:00Z",
+  "sentDateTime": "2026-10-14T17:40:00Z",
+  "bodyPreview": "Hi Alex, Thanks for forwarding this. We can hold the current licence price for a two-year term if the order is signed by",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body><div dir=\"ltr\"><div>Hi Alex,</div><div><br></div><div>Thanks for forwarding this. We can hold the current licence price for a two-year term if the order is signed by October 30, and we'll put support back on Standard.</div><div><br></div><div>One heads-up: the data retention add-on moves to per-TB pricing next year. At your current volume it works out about the same.</div><div><br></div><div>I'll send a revised order form tomorrow.</div><div><br></div><div>Best,<br>Kai</div></div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 13, 2026 at 9:15 AM Alex Example &lt;you@example.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Kai,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Forwarding our procurement summary below. Would you be able to hold the current licence price if we commit to a two-year term? We don't need the Premium support tier.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Best,<br>Alex</div><div id=\"appendonsend\"></div><hr style=\"display:inline-block;width:98%\" tabindex=\"-1\"><div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" style=\"font-size:11pt\" color=\"#000000\"><b>From:</b> Finley Fischer &lt;finley.fischer@example.com&gt;<br><b>Sent:</b> Friday, October 9, 2026 1:00 PM<br><b>To:</b> Alex Example &lt;you@example.com&gt;<br><b>Cc:</b> Parker Patel &lt;parker.patel@example.com&gt;<br><b>Subject:</b> Analytics vendor contract renewal</font><div>&nbsp;</div></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Alex,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The analytics platform contract renews on <b>November 1</b> and procurement needs a decision by October 22. Here's the renewal quote next to what we pay today:<table style=\"border-collapse:collapse;font-family:Calibri, Helvetica, sans-serif;font-size:11pt\"><thead><tr><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Line item</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Current</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Renewal quote</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">Platform licence (25 seats)</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$18,000</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$21,600</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">Data retention add-on</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$2,400</td><td style=\"border:1px solid #ccc;padding:3px 6px\">$2,400</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">Support tier</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Standard</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Premium (bundled)</td></tr></tbody></table></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The 20% licence increase is well above our 8% guideline. Could you ask the vendor whether they'd hold current pricing for a two-year term?</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Finley</div></blockquote></div></body></html>"
+  }
+}

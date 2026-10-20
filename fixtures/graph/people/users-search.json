@@ -1,0 +1,49 @@
+{
+  "@odata.count": 3,
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-000000000003",
+      "displayName": "Alex Synthetic",
+      "mail": "user03@contoso.example",
+      "userPrincipalName": "user03@contoso.example",
+      "jobTitle": "Synthetic Engineer",
+      "department": "Synthetic R&D",
+      "officeLocation": "Building 1",
+      "businessPhones": [
+        "+1 555 0100"
+      ],
+      "mobilePhone": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000004",
+      "displayName": "Alex NoMail",
+      "mail": null,
+      "userPrincipalName": "alex.nomail@contoso.example",
+      "jobTitle": "Synthetic Engineer",
+      "department": "Synthetic R&D",
+      "officeLocation": "Building 1",
+      "businessPhones": null,
+      "mobilePhone": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000005",
+      "displayName": "Alex External",
+      "mail": null,
+      "userPrincipalName": "alex_ext#EXT#@contoso.example",
+      "jobTitle": "Synthetic Engineer",
+      "department": "Synthetic R&D",
+      "officeLocation": "Building 1",
+      "businessPhones": [
+        "+1 555 0100"
+      ],
+      "mobilePhone": null
+    },
+    {
+      "id": "not ok\u0001id",
+      "displayName": "control char id"
+    },
+    {
+      "displayName": "no id at all"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "mock-folder-drafts",
+  "displayName": "Drafts",
+  "parentFolderId": "mock-folder-root",
+  "childFolderCount": 0,
+  "unreadItemCount": 0,
+  "totalItemCount": 0,
+  "isHidden": false
+}

@@ -1,0 +1,86 @@
+{
+  "value": [
+    {
+      "id": "mock-folder-inbox",
+      "displayName": "Inbox",
+      "parentFolderId": "mock-folder-root",
+      "childFolderCount": 1,
+      "unreadItemCount": 6,
+      "totalItemCount": 16,
+      "isHidden": false
+    },
+    {
+      "id": "mock-folder-drafts",
+      "displayName": "Drafts",
+      "parentFolderId": "mock-folder-root",
+      "childFolderCount": 0,
+      "unreadItemCount": 0,
+      "totalItemCount": 0,
+      "isHidden": false
+    },
+    {
+      "id": "mock-folder-sent",
+      "displayName": "Sent Items",
+      "parentFolderId": "mock-folder-root",
+      "childFolderCount": 0,
+      "unreadItemCount": 1,
+      "totalItemCount": 4,
+      "isHidden": false
+    },
+    {
+      "id": "mock-folder-deleted",
+      "displayName": "Deleted Items",
+      "parentFolderId": "mock-folder-root",
+      "childFolderCount": 0,
+      "unreadItemCount": 1,
+      "totalItemCount": 1,
+      "isHidden": false
+    },
+    {
+      "id": "mock-folder-archive",
+      "displayName": "Archive",
+      "parentFolderId": "mock-folder-root",
+      "childFolderCount": 0,
+      "unreadItemCount": 1,
+      "totalItemCount": 3,
+      "isHidden": false
+    },
+    {
+      "id": "mock-folder-junk",
+      "displayName": "Junk Email",
+      "parentFolderId": "mock-folder-root",
+      "childFolderCount": 0,
+      "unreadItemCount": 0,
+      "totalItemCount": 0,
+      "isHidden": false
+    },
+    {
+      "id": "mock-folder-outbox",
+      "displayName": "Outbox",
+      "parentFolderId": "mock-folder-root",
+      "childFolderCount": 0,
+      "unreadItemCount": 0,
+      "totalItemCount": 0,
+      "isHidden": false
+    },
+    {
+      "id": "mock-folder-projects",
+      "displayName": "Projects",
+      "parentFolderId": "mock-folder-inbox",
+      "childFolderCount": 0,
+      "unreadItemCount": 1,
+      "totalItemCount": 3,
+      "isHidden": false
+    },
+    {
+      "id": "mock-folder-receipts",
+      "displayName": "Receipts",
+      "parentFolderId": "mock-folder-root",
+      "childFolderCount": 0,
+      "unreadItemCount": 0,
+      "totalItemCount": 0,
+      "isHidden": false
+    }
+  ],
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/delta?$deltatoken=mock-folders-1"
+}

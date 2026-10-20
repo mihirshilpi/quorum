@@ -1,0 +1,74 @@
+{
+  "value": [
+    {
+      "id": "1760670000002",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T16:30:00Z",
+      "lastModifiedDateTime": "2026-10-16T16:30:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000106",
+          "displayName": "Quinn Testington",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Sure, the usual place at 12:30.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reactionType": "heart",
+          "createdDateTime": "2026-10-16T16:30:00Z",
+          "user": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "displayName": "Test User",
+              "userIdentityType": "aadUser"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "1760670000001",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T16:20:00Z",
+      "lastModifiedDateTime": "2026-10-16T16:20:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000001",
+          "displayName": "Test User",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Lunch tomorrow?</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    }
+  ]
+}

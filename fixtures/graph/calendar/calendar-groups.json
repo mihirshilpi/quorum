@@ -1,0 +1,18 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-grp-1=",
+      "name": "My Calendars",
+      "classId": "00000000-0000-0000-0000-0000000000a1"
+    },
+    {
+      "id": "AAMkAD-grp-2=",
+      "name": "Other Calendars",
+      "classId": null
+    },
+    {
+      "id": "",
+      "name": "bad"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1760000000500",
+  "messageType": "message",
+  "createdDateTime": "2026-10-17T09:00:00Z",
+  "lastModifiedDateTime": "2026-10-17T09:00:00Z",
+  "chatId": "19:00000000000000000000000000000001_00000000000000000000000000000002@unq.gbl.spaces",
+  "from": {
+    "user": {
+      "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+      "id": "00000000-0000-0000-0000-000000000011",
+      "displayName": "Test User",
+      "userIdentityType": "aadUser",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1"
+    },
+    "application": null,
+    "device": null
+  },
+  "body": {
+    "contentType": "html",
+    "content": "<p>Hello</p>"
+  }
+}

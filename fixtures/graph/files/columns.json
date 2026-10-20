@@ -1,0 +1,35 @@
+{
+  "value": [
+    {
+      "id": "col-1",
+      "name": "Title",
+      "displayName": "Title",
+      "text": {
+        "maxLength": 255
+      },
+      "required": true
+    },
+    {
+      "id": "col-2",
+      "name": "Status",
+      "displayName": "Status",
+      "choice": {
+        "choices": [
+          "Open",
+          "Done"
+        ]
+      }
+    },
+    {
+      "id": "col-3",
+      "name": "Owner",
+      "displayName": "Owner",
+      "personOrGroup": {},
+      "readOnly": true,
+      "hidden": true
+    },
+    {
+      "id": "col-4"
+    }
+  ]
+}

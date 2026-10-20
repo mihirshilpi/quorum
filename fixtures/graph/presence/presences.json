@@ -1,0 +1,30 @@
+{
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-000000000012",
+      "availability": "Busy",
+      "activity": "InAMeeting",
+      "statusMessage": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000013",
+      "availability": "BrandNewAvailability",
+      "activity": "FutureActivity",
+      "statusMessage": {
+        "message": {
+          "content": "",
+          "contentType": "text"
+        },
+        "expiryDateTime": {
+          "dateTime": "9999-12-31T23:59:59.9999999",
+          "timeZone": "UTC"
+        }
+      }
+    },
+    {
+      "id": "bad\u0007id",
+      "availability": 5
+    },
+    "garbage"
+  ]
+}

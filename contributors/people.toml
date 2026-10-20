@@ -1,0 +1,9 @@
+# Names contributors chose for themselves, shown in About ▸ Contributors.
+# Add ONLY your own entry. Never add or edit anyone else's. See docs/contributors.md.
+#
+# [people.<github-username>]
+# real_name = "Your Name"          # optional
+# display_name = "How to show you" # optional
+# sync_github_name = false         # true: use your public GitHub profile name
+
+[people]

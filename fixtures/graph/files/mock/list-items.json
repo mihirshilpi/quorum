@@ -1,0 +1,94 @@
+{
+  "value": [
+    {
+      "id": "1",
+      "createdDateTime": "2026-10-01T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-09T10:00:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Lists/Tasks/1_.000",
+      "fields": {
+        "@odata.etag": "\"1\"",
+        "Title": "Draft launch announcement",
+        "Status": "In progress",
+        "Priority": 1,
+        "DueDate": "2026-10-24T00:00:00Z",
+        "Done": false,
+        "AssignedTo": "Alex Sample"
+      }
+    },
+    {
+      "id": "2",
+      "createdDateTime": "2026-10-02T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-10T10:00:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Lists/Tasks/2_.000",
+      "fields": {
+        "@odata.etag": "\"2\"",
+        "Title": "Review brand guide",
+        "Status": "Not started",
+        "Priority": 2,
+        "DueDate": "2026-10-28T00:00:00Z",
+        "Done": false,
+        "AssignedTo": "Skyler Placeholder"
+      }
+    },
+    {
+      "id": "3",
+      "createdDateTime": "2026-10-03T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-11T10:00:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Lists/Tasks/3_.000",
+      "fields": {
+        "@odata.etag": "\"3\"",
+        "Title": "Book offsite venue",
+        "Status": "Completed",
+        "Priority": 3,
+        "DueDate": "2026-10-10T00:00:00Z",
+        "Done": true,
+        "AssignedTo": "Robin Example"
+      }
+    },
+    {
+      "id": "4",
+      "createdDateTime": "2026-10-04T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-12T10:00:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Lists/Tasks/4_.000",
+      "fields": {
+        "@odata.etag": "\"4\"",
+        "Title": "Update onboarding checklist",
+        "Status": "In progress",
+        "Priority": 2,
+        "DueDate": "2026-11-02T00:00:00Z",
+        "Done": false,
+        "AssignedTo": "Test User"
+      }
+    },
+    {
+      "id": "5",
+      "createdDateTime": "2026-10-05T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-13T10:00:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Lists/Tasks/5_.000",
+      "fields": {
+        "@odata.etag": "\"5\"",
+        "Title": "Collect Q3 metrics",
+        "Status": "Completed",
+        "Priority": 1,
+        "DueDate": "2026-10-05T00:00:00Z",
+        "Done": true,
+        "AssignedTo": "Robin Example"
+      }
+    },
+    {
+      "id": "6",
+      "createdDateTime": "2026-10-06T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-14T10:00:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Lists/Tasks/6_.000",
+      "fields": {
+        "@odata.etag": "\"6\"",
+        "Title": "Security review sign-off",
+        "Status": "Not started",
+        "Priority": 1,
+        "DueDate": "2026-11-10T00:00:00Z",
+        "Done": false,
+        "AssignedTo": "Alex Sample"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-msg-0004=",
+      "conversationId": "AAQkAD-conv-0000=",
+      "parentFolderId": "AAMkAD-folder-inbox=",
+      "subject": "Synthetic subject 4",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-16T09:00:00Z",
+      "sentDateTime": "2026-10-16T08:59:58Z",
+      "bodyPreview": "Synthetic preview text.",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "@removed": {
+        "reason": "deleted"
+      },
+      "id": "AAMkAD-msg-0009="
+    }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messages/delta?$skiptoken=mail-delta-2"
+}

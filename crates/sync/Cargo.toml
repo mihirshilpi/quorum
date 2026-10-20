@@ -1,0 +1,28 @@
+[package]
+name = "quorum-sync"
+description = "Sync engine: supervised delta loops, adaptive cadence, outbox replay and presence keep-alive."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+quorum-model.workspace = true
+quorum-graph.workspace = true
+quorum-auth.workspace = true
+quorum-store.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+tokio.workspace = true
+futures.workspace = true
+jiff.workspace = true
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["test-util"] }
+quorum-graph = { workspace = true, features = ["test-util"] }
+
+[lints]
+workspace = true

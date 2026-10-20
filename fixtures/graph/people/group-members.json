@@ -1,0 +1,38 @@
+{
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-000000000007",
+      "displayName": "Member One",
+      "mail": "user07@contoso.example",
+      "userPrincipalName": "user07@contoso.example",
+      "jobTitle": "Synthetic Engineer",
+      "department": "Synthetic R&D",
+      "officeLocation": "Building 1",
+      "businessPhones": [
+        "+1 555 0100"
+      ],
+      "mobilePhone": null,
+      "@odata.type": "#microsoft.graph.user"
+    },
+    {
+      "@odata.type": "#microsoft.graph.group",
+      "id": "00000000-0000-0000-0000-0000000000e1",
+      "displayName": "Nested group"
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000008",
+      "displayName": "Member Two",
+      "mail": "user08@contoso.example",
+      "userPrincipalName": "user08@contoso.example",
+      "jobTitle": "Synthetic Engineer",
+      "department": "Synthetic R&D",
+      "officeLocation": "Building 1",
+      "businessPhones": [
+        "+1 555 0100"
+      ],
+      "mobilePhone": null,
+      "@odata.type": "#microsoft.graph.user"
+    }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/groups/00000000-0000-0000-0000-00000000000e/members?$skiptoken=members-2"
+}

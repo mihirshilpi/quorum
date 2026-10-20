@@ -1,0 +1,149 @@
+{
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/drives/b!synthetic-library-0001/root/delta?token=mock-lib-1",
+  "value": [
+    {
+      "id": "01MOCKLIBROOT00000000000000000000",
+      "name": "root",
+      "size": 0,
+      "createdDateTime": "2026-09-10T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-10T09:15:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Shared%20Documents/root",
+      "eTag": "\"{01MOCKLIBROOT00000000000000000000},1\"",
+      "cTag": "\"c:{01MOCKLIBROOT00000000000000000000},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-library-0001",
+        "driveType": "business"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "root": {},
+      "folder": {
+        "childCount": 4
+      }
+    },
+    {
+      "id": "01MOCKLIBFOLDER000000000000000001",
+      "name": "Policies",
+      "size": 0,
+      "createdDateTime": "2026-09-12T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-12T09:15:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Shared%20Documents/Policies",
+      "eTag": "\"{01MOCKLIBFOLDER000000000000000001},1\"",
+      "cTag": "\"c:{01MOCKLIBFOLDER000000000000000001},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-library-0001",
+        "driveType": "business",
+        "id": "01MOCKLIBROOT00000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "folder": {
+        "childCount": 1
+      }
+    },
+    {
+      "id": "01MOCKLIBITEM00000000000000000001",
+      "name": "Handbook.docx",
+      "size": 410000,
+      "createdDateTime": "2026-09-15T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-15T09:15:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Shared%20Documents/Handbook.docx",
+      "eTag": "\"{01MOCKLIBITEM00000000000000000001},1\"",
+      "cTag": "\"c:{01MOCKLIBITEM00000000000000000001},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-library-0001",
+        "driveType": "business",
+        "id": "01MOCKLIBROOT00000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "id": "01MOCKLIBITEM00000000000000000002",
+      "name": "Brand guide.pdf",
+      "size": 5100000,
+      "createdDateTime": "2026-09-11T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-11T09:15:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Shared%20Documents/Brand%20guide.pdf",
+      "eTag": "\"{01MOCKLIBITEM00000000000000000002},1\"",
+      "cTag": "\"c:{01MOCKLIBITEM00000000000000000002},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-library-0001",
+        "driveType": "business",
+        "id": "01MOCKLIBROOT00000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000014",
+          "displayName": "Skyler Placeholder"
+        }
+      },
+      "file": {
+        "mimeType": "application/pdf"
+      }
+    },
+    {
+      "id": "01MOCKLIBITEM00000000000000000003",
+      "name": "Q3 results.xlsx",
+      "size": 180000,
+      "createdDateTime": "2026-09-03T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-03T09:15:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Shared%20Documents/Q3%20results.xlsx",
+      "eTag": "\"{01MOCKLIBITEM00000000000000000003},1\"",
+      "cTag": "\"c:{01MOCKLIBITEM00000000000000000003},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-library-0001",
+        "driveType": "business",
+        "id": "01MOCKLIBROOT00000000000000000000"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000013",
+          "displayName": "Robin Example"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      }
+    },
+    {
+      "id": "01MOCKLIBITEM00000000000000000004",
+      "name": "Travel policy.docx",
+      "size": 60000,
+      "createdDateTime": "2026-09-12T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-12T09:15:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Shared%20Documents/Travel%20policy.docx",
+      "eTag": "\"{01MOCKLIBITEM00000000000000000004},1\"",
+      "cTag": "\"c:{01MOCKLIBITEM00000000000000000004},1\"",
+      "parentReference": {
+        "driveId": "b!synthetic-library-0001",
+        "driveType": "business",
+        "id": "01MOCKLIBFOLDER000000000000000001"
+      },
+      "lastModifiedBy": {
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000011",
+          "displayName": "Test User"
+        }
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    }
+  ]
+}

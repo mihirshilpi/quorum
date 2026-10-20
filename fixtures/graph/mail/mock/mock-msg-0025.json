@@ -1,0 +1,59 @@
+{
+  "id": "mock-msg-0025",
+  "conversationId": "mock-conv-0004",
+  "parentFolderId": "mock-folder-projects",
+  "subject": "Q1 planning: roadmap draft",
+  "from": {
+    "emailAddress": {
+      "name": "Parker Patel",
+      "address": "parker.patel@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Parker Patel",
+      "address": "parker.patel@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Alex Example",
+        "address": "you@example.com"
+      }
+    },
+    {
+      "emailAddress": {
+        "name": "Harper Hale",
+        "address": "harper.hale@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [
+    {
+      "emailAddress": {
+        "name": "Devon Dahl",
+        "address": "devon.dahl@example.com"
+      }
+    }
+  ],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-09T16:30:00Z",
+  "sentDateTime": "2026-10-09T16:30:00Z",
+  "bodyPreview": "Hi all, The first pass at the Q1 roadmap is in the planning folder: https://example.com/planning/q1-roadmap. It has",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi all,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The first pass at the Q1 roadmap is in the planning folder: <a href=\"https://example.com/planning/q1-roadmap\">https://example.com/planning/q1-roadmap</a>. It has three themes:<ul><li><b>Reliability</b>: offline sync and crash-free sessions above 99.8%</li><li><b>Calendar</b>: shared calendar overlay and a scheduling assistant</li><li><b>Files</b>: inline previews and sharing links</li></ul></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Comments by Wednesday, please, so I can bring a v2 to leadership review on Monday the 19th.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Parker</div></body></html>"
+  }
+}

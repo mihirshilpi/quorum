@@ -1,0 +1,33 @@
+{
+  "value": [
+    {
+      "id": "1760600000001",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-09T11:20:00Z",
+      "lastModifiedDateTime": "2026-10-09T11:20:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000107",
+          "displayName": "Sage Exemplar",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Thanks for the help with the onboarding checklist!</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    }
+  ]
+}

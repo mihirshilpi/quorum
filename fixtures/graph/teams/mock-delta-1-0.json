@@ -1,0 +1,35 @@
+{
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/teams/00000000-0000-0000-0000-00000000f002/channels/19:mock-eng-general@thread.tacv2/messages/delta?$deltatoken=mock-1-0",
+  "value": [
+    {
+      "id": "1760520000001",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T15:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T15:00:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "Security review",
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000106",
+          "displayName": "Quinn Testington",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Security review notes are attached to the ticket.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "replies": []
+    }
+  ]
+}

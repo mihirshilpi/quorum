@@ -1,0 +1,46 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-msg-0003=",
+      "conversationId": "AAQkAD-conv-0001=",
+      "parentFolderId": "AAMkAD-folder-inbox=",
+      "subject": "Synthetic subject 3",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-17T09:00:00Z",
+      "sentDateTime": "2026-10-17T08:59:58Z",
+      "bodyPreview": "Synthetic preview text.",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    }
+  ]
+}

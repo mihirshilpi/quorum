@@ -1,0 +1,9 @@
+{
+  "contributors": [
+    {
+      "commits": 1,
+      "name": "mihirshilpi"
+    }
+  ],
+  "generated_by": "cargo xtask contributors"
+}

@@ -1,0 +1,24 @@
+{
+  "value": [
+    {
+      "id": "3.0",
+      "lastModifiedDateTime": "2026-10-02T08:00:00Z",
+      "size": 1234,
+      "lastModifiedBy": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      }
+    },
+    {
+      "id": "2.0",
+      "size": -5
+    }
+  ]
+}

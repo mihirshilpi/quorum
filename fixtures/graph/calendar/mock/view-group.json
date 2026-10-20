@@ -1,0 +1,47 @@
+{
+ "value": [
+  {
+   "id": "mock-evt-group-1",
+   "subject": "Launch go/no-go",
+   "start": {
+    "dateTime": "2026-10-15T15:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-15T16:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Sage Moreau",
+     "address": "sage.moreau@contoso.example"
+    }
+   },
+   "attendees": [],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-group-1"
+   },
+   "responseStatus": {
+    "response": "none",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": false,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-group-1"
+  }
+ ]
+}

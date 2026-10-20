@@ -1,0 +1,13 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('00000000-0000-0000-0000-000000000001')/messages",
+  "value": [
+    {
+      "id": "AAMkAGI2-00000000-0000-0000-0000-000000000103",
+      "subject": "Third synthetic message",
+      "bodyPreview": "Last page.",
+      "isRead": true,
+      "receivedDateTime": "2026-01-01T17:30:00Z",
+      "from": { "emailAddress": { "name": "Alex Example", "address": "alex@example.com" } }
+    }
+  ]
+}

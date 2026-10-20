@@ -1,0 +1,168 @@
+{
+  "value": [
+    {
+      "id": "1760690000005",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-17T09:42:00Z",
+      "lastModifiedDateTime": "2026-10-17T09:42:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000101",
+          "displayName": "Morgan Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>No rush, end of day is fine 🙂</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    },
+    {
+      "id": "1760690000004",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-17T09:31:00Z",
+      "lastModifiedDateTime": "2026-10-17T09:31:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000101",
+          "displayName": "Morgan Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Can you review the <b>budget draft</b> today? I added the numbers we discussed.</p>"
+      },
+      "attachments": [
+        {
+          "id": "5b6c8a52-0000-4000-8000-0000000000a1",
+          "contentType": "reference",
+          "contentUrl": "https://contoso.sharepoint.com/personal/x/Documents/Budget%20draft.xlsx",
+          "name": "Budget draft.xlsx"
+        }
+      ],
+      "mentions": [],
+      "reactions": []
+    },
+    {
+      "id": "1760690000003",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-17T09:30:00Z",
+      "lastModifiedDateTime": "2026-10-17T09:30:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000101",
+          "displayName": "Morgan Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Morning! Quick one before standup.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    },
+    {
+      "id": "1760690000002",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T18:01:00Z",
+      "lastModifiedDateTime": "2026-10-16T18:01:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000001",
+          "displayName": "Test User",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Yes, this afternoon. Link is in the channel.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reactionType": "like",
+          "createdDateTime": "2026-10-16T18:01:00Z",
+          "user": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000101",
+              "displayName": "Morgan Sample",
+              "userIdentityType": "aadUser"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "1760690000001",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T17:58:00Z",
+      "lastModifiedDateTime": "2026-10-16T17:58:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000101",
+          "displayName": "Morgan Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Did the release notes go out?</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    }
+  ]
+}

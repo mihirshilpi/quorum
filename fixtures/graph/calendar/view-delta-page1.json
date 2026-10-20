@@ -1,0 +1,83 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-evt-0004=",
+      "subject": "Synthetic meeting 4",
+      "start": {
+        "dateTime": "2026-10-24T09:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2026-10-24T09:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "isAllDay": false,
+      "location": {
+        "displayName": "Room Synthetic 1",
+        "locationUri": "room1@contoso.example",
+        "locationEmailAddress": "room1@contoso.example"
+      },
+      "locations": [
+        {
+          "displayName": "Room Synthetic 1",
+          "locationEmailAddress": "room1@contoso.example"
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-10-15T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        },
+        {
+          "type": "resource",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Room Synthetic 1",
+            "address": "room1@contoso.example"
+          }
+        }
+      ],
+      "showAs": "busy",
+      "type": "singleInstance",
+      "recurrence": null,
+      "seriesMasterId": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "onlineMeeting": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2026-10-15T10:00:00Z"
+      },
+      "sensitivity": "normal",
+      "bodyPreview": "Synthetic agenda",
+      "isCancelled": false,
+      "isOrganizer": false,
+      "isReminderOn": true,
+      "reminderMinutesBeforeStart": 15,
+      "webLink": "https://outlook.office.example/calendar/item/synthetic"
+    },
+    {
+      "@removed": {
+        "reason": "deleted"
+      },
+      "id": "AAMkAD-evt-0099="
+    }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/calendarView/delta?$skiptoken=cal-delta-2"
+}

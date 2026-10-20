@@ -1,0 +1,54 @@
+{
+  "value": [
+    {
+      "id": "c1",
+      "name": "Title",
+      "displayName": "Title",
+      "text": {},
+      "required": true
+    },
+    {
+      "id": "c2",
+      "name": "Status",
+      "displayName": "Status",
+      "choice": {
+        "choices": [
+          "Not started",
+          "In progress",
+          "Completed"
+        ]
+      }
+    },
+    {
+      "id": "c3",
+      "name": "Priority",
+      "displayName": "Priority",
+      "number": {}
+    },
+    {
+      "id": "c4",
+      "name": "DueDate",
+      "displayName": "Due date",
+      "dateTime": {}
+    },
+    {
+      "id": "c5",
+      "name": "Done",
+      "displayName": "Done",
+      "boolean": {}
+    },
+    {
+      "id": "c6",
+      "name": "AssignedTo",
+      "displayName": "Assigned to",
+      "text": {}
+    },
+    {
+      "id": "c7",
+      "name": "ContentType",
+      "displayName": "Content Type",
+      "text": {},
+      "hidden": true
+    }
+  ]
+}

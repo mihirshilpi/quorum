@@ -1,0 +1,11 @@
+{
+ "value": [
+  {
+   "id": "mock-group-1",
+   "displayName": "Synthetic launch team",
+   "groupTypes": [
+    "Unified"
+   ]
+  }
+ ]
+}

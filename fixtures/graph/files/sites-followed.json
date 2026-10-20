@@ -1,0 +1,13 @@
+{
+  "value": [
+    {
+      "id": "contoso.sharepoint.com,00000000-0000-0000-0000-0000000000c1,00000000-0000-0000-0000-0000000000c2",
+      "displayName": "Synthetic Site",
+      "name": "SyntheticSite",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite"
+    },
+    {
+      "displayName": "no id"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "value": [
+    {
+      "hitsContainers": [
+        {
+          "total": -3,
+          "moreResultsAvailable": "yes",
+          "hits": [
+            {
+              "hitId": "m-bad",
+              "resource": {
+                "@odata.type": "#microsoft.graph.message",
+                "subject": "no id"
+              }
+            },
+            {
+              "hitId": "e-bad",
+              "resource": {
+                "@odata.type": "#microsoft.graph.event",
+                "id": "AAMkAD-evt-x=",
+                "subject": "no start"
+              }
+            },
+            {
+              "hitId": "d-bad",
+              "resource": {
+                "@odata.type": "#microsoft.graph.driveItem",
+                "id": 7
+              }
+            },
+            {
+              "hitId": "no-resource"
+            },
+            {
+              "hitId": "ok",
+              "rank": -1,
+              "resource": {
+                "@odata.type": "#microsoft.graph.site",
+                "id": "site-ok"
+              }
+            },
+            "garbage"
+          ]
+        },
+        "not a container",
+        {
+          "hits": null
+        }
+      ]
+    }
+  ]
+}

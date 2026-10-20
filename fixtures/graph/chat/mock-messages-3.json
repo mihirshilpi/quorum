@@ -1,0 +1,52 @@
+{
+  "value": [
+    {
+      "id": "1760660000002",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-15T15:05:00Z",
+      "lastModifiedDateTime": "2026-10-15T15:05:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000107",
+          "displayName": "Sage Exemplar",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Notes from today's sync are in the shared folder.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    },
+    {
+      "id": "1760660000001",
+      "replyToId": null,
+      "messageType": "systemEventMessage",
+      "createdDateTime": "2026-10-15T15:00:00Z",
+      "lastModifiedDateTime": "2026-10-15T15:00:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": null,
+      "body": {
+        "contentType": "html",
+        "content": "<systemEventMessage/>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": []
+    }
+  ]
+}

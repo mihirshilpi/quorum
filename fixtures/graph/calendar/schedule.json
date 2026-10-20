@@ -1,0 +1,61 @@
+{
+  "value": [
+    {
+      "scheduleId": "person01@contoso.example",
+      "availabilityView": "0220",
+      "scheduleItems": [
+        {
+          "isPrivate": false,
+          "status": "busy",
+          "subject": "Synthetic busy",
+          "location": "Room 1",
+          "start": {
+            "dateTime": "2026-10-20T09:30:00.0000000",
+            "timeZone": "UTC"
+          },
+          "end": {
+            "dateTime": "2026-10-20T10:30:00.0000000",
+            "timeZone": "UTC"
+          }
+        },
+        {
+          "status": "weird",
+          "start": "broken"
+        }
+      ],
+      "workingHours": {
+        "daysOfWeek": [
+          "monday"
+        ],
+        "startTime": "08:00:00.0000000",
+        "endTime": "17:00:00.0000000",
+        "timeZone": {
+          "name": "UTC"
+        }
+      }
+    },
+    {
+      "scheduleId": "person02@contoso.example",
+      "availabilityView": "04x9",
+      "scheduleItems": [],
+      "workingHours": {
+        "daysOfWeek": [
+          "monday"
+        ],
+        "startTime": "08:00:00.0000000",
+        "endTime": "17:00:00.0000000",
+        "timeZone": {
+          "name": "UTC"
+        }
+      }
+    },
+    {
+      "scheduleId": "nobody@contoso.example",
+      "availabilityView": "",
+      "error": {
+        "message": "Synthetic: the user nobody@contoso.example was not found",
+        "responseCode": "ErrorMailRecipientNotFound"
+      }
+    }
+  ]
+}

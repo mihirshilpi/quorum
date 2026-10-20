@@ -1,0 +1,12 @@
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.fileAttachment",
+      "id": "mock-att-0001",
+      "name": "synthetic-plan.pdf",
+      "contentType": "application/pdf",
+      "size": 48213,
+      "isInline": false
+    }
+  ]
+}

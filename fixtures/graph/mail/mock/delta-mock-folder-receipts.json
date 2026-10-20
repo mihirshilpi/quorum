@@ -1,0 +1,4 @@
+{
+  "value": [],
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-receipts/messages/delta?$deltatoken=mock-1"
+}

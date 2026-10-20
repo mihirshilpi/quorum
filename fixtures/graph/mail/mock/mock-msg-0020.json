@@ -1,0 +1,59 @@
+{
+  "id": "mock-msg-0020",
+  "conversationId": "mock-conv-0000",
+  "parentFolderId": "mock-folder-archive",
+  "subject": "Q4 team offsite logistics",
+  "from": {
+    "emailAddress": {
+      "name": "Avery Adler",
+      "address": "avery.adler@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Avery Adler",
+      "address": "avery.adler@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Alex Example",
+        "address": "you@example.com"
+      }
+    },
+    {
+      "emailAddress": {
+        "name": "Casey Castillo",
+        "address": "casey.castillo@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [
+    {
+      "emailAddress": {
+        "name": "Blake Brook",
+        "address": "blake.brook@example.com"
+      }
+    }
+  ],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-09T15:20:00Z",
+  "sentDateTime": "2026-10-09T15:20:00Z",
+  "bodyPreview": "Hi Alex, hi Casey, Here's where we've landed for the team offsite on November 5–6 at the Riverside venue (Room B both",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Alex, hi Casey,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Here's where we've landed for the team offsite on <b>November 5&ndash;6</b> at the Riverside venue (Room B both days):<ul><li>Travel: please book by <b>October 20</b> through the travel portal: <a href=\"https://example.com/travel\">https://example.com/travel</a></li><li>Hotel: the room block is held until October 23 (booking code OFFSITE26)</li><li>Dietary requirements: send them to me by October 16</li></ul></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Could you two own the agenda for day 2? A rough draft by Thursday would be great.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Avery</div></body></html>"
+  }
+}

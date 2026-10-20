@@ -1,0 +1,125 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#chats",
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/chats?$skiptoken=chats-page2",
+  "value": [
+    {
+      "id": "19:00000000000000000000000000000001_00000000000000000000000000000002@unq.gbl.spaces",
+      "topic": null,
+      "createdDateTime": "2026-09-01T08:00:00.123Z",
+      "lastUpdatedDateTime": "2026-10-16T10:15:00.1234567Z",
+      "chatType": "oneOnOne",
+      "webUrl": "https://teams.example.com/l/chat/1",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1",
+      "viewpoint": {
+        "isHidden": false,
+        "lastMessageReadDateTime": "2026-10-16T09:00:00Z"
+      },
+      "members": [
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bWVtYmVyLTE=",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Test User",
+          "visibleHistoryStartDateTime": "0001-01-01T00:00:00Z",
+          "userId": "00000000-0000-0000-0000-000000000011",
+          "email": "test.user@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bWVtYmVyLTI=",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Alex Sample",
+          "visibleHistoryStartDateTime": "0001-01-01T00:00:00Z",
+          "userId": "00000000-0000-0000-0000-000000000012",
+          "email": "alex.sample@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        }
+      ],
+      "lastMessagePreview": {
+        "id": "1760000000002",
+        "createdDateTime": "2026-10-16T10:15:00Z",
+        "isDeleted": false,
+        "messageType": "message",
+        "eventDetail": null,
+        "body": {
+          "contentType": "html",
+          "content": "<p>See you at <b>10</b> &amp; bring   snacks</p>"
+        },
+        "from": {
+          "user": {
+            "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+            "id": "00000000-0000-0000-0000-000000000012",
+            "displayName": "Alex Sample",
+            "userIdentityType": "aadUser",
+            "tenantId": "00000000-0000-0000-0000-0000000000f1"
+          },
+          "application": null,
+          "device": null
+        }
+      }
+    },
+    {
+      "id": "19:synthetic-group-0001@thread.v2",
+      "topic": "Synthetic project group",
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "lastUpdatedDateTime": "2026-10-15T12:00:00Z",
+      "chatType": "group",
+      "webUrl": "https://teams.example.com/l/chat/2",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1",
+      "viewpoint": {
+        "isHidden": true,
+        "lastMessageReadDateTime": "2026-10-15T12:30:00Z"
+      },
+      "members": [
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bWVtYmVyLTM=",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Test User",
+          "visibleHistoryStartDateTime": "0001-01-01T00:00:00Z",
+          "userId": "00000000-0000-0000-0000-000000000011",
+          "email": "test.user@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bWVtYmVyLTQ=",
+          "roles": [
+            "guest"
+          ],
+          "displayName": "Guest Person",
+          "visibleHistoryStartDateTime": "0001-01-01T00:00:00Z",
+          "userId": "00000000-0000-0000-0000-000000000013",
+          "email": "not-an-address",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        }
+      ],
+      "lastMessagePreview": {
+        "id": "1760000000100",
+        "createdDateTime": "2026-10-15T12:00:00Z",
+        "isDeleted": false,
+        "messageType": "message",
+        "body": {
+          "contentType": "text",
+          "content": "plain preview"
+        },
+        "from": {
+          "application": {
+            "id": "00000000-0000-0000-0000-0000000000a1",
+            "displayName": "Synthetic Bot",
+            "applicationIdentityType": "bot"
+          },
+          "user": null,
+          "device": null
+        }
+      }
+    }
+  ]
+}

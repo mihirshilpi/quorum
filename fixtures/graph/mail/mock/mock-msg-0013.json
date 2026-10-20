@@ -1,0 +1,58 @@
+{
+  "id": "mock-msg-0013",
+  "conversationId": "mock-conv-0002",
+  "parentFolderId": "mock-folder-inbox",
+  "subject": "RE: Release 2.4 go/no-go",
+  "from": {
+    "emailAddress": {
+      "name": "Jordan Ito",
+      "address": "jordan.ito@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Jordan Ito",
+      "address": "jordan.ito@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Emery Ellis",
+        "address": "emery.ellis@example.com"
+      }
+    },
+    {
+      "emailAddress": {
+        "name": "Alex Example",
+        "address": "you@example.com"
+      }
+    },
+    {
+      "emailAddress": {
+        "name": "Devon Dahl",
+        "address": "devon.dahl@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-13T13:25:00Z",
+  "sentDateTime": "2026-10-13T13:25:00Z",
+  "bodyPreview": "The regression suite finished on staging: 1,284 passed, 3 failed. The three failures: Two are the known REL-219 problem",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The regression suite finished on staging: <b>1,284 passed, 3 failed</b>.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The three failures:<ul><li>Two are the known REL-219 problem (large PDF preview).</li><li>One is a flaky timing test in calendar sync; it passed on re-run.</li></ul></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">So QA is green apart from REL-219.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Jordan</div><div id=\"appendonsend\"></div><hr style=\"display:inline-block;width:98%\" tabindex=\"-1\"><div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" style=\"font-size:11pt\" color=\"#000000\"><b>From:</b> Emery Ellis &lt;emery.ellis@example.com&gt;<br><b>Sent:</b> Monday, October 12, 2026 8:00 AM<br><b>To:</b> Alex Example &lt;you@example.com&gt;; Devon Dahl &lt;devon.dahl@example.com&gt;; Jordan Ito &lt;jordan.ito@example.com&gt;<br><b>Subject:</b> Release 2.4 go/no-go</font><div>&nbsp;</div></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi all,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Release 2.4 is scheduled to ship on <b>Monday, October 19</b>. Go/no-go is this Friday at 15:00. Current blockers:<table style=\"border-collapse:collapse;font-family:Calibri, Helvetica, sans-serif;font-size:11pt\"><thead><tr><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Issue</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Owner</th><th style=\"border:1px solid #ccc;padding:3px 6px\" align=\"left\">Status</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">REL-212 Sync stalls after sleep/wake</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Devon</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Fix in review</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">REL-219 Attachment preview fails on large PDFs</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Devon</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Open</td></tr><tr><td style=\"border:1px solid #ccc;padding:3px 6px\">REL-224 Regression suite on staging</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Jordan</td><td style=\"border:1px solid #ccc;padding:3px 6px\">Running</td></tr></tbody></table></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Please keep this thread updated as things change. Release checklist: <a href=\"https://example.com/releases/2.4/checklist\">https://example.com/releases/2.4/checklist</a></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Emery</div></body></html>"
+  }
+}

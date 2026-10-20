@@ -1,0 +1,42 @@
+{
+  "value": [
+    {
+      "id": "perm-link-1",
+      "roles": [
+        "read"
+      ],
+      "link": {
+        "type": "view",
+        "scope": "anonymous",
+        "webUrl": "https://contoso-my.sharepoint.com/:w:/g/personal/test/SECRETTOKEN"
+      },
+      "expirationDateTime": "2026-11-01T00:00:00Z"
+    },
+    {
+      "id": "perm-user-1",
+      "roles": [
+        "write"
+      ],
+      "grantedToV2": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "inheritedFrom": {
+        "driveId": "b!synthetic-drive-0001",
+        "id": "01SYNTHETICROOT00000000000000000"
+      }
+    },
+    {
+      "roles": [
+        "owner"
+      ]
+    }
+  ]
+}

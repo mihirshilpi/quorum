@@ -1,0 +1,55 @@
+{
+  "id": "mock-msg-0004",
+  "conversationId": "mock-conv-0005",
+  "parentFolderId": "mock-folder-inbox",
+  "subject": "Security review findings: file upload service",
+  "from": {
+    "emailAddress": {
+      "name": "Emery Ellis",
+      "address": "emery.ellis@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Emery Ellis",
+      "address": "emery.ellis@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Alex Example",
+        "address": "you@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [
+    {
+      "emailAddress": {
+        "name": "Devon Dahl",
+        "address": "devon.dahl@example.com"
+      }
+    }
+  ],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-15T13:30:00Z",
+  "sentDateTime": "2026-10-15T13:30:00Z",
+  "bodyPreview": "Hi Alex, The security review of the file upload service is complete. Summary: High: uploaded file names are not",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [
+    "Blue category"
+  ],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Alex,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The security review of the file upload service is complete. Summary:<ul><li><b>High</b>: uploaded file names are not normalised before they are written to the log</li><li><b>Medium</b>: upload tokens stay valid for 24 hours; recommend 1 hour</li><li><b>Low</b>: error responses include the internal service version</li></ul></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Full report: <a href=\"https://example.com/security/reviews/file-upload\">https://example.com/security/reviews/file-upload</a>. We'd like a plan for the high finding by October 23.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Emery</div></body></html>"
+  }
+}

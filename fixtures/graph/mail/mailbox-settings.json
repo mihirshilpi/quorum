@@ -1,0 +1,36 @@
+{
+  "automaticRepliesSetting": {
+    "status": "scheduled",
+    "externalAudience": "contactsOnly",
+    "scheduledStartDateTime": {
+      "dateTime": "2026-10-24T17:00:00.0000000",
+      "timeZone": "UTC"
+    },
+    "scheduledEndDateTime": {
+      "dateTime": "2026-11-02T08:00:00.0000000",
+      "timeZone": "UTC"
+    },
+    "internalReplyMessage": "<p>Synthetic away message</p>",
+    "externalReplyMessage": ""
+  },
+  "timeZone": "W. Europe Standard Time",
+  "workingHours": {
+    "daysOfWeek": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+    ],
+    "startTime": "08:00:00.0000000",
+    "endTime": "17:00:00.0000000",
+    "timeZone": {
+      "name": "W. Europe Standard Time"
+    }
+  },
+  "dateFormat": "dd/MM/yyyy",
+  "timeFormat": "HH:mm",
+  "language": {
+    "locale": "en-GB"
+  }
+}

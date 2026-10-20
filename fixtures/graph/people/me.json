@@ -1,0 +1,11 @@
+{
+  "id": "00000000-0000-0000-0000-000000000001",
+  "displayName": "Test User",
+  "mail": "test.user@contoso.example",
+  "userPrincipalName": "user01@contoso.example",
+  "jobTitle": null,
+  "department": "Synthetic R&D",
+  "officeLocation": "Building 1",
+  "businessPhones": [],
+  "mobilePhone": "+1 555 0101"
+}

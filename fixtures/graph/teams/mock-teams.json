@@ -1,0 +1,18 @@
+{
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-00000000f001",
+      "displayName": "Product",
+      "description": "Product planning and launches",
+      "isArchived": false,
+      "webUrl": "https://teams.example.com/l/team/0"
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000f002",
+      "displayName": "Engineering",
+      "description": "Builds, reviews and on-call",
+      "isArchived": false,
+      "webUrl": "https://teams.example.com/l/team/1"
+    }
+  ]
+}

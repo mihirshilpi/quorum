@@ -1,0 +1,5 @@
+{ "@odata.count": 2, "value": [
+    { "@odata.type": "#microsoft.graph.user", "id": "00000000-0000-0000-0000-000000000105", "displayName": "Casey Mockwell", "mail": "casey.mockwell@contoso.example", "userPrincipalName": "casey.mockwell@contoso.example", "jobTitle": "Product Manager", "department": "Synthetic Product", "officeLocation": "Building 1", "businessPhones": ["+1 555 0105"], "mobilePhone": null }
+,
+    { "@odata.type": "#microsoft.graph.user", "id": "00000000-0000-0000-0000-000000000109", "displayName": "Casey Directory", "mail": "casey.directory@contoso.example", "userPrincipalName": "casey.directory@contoso.example", "jobTitle": "Support Engineer", "department": "Synthetic Support", "officeLocation": "Building 1", "businessPhones": ["+1 555 0109"], "mobilePhone": null }
+]}

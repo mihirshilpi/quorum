@@ -1,0 +1,91 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-msg-0001=",
+      "conversationId": "AAQkAD-conv-0001=",
+      "parentFolderId": "AAMkAD-folder-inbox=",
+      "subject": "Synthetic subject 1",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-19T09:00:00Z",
+      "sentDateTime": "2026-10-19T08:59:58Z",
+      "bodyPreview": "Synthetic preview text.",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "HIGH",
+      "flag": {
+        "flagStatus": "flagged"
+      },
+      "categories": [
+        "Blue category"
+      ],
+      "hasAttachments": true,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "AAMkAD-msg-0002=",
+      "conversationId": "AAQkAD-conv-0000=",
+      "parentFolderId": "AAMkAD-folder-inbox=",
+      "subject": "Synthetic subject 2",
+      "from": {
+        "emailAddress": {
+          "name": "Avery Example",
+          "address": "avery@contoso.example"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Legacy",
+          "address": "/o=ExchangeLabs/ou=Exchange Administrative Group/cn=synthetic"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Test User",
+            "address": "test.user@contoso.example"
+          }
+        }
+      ],
+      "ccRecipients": null,
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-18T09:00:00Z",
+      "sentDateTime": "2026-10-18T08:59:58Z",
+      "bodyPreview": "Synthetic preview text.",
+      "isRead": false,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "other",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messages?$skiptoken=inbox-page2"
+}

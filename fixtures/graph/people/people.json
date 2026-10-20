@@ -1,0 +1,40 @@
+{
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-000000000009",
+      "displayName": "Ranked Person",
+      "scoredEmailAddresses": [
+        {
+          "address": "ranked@contoso.example",
+          "relevanceScore": 30.0
+        }
+      ],
+      "jobTitle": "Synthetic PM",
+      "department": "",
+      "officeLocation": null,
+      "phones": [
+        {
+          "type": "business",
+          "number": "+1 555 0109"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "displayName": "Outside person",
+      "scoredEmailAddresses": [
+        {
+          "address": "bad"
+        },
+        {
+          "address": "outside@example.com"
+        }
+      ]
+    },
+    {
+      "displayName": "No addresses",
+      "scoredEmailAddresses": null,
+      "phones": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "value": [
+    {
+      "id": "0",
+      "small": {
+        "height": 96,
+        "width": 72,
+        "url": "https://contoso-my.sharepoint.com/thumb/small?token=SECRET"
+      },
+      "medium": {
+        "url": "http://insecure.example.com/x"
+      },
+      "large": null
+    }
+  ]
+}

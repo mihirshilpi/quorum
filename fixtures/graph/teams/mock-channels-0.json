@@ -1,0 +1,28 @@
+{
+  "value": [
+    {
+      "id": "19:mock-product-general@thread.tacv2",
+      "displayName": "General",
+      "description": null,
+      "membershipType": "standard",
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "webUrl": "https://teams.example.com/l/channel/00"
+    },
+    {
+      "id": "19:mock-product-launch@thread.tacv2",
+      "displayName": "Launch",
+      "description": null,
+      "membershipType": "standard",
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "webUrl": "https://teams.example.com/l/channel/01"
+    },
+    {
+      "id": "19:mock-product-design@thread.tacv2",
+      "displayName": "Design reviews",
+      "description": null,
+      "membershipType": "private",
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "webUrl": "https://teams.example.com/l/channel/02"
+    }
+  ]
+}

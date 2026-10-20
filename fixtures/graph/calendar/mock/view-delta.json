@@ -1,0 +1,1049 @@
+{
+ "value": [
+  {
+   "id": "mock-evt-standup-5",
+   "subject": "Team standup",
+   "start": {
+    "dateTime": "2026-10-05T08:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-05T08:15:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Avery Example",
+      "address": "avery@contoso.example"
+     }
+    },
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Kai Novak",
+      "address": "kai.novak@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "occurrence",
+   "seriesMasterId": "mock-evt-standup",
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-standup-5"
+   },
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-standup-5"
+  },
+  {
+   "id": "mock-evt-standup-12",
+   "subject": "Team standup",
+   "start": {
+    "dateTime": "2026-10-12T08:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-12T08:15:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Avery Example",
+      "address": "avery@contoso.example"
+     }
+    },
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Kai Novak",
+      "address": "kai.novak@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "occurrence",
+   "seriesMasterId": "mock-evt-standup",
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-standup-12"
+   },
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-standup-12"
+  },
+  {
+   "id": "mock-evt-standup-19",
+   "subject": "Team standup",
+   "start": {
+    "dateTime": "2026-10-19T08:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-19T08:15:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Avery Example",
+      "address": "avery@contoso.example"
+     }
+    },
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Kai Novak",
+      "address": "kai.novak@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "occurrence",
+   "seriesMasterId": "mock-evt-standup",
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-standup-19"
+   },
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-standup-19"
+  },
+  {
+   "id": "mock-evt-standup-26",
+   "subject": "Team standup",
+   "start": {
+    "dateTime": "2026-10-26T08:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-26T08:15:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Avery Example",
+      "address": "avery@contoso.example"
+     }
+    },
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Kai Novak",
+      "address": "kai.novak@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "occurrence",
+   "seriesMasterId": "mock-evt-standup",
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-standup-26"
+   },
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-standup-26"
+  },
+  {
+   "id": "mock-evt-standup",
+   "subject": "Team standup",
+   "start": {
+    "dateTime": "2026-10-05T08:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-05T08:15:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Avery Example",
+      "address": "avery@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "seriesMaster",
+   "seriesMasterId": null,
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-standup"
+   },
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-standup",
+   "recurrence": {
+    "pattern": {
+     "type": "weekly",
+     "interval": 1,
+     "daysOfWeek": [
+      "monday"
+     ],
+     "firstDayOfWeek": "monday"
+    },
+    "range": {
+     "type": "noEnd",
+     "startDate": "2026-10-05",
+     "endDate": "0001-01-01",
+     "numberOfOccurrences": 0
+    }
+   }
+  },
+  {
+   "id": "mock-evt-plan",
+   "subject": "Quarterly planning",
+   "start": {
+    "dateTime": "2026-10-13T09:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-13T10:30:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": "Room Synthetic 1"
+   },
+   "locations": [
+    {
+     "displayName": "Room Synthetic 1"
+    }
+   ],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Avery Example",
+      "address": "avery@contoso.example"
+     }
+    },
+    {
+     "type": "required",
+     "status": {
+      "response": "tentativelyAccepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Kai Novak",
+      "address": "kai.novak@contoso.example"
+     }
+    },
+    {
+     "type": "required",
+     "status": {
+      "response": "none",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Sage Moreau",
+      "address": "sage.moreau@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-plan"
+  },
+  {
+   "id": "mock-evt-review",
+   "subject": "Design review",
+   "start": {
+    "dateTime": "2026-10-13T09:30:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-13T10:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Avery Example",
+     "address": "avery@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Test User",
+      "address": "test.user@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-review"
+   },
+   "responseStatus": {
+    "response": "accepted",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": false,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-review"
+  },
+  {
+   "id": "mock-evt-1on1",
+   "subject": "1:1 with Avery",
+   "start": {
+    "dateTime": "2026-10-14T13:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-14T13:30:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Avery Example",
+     "address": "avery@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Test User",
+      "address": "test.user@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "accepted",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": false,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-1on1"
+  },
+  {
+   "id": "mock-evt-invite",
+   "subject": "Roadmap sync",
+   "start": {
+    "dateTime": "2026-10-15T10:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-15T11:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Kai Novak",
+     "address": "kai.novak@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "none",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Test User",
+      "address": "test.user@contoso.example"
+     }
+    },
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Avery Example",
+      "address": "avery@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-invite"
+   },
+   "responseStatus": {
+    "response": "notResponded",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Let's walk through the roadmap together.",
+   "isCancelled": false,
+   "isOrganizer": false,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-invite"
+  },
+  {
+   "id": "mock-evt-lunch",
+   "subject": "Team lunch",
+   "start": {
+    "dateTime": "2026-10-16T11:30:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-16T12:30:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": "Cafe"
+   },
+   "locations": [
+    {
+     "displayName": "Cafe"
+    }
+   ],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [],
+   "showAs": "free",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-lunch"
+  },
+  {
+   "id": "mock-evt-offsite",
+   "subject": "Offsite",
+   "start": {
+    "dateTime": "2026-10-19T00:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-21T00:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": true,
+   "location": {
+    "displayName": "Synthetic Lodge"
+   },
+   "locations": [
+    {
+     "displayName": "Synthetic Lodge"
+    }
+   ],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [],
+   "showAs": "oof",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-offsite"
+  },
+  {
+   "id": "mock-evt-focus",
+   "subject": "Focus time",
+   "start": {
+    "dateTime": "2026-10-17T08:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-17T10:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "private",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-focus"
+  },
+  {
+   "id": "mock-evt-retro",
+   "subject": "Launch retro",
+   "start": {
+    "dateTime": "2026-10-17T09:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-17T10:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Sage Moreau",
+     "address": "sage.moreau@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "none",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Test User",
+      "address": "test.user@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-retro"
+   },
+   "responseStatus": {
+    "response": "notResponded",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": false,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-retro"
+  },
+  {
+   "id": "mock-evt-hiring",
+   "subject": "Hiring loop",
+   "start": {
+    "dateTime": "2026-10-17T13:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-17T14:30:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": "Room Synthetic 2"
+   },
+   "locations": [
+    {
+     "displayName": "Room Synthetic 2"
+    }
+   ],
+   "organizer": {
+    "emailAddress": {
+     "name": "Riley Ito",
+     "address": "riley.ito@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "tentativelyAccepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Test User",
+      "address": "test.user@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "tentativelyAccepted",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": false,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-hiring"
+  },
+  {
+   "id": "mock-evt-security",
+   "subject": "Security review",
+   "start": {
+    "dateTime": "2026-10-18T14:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-18T15:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Kai Novak",
+      "address": "kai.novak@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-security"
+  },
+  {
+   "id": "mock-evt-vendor",
+   "subject": "Vendor contract",
+   "start": {
+    "dateTime": "2026-10-22T15:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-22T16:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Avery Example",
+     "address": "avery@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "none",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Test User",
+      "address": "test.user@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "notResponded",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": false,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-vendor"
+  },
+  {
+   "id": "mock-evt-late",
+   "subject": "Release night",
+   "start": {
+    "dateTime": "2026-10-23T20:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-24T01:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": true,
+   "onlineMeetingProvider": "teamsForBusiness",
+   "onlineMeeting": {
+    "joinUrl": "https://teams.microsoft.com/l/meetup-join/synthetic-mock-evt-late"
+   },
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-late"
+  },
+  {
+   "id": "mock-evt-status",
+   "subject": "Weekly status",
+   "start": {
+    "dateTime": "2026-10-23T09:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-23T09:30:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": false,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Avery Example",
+      "address": "avery@contoso.example"
+     }
+    },
+    {
+     "type": "required",
+     "status": {
+      "response": "accepted",
+      "time": "2026-10-10T10:00:00Z"
+     },
+     "emailAddress": {
+      "name": "Kai Novak",
+      "address": "kai.novak@contoso.example"
+     }
+    }
+   ],
+   "showAs": "busy",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-status"
+  }
+ ],
+ "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/calendarView/delta?$deltatoken=mock-cal-1"
+}

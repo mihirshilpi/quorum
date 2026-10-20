@@ -1,0 +1,20 @@
+{
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-0000000000d1",
+      "displayName": "Synthetic Tasks",
+      "list": {
+        "template": "genericList",
+        "hidden": false
+      },
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Lists/Tasks"
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2",
+      "displayName": "Documents",
+      "list": {
+        "template": "documentLibrary"
+      }
+    }
+  ]
+}

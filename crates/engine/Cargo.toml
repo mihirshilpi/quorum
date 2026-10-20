@@ -1,0 +1,31 @@
+[package]
+name = "quorum-engine"
+description = "Quorum session and command registry: every user-visible action is a command."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+quorum-model.workspace = true
+quorum-sanitize.workspace = true
+quorum-store.workspace = true
+quorum-sync.workspace = true
+quorum-graph = { workspace = true, features = ["test-util"] }
+quorum-auth.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+tokio.workspace = true
+futures.workspace = true
+jiff.workspace = true
+base64.workspace = true
+quorum-ipc.workspace = true
+
+[lints]
+workspace = true
+
+[dev-dependencies]
+tokio.workspace = true

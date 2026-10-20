@@ -1,0 +1,41 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-cal-own=",
+      "name": "Calendar",
+      "color": "auto",
+      "hexColor": "",
+      "isDefaultCalendar": true,
+      "canShare": true,
+      "canEdit": true,
+      "owner": {
+        "name": "Test User",
+        "address": "test.user@contoso.example"
+      }
+    },
+    {
+      "id": "AAMkAD-cal-shared=",
+      "name": "Avery's calendar",
+      "color": "lightGreen",
+      "hexColor": "#87d28e",
+      "isDefaultCalendar": false,
+      "canShare": false,
+      "canEdit": false,
+      "owner": {
+        "name": "Avery Example",
+        "address": "avery@contoso.example"
+      }
+    },
+    {
+      "id": "AAMkAD-cal-future=",
+      "name": "Future colour",
+      "color": "neonPurple",
+      "canShare": null,
+      "canEdit": null,
+      "owner": null
+    },
+    {
+      "name": "no id"
+    }
+  ]
+}

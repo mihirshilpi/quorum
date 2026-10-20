@@ -1,0 +1,46 @@
+{
+  "id": "mock-msg-0012",
+  "conversationId": "mock-conv-0008",
+  "parentFolderId": "mock-folder-inbox",
+  "subject": "Out of office October 19-23",
+  "from": {
+    "emailAddress": {
+      "name": "Jordan Ito",
+      "address": "jordan.ito@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Jordan Ito",
+      "address": "jordan.ito@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Platform Team",
+        "address": "platform-team@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-16T17:05:00Z",
+  "sentDateTime": "2026-10-16T17:05:00Z",
+  "bodyPreview": "Hi all, I'm out of office from Monday, October 19 to Friday, October 23, with limited access to email. For anything",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "other",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi all,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">I'm out of office from Monday, October 19 to Friday, October 23, with limited access to email. For anything QA-related during the 2.4 rollout, please contact Emery.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Jordan</div></body></html>"
+  }
+}

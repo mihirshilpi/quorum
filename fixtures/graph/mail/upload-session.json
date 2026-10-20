@@ -1,0 +1,7 @@
+{
+  "uploadUrl": "https://outlook.office.com/api/v2.0/Users('00000000-0000-0000-0000-000000000001')/Messages('AAMkAD-msg-0001=')/AttachmentSessions('synthetic')?authtoken=synthetic-token",
+  "expirationDateTime": "2026-10-20T10:00:00Z",
+  "nextExpectedRanges": [
+    "0-"
+  ]
+}

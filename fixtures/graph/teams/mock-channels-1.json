@@ -1,0 +1,20 @@
+{
+  "value": [
+    {
+      "id": "19:mock-eng-general@thread.tacv2",
+      "displayName": "General",
+      "description": null,
+      "membershipType": "standard",
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "webUrl": "https://teams.example.com/l/channel/10"
+    },
+    {
+      "id": "19:mock-eng-builds@thread.tacv2",
+      "displayName": "Builds",
+      "description": null,
+      "membershipType": "standard",
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "webUrl": "https://teams.example.com/l/channel/11"
+    }
+  ]
+}

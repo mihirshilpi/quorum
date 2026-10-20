@@ -1,0 +1,45 @@
+{
+ "value": [
+  {
+   "id": "mock-evt-bday",
+   "subject": "Sage's birthday",
+   "start": {
+    "dateTime": "2026-10-15T00:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "end": {
+    "dateTime": "2026-10-16T00:00:00.0000000",
+    "timeZone": "UTC"
+   },
+   "isAllDay": true,
+   "location": {
+    "displayName": ""
+   },
+   "locations": [],
+   "organizer": {
+    "emailAddress": {
+     "name": "Test User",
+     "address": "test.user@contoso.example"
+    }
+   },
+   "attendees": [],
+   "showAs": "free",
+   "type": "singleInstance",
+   "seriesMasterId": null,
+   "isOnlineMeeting": false,
+   "onlineMeetingProvider": "unknown",
+   "onlineMeeting": null,
+   "responseStatus": {
+    "response": "organizer",
+    "time": "2026-10-10T10:00:00Z"
+   },
+   "sensitivity": "normal",
+   "bodyPreview": "Synthetic agenda.",
+   "isCancelled": false,
+   "isOrganizer": true,
+   "isReminderOn": true,
+   "reminderMinutesBeforeStart": 15,
+   "webLink": "https://outlook.office.example/calendar/item/mock-evt-bday"
+  }
+ ]
+}

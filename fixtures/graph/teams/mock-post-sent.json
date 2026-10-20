@@ -1,0 +1,29 @@
+{
+  "id": "1760700000998",
+  "replyToId": null,
+  "messageType": "message",
+  "createdDateTime": "2026-10-17T10:00:00Z",
+  "lastModifiedDateTime": "2026-10-17T10:00:00Z",
+  "lastEditedDateTime": null,
+  "deletedDateTime": null,
+  "subject": null,
+  "importance": "normal",
+  "from": {
+    "user": {
+      "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "displayName": "Test User",
+      "userIdentityType": "aadUser",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1"
+    },
+    "application": null,
+    "device": null
+  },
+  "body": {
+    "contentType": "html",
+    "content": "<p>Posted from Quorum (mock)</p>"
+  },
+  "attachments": [],
+  "mentions": [],
+  "reactions": []
+}

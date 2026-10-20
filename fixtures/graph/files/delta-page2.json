@@ -1,0 +1,11 @@
+{
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/drives/b!synthetic-drive-0001/root/delta?token=files-token-final",
+  "value": [
+    {
+      "id": "01SYNTHETICITEM00000000000000008",
+      "@removed": {
+        "reason": "deleted"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "@odata.type": "#microsoft.graph.fileAttachment",
+  "id": "AAMkAD-att-0007=",
+  "name": "image001.png",
+  "contentType": "image/png",
+  "size": 4,
+  "isInline": true,
+  "contentId": "image001.png@01D00000.00000000",
+  "contentBytes": "iVBORw=="
+}

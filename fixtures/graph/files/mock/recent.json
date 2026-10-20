@@ -1,0 +1,206 @@
+{
+  "value": [
+    {
+      "id": "recent-0",
+      "name": "Q4 plan.docx",
+      "lastModifiedDateTime": "2026-10-17T08:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKITEM0000000000000000000005",
+        "name": "Q4 plan.docx",
+        "size": 81920,
+        "createdDateTime": "2026-09-17T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-17T08:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Q4%20plan.docx",
+        "cTag": "\"c:{01MOCKITEM0000000000000000000005},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0001",
+          "driveType": "business",
+          "id": "01MOCKFOLDER00000000000000000001"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000012",
+            "displayName": "Alex Sample"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        "shared": {
+          "scope": "users"
+        }
+      }
+    },
+    {
+      "id": "recent-1",
+      "name": "Welcome.docx",
+      "lastModifiedDateTime": "2026-10-16T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKITEM0000000000000000000001",
+        "name": "Welcome.docx",
+        "size": 24576,
+        "createdDateTime": "2026-09-16T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-16T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Welcome.docx",
+        "cTag": "\"c:{01MOCKITEM0000000000000000000001},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0001",
+          "driveType": "business",
+          "id": "01MOCKROOT0000000000000000000000"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000012",
+            "displayName": "Alex Sample"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        "shared": {
+          "scope": "users"
+        }
+      }
+    },
+    {
+      "id": "recent-2",
+      "name": "Budget 2027.xlsx",
+      "lastModifiedDateTime": "2026-10-16T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKITEM0000000000000000000006",
+        "name": "Budget 2027.xlsx",
+        "size": 220000,
+        "createdDateTime": "2026-09-16T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-16T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Budget%202027.xlsx",
+        "cTag": "\"c:{01MOCKITEM0000000000000000000006},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0001",
+          "driveType": "business",
+          "id": "01MOCKFOLDER00000000000000000001"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000013",
+            "displayName": "Robin Example"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      }
+    },
+    {
+      "id": "recent-3",
+      "name": "Board deck.pptx",
+      "lastModifiedDateTime": "2026-10-15T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKITEM0000000000000000000007",
+        "name": "Board deck.pptx",
+        "size": 3400000,
+        "createdDateTime": "2026-09-15T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-15T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Board%20deck.pptx",
+        "cTag": "\"c:{01MOCKITEM0000000000000000000007},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0001",
+          "driveType": "business",
+          "id": "01MOCKFOLDER00000000000000000001"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000011",
+            "displayName": "Test User"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        }
+      }
+    },
+    {
+      "id": "recent-4",
+      "name": "Roadmap.xlsx",
+      "lastModifiedDateTime": "2026-10-14T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKITEM0000000000000000000011",
+        "name": "Roadmap.xlsx",
+        "size": 300000,
+        "createdDateTime": "2026-09-14T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-14T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Roadmap.xlsx",
+        "cTag": "\"c:{01MOCKITEM0000000000000000000011},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0001",
+          "driveType": "business",
+          "id": "01MOCKFOLDER00000000000000000005"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000012",
+            "displayName": "Alex Sample"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      }
+    },
+    {
+      "id": "recent-5",
+      "name": "Spec.docx",
+      "lastModifiedDateTime": "2026-10-13T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKITEM0000000000000000000014",
+        "name": "Spec.docx",
+        "size": 150000,
+        "createdDateTime": "2026-09-13T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-13T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Spec.docx",
+        "cTag": "\"c:{01MOCKITEM0000000000000000000014},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0001",
+          "driveType": "business",
+          "id": "01MOCKFOLDER00000000000000000006"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000011",
+            "displayName": "Test User"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      }
+    },
+    {
+      "id": "recent-6",
+      "name": "Expenses.xlsx",
+      "lastModifiedDateTime": "2026-10-12T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKITEM0000000000000000000003",
+        "name": "Expenses.xlsx",
+        "size": 58000,
+        "createdDateTime": "2026-09-12T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-12T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/test/Documents/Expenses.xlsx",
+        "cTag": "\"c:{01MOCKITEM0000000000000000000003},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0001",
+          "driveType": "business",
+          "id": "01MOCKROOT0000000000000000000000"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000013",
+            "displayName": "Robin Example"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      }
+    }
+  ]
+}

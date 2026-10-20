@@ -1,0 +1,46 @@
+{
+  "id": "mock-msg-0009",
+  "conversationId": "mock-conv-0006",
+  "parentFolderId": "mock-folder-inbox",
+  "subject": "Team lunch on Friday",
+  "from": {
+    "emailAddress": {
+      "name": "Avery Adler",
+      "address": "avery.adler@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Avery Adler",
+      "address": "avery.adler@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Platform Team",
+        "address": "platform-team@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-14T12:00:00Z",
+  "sentDateTime": "2026-10-14T12:00:00Z",
+  "bodyPreview": "Hi team, Lunch is on us this Friday at 12:30 in the fourth-floor kitchen to celebrate getting 2.4 out the door. Menu",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "other",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi team,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Lunch is on us this Friday at 12:30 in the fourth-floor kitchen to celebrate getting 2.4 out the door. Menu below; reply by Thursday noon if you have dietary requirements.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\"><img src=\"https://images.example.com/lunch-menu.png\" alt=\"Lunch menu\" width=\"480\" height=\"240\"></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Avery</div></body></html>"
+  }
+}

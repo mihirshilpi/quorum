@@ -1,0 +1,128 @@
+{
+  "value": [
+    {
+      "id": "shared-0",
+      "name": "Launch checklist.xlsx",
+      "lastModifiedDateTime": "2026-10-16T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKSHARED00000000000000000001",
+        "name": "Launch checklist.xlsx",
+        "size": 72000,
+        "createdDateTime": "2026-09-16T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-16T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/alex/Documents/Launch%20checklist.xlsx",
+        "cTag": "\"c:{01MOCKSHARED00000000000000000001},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0002",
+          "driveType": "business",
+          "id": "01MOCKSHAREDPARENT0000000000001"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000012",
+            "displayName": "Alex Sample"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        "shared": {
+          "scope": "users"
+        }
+      }
+    },
+    {
+      "id": "shared-1",
+      "name": "Design review.pptx",
+      "lastModifiedDateTime": "2026-10-14T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKSHARED00000000000000000002",
+        "name": "Design review.pptx",
+        "size": 6200000,
+        "createdDateTime": "2026-09-14T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-14T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/alex/Documents/Design%20review.pptx",
+        "cTag": "\"c:{01MOCKSHARED00000000000000000002},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0002",
+          "driveType": "business",
+          "id": "01MOCKSHAREDPARENT0000000000001"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000012",
+            "displayName": "Alex Sample"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        },
+        "shared": {
+          "scope": "users"
+        }
+      }
+    },
+    {
+      "id": "shared-2",
+      "name": "Interview notes.docx",
+      "lastModifiedDateTime": "2026-10-09T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKSHARED00000000000000000003",
+        "name": "Interview notes.docx",
+        "size": 38000,
+        "createdDateTime": "2026-09-09T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-09T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/alex/Documents/Interview%20notes.docx",
+        "cTag": "\"c:{01MOCKSHARED00000000000000000003},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0002",
+          "driveType": "business",
+          "id": "01MOCKSHAREDPARENT0000000000001"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000013",
+            "displayName": "Robin Example"
+          }
+        },
+        "file": {
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        "shared": {
+          "scope": "users"
+        }
+      }
+    },
+    {
+      "id": "shared-3",
+      "name": "Shared assets",
+      "lastModifiedDateTime": "2026-10-05T09:15:00Z",
+      "remoteItem": {
+        "id": "01MOCKSHARED00000000000000000004",
+        "name": "Shared assets",
+        "size": 88000000,
+        "createdDateTime": "2026-09-05T08:00:00Z",
+        "lastModifiedDateTime": "2026-10-05T09:15:00Z",
+        "webUrl": "https://contoso-my.sharepoint.com/personal/alex/Documents/Shared%20assets",
+        "cTag": "\"c:{01MOCKSHARED00000000000000000004},1\"",
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0002",
+          "driveType": "business",
+          "id": "01MOCKSHAREDPARENT0000000000001"
+        },
+        "lastModifiedBy": {
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000014",
+            "displayName": "Skyler Placeholder"
+          }
+        },
+        "folder": {
+          "childCount": 12
+        },
+        "shared": {
+          "scope": "users"
+        }
+      }
+    }
+  ]
+}

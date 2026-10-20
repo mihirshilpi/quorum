@@ -1,0 +1,13 @@
+{ "value": [
+    { "id": "00000000-0000-0000-0000-000000000101", "displayName": "Morgan Sample", "scoredEmailAddresses": [{ "address": "morgan.sample@contoso.example", "relevanceScore": 40 }], "jobTitle": "Engineering Manager", "department": "Synthetic R&D", "officeLocation": "Building 1", "phones": [{ "type": "business", "number": "+1 555 0101" }] }
+,
+    { "id": "00000000-0000-0000-0000-000000000103", "displayName": "Riley Placeholder", "scoredEmailAddresses": [{ "address": "riley.placeholder@contoso.example", "relevanceScore": 35 }], "jobTitle": "Software Engineer", "department": "Synthetic R&D", "officeLocation": "Building 1", "phones": [{ "type": "business", "number": "+1 555 0103" }] }
+,
+    { "id": "00000000-0000-0000-0000-000000000104", "displayName": "Jordan Fixture", "scoredEmailAddresses": [{ "address": "jordan.fixture@contoso.example", "relevanceScore": 30 }], "jobTitle": "Designer", "department": "Synthetic Design", "officeLocation": "Building 1", "phones": [{ "type": "business", "number": "+1 555 0104" }] }
+,
+    { "id": "00000000-0000-0000-0000-000000000105", "displayName": "Casey Mockwell", "scoredEmailAddresses": [{ "address": "casey.mockwell@contoso.example", "relevanceScore": 25 }], "jobTitle": "Product Manager", "department": "Synthetic Product", "officeLocation": "Building 1", "phones": [{ "type": "business", "number": "+1 555 0105" }] }
+,
+    { "id": "00000000-0000-0000-0000-000000000106", "displayName": "Quinn Testington", "scoredEmailAddresses": [{ "address": "quinn.testington@contoso.example", "relevanceScore": 20 }], "jobTitle": "Data Analyst", "department": "Synthetic Insights", "officeLocation": "Building 1", "phones": [{ "type": "business", "number": "+1 555 0106" }] }
+,
+    { "id": "00000000-0000-0000-0000-000000000107", "displayName": "Sage Exemplar", "scoredEmailAddresses": [{ "address": "sage.exemplar@contoso.example", "relevanceScore": 15 }], "jobTitle": "Researcher", "department": "Synthetic Research", "officeLocation": "Building 1", "phones": [{ "type": "business", "number": "+1 555 0107" }] }
+]}

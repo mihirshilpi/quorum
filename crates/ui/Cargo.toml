@@ -1,0 +1,69 @@
+[package]
+name = "quorum-ui"
+description = "Quorum user interface (Leptos, compiled to WebAssembly and hosted in the Tauri webview)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+quorum-ipc.workspace = true
+leptos.workspace = true
+wasm-bindgen.workspace = true
+wasm-bindgen-futures.workspace = true
+js-sys.workspace = true
+web-sys = { workspace = true, features = [
+    "CssStyleDeclaration",
+    "Document",
+    "Element",
+    "Event",
+    "EventTarget",
+    "HtmlElement",
+    "HtmlIFrameElement",
+    "HtmlInputElement",
+    "HtmlSelectElement",
+    "HtmlDocument",
+    "HtmlTextAreaElement",
+    "DomRect",
+    "ScrollIntoViewOptions",
+    "ScrollLogicalPosition",
+    "KeyboardEvent",
+    "KeyboardEventInit",
+    "MediaQueryList",
+    "ResizeObserver",
+    "ResizeObserverEntry",
+    "MouseEvent",
+    "Navigator",
+    "Node",
+    "NodeList",
+    "PointerEvent",
+    "Storage",
+    "Window",
+    "console",
+    # chat composer (contenteditable, selection, attachments, paste)
+    "Blob",
+    # files (clipboard links, drag and drop from Finder)
+    "Clipboard",
+    "DragEvent",
+    "ClipboardEvent",
+    "DataTransfer",
+    "File",
+    "FileList",
+    "InputEvent",
+    "Range",
+    "ScrollBehavior",
+    "ScrollToOptions",
+    "Selection",
+    "Text",
+] }
+serde.workspace = true
+serde_json.workspace = true
+serde-wasm-bindgen.workspace = true
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "quorum-ui"
+path = "src/main.rs"

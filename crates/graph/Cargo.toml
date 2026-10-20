@@ -1,0 +1,66 @@
+[package]
+name = "quorum-graph"
+description = "Typed Microsoft Graph REST client with paging, delta, batching and throttling."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+quorum-model.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+tokio.workspace = true
+futures.workspace = true
+reqwest.workspace = true
+url.workspace = true
+uuid.workspace = true
+jiff.workspace = true
+
+[dev-dependencies]
+tokio.workspace = true
+
+[features]
+# Fakes for tests in this and downstream crates: `FixtureTransport`, `FakeClock` (M-TEST-UTIL).
+test-util = []
+
+[[test]]
+name = "client"
+required-features = ["test-util"]
+
+[[test]]
+name = "hostile"
+required-features = ["test-util"]
+
+[[test]]
+name = "api_mail"
+required-features = ["test-util"]
+
+[[test]]
+name = "api_calendar"
+required-features = ["test-util"]
+
+[[test]]
+name = "api_people"
+required-features = ["test-util"]
+
+[[test]]
+name = "api_chat"
+required-features = ["test-util"]
+
+[[test]]
+name = "api_teams"
+required-features = ["test-util"]
+
+[[test]]
+name = "api_presence"
+required-features = ["test-util"]
+
+[[test]]
+name = "api_files"
+required-features = ["test-util"]
+
+[lints]
+workspace = true

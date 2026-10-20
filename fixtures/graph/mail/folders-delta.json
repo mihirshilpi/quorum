@@ -1,0 +1,20 @@
+{
+  "value": [
+    {
+      "id": "AAMkAD-folder-inbox=",
+      "displayName": "Inbox",
+      "parentFolderId": "AAMkAD-folder-root=",
+      "childFolderCount": 1,
+      "unreadItemCount": 2,
+      "totalItemCount": 10,
+      "isHidden": false
+    },
+    {
+      "@removed": {
+        "reason": "deleted"
+      },
+      "id": "AAMkAD-folder-old="
+    }
+  ],
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/delta?$deltatoken=folders-token-1"
+}

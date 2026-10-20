@@ -1,0 +1,24 @@
+{
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-00000000f001",
+      "classifyAs": "focused",
+      "senderEmailAddress": {
+        "name": "Avery Example",
+        "address": "avery@contoso.example"
+      }
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000f002",
+      "classifyAs": "other",
+      "senderEmailAddress": {
+        "name": "Bulk",
+        "address": "bulk@example.com"
+      }
+    },
+    {
+      "id": "",
+      "classifyAs": "other"
+    }
+  ]
+}

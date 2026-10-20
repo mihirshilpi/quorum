@@ -1,0 +1,32 @@
+[package]
+name = "quorum-auth"
+description = "Entra ID sign-in with authorization code + PKCE and keychain token storage."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+tokio.workspace = true
+reqwest.workspace = true
+url.workspace = true
+base64.workspace = true
+sha2.workspace = true
+rand.workspace = true
+keyring.workspace = true
+jiff.workspace = true
+
+[dev-dependencies]
+# Integration tests use the fakes behind `test-util`.
+quorum-auth = { workspace = true, features = ["test-util"] }
+
+[features]
+# Fakes for tests (M-TEST-UTIL): FakeTransport, MemoryStore, FakeClock.
+test-util = []
+
+[lints]
+workspace = true

@@ -1,0 +1,12 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(message)",
+  "value": [
+    {
+      "id": "AAMkAGI2-00000000-0000-0000-0000-000000000203",
+      "subject": "New message",
+      "isRead": false,
+      "receivedDateTime": "2026-01-03T11:00:00Z"
+    }
+  ],
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messages/delta?%24deltatoken=synthetic-token-1"
+}

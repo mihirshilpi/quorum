@@ -1,0 +1,338 @@
+{
+  "value": [
+    {
+      "id": "19:mock-morgan_mock-me@unq.gbl.spaces",
+      "topic": null,
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "lastUpdatedDateTime": "2026-10-17T09:42:00Z",
+      "chatType": "oneOnOne",
+      "webUrl": "https://teams.example.com/l/chat/mock-0",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1",
+      "viewpoint": {
+        "isHidden": false,
+        "lastMessageReadDateTime": "2026-10-17T08:00:00Z"
+      },
+      "members": [
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt00",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Test User",
+          "userId": "00000000-0000-0000-0000-000000000001",
+          "email": "test.user@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt01",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Morgan Sample",
+          "userId": "00000000-0000-0000-0000-000000000101",
+          "email": "morgan.sample@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        }
+      ],
+      "lastMessagePreview": {
+        "id": "1760690000005",
+        "createdDateTime": "2026-10-17T09:42:00Z",
+        "isDeleted": false,
+        "messageType": "message",
+        "body": {
+          "contentType": "html",
+          "content": "<p>No rush, end of day is fine 🙂</p>"
+        },
+        "from": {
+          "user": {
+            "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+            "id": "00000000-0000-0000-0000-000000000101",
+            "displayName": "Morgan Sample",
+            "userIdentityType": "aadUser",
+            "tenantId": "00000000-0000-0000-0000-0000000000f1"
+          },
+          "application": null,
+          "device": null
+        }
+      }
+    },
+    {
+      "id": "19:mock-launch-crew@thread.v2",
+      "topic": "Launch crew",
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "lastUpdatedDateTime": "2026-10-17T08:15:00Z",
+      "chatType": "group",
+      "webUrl": "https://teams.example.com/l/chat/mock-1",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1",
+      "viewpoint": {
+        "isHidden": false,
+        "lastMessageReadDateTime": "2026-10-17T08:15:00Z"
+      },
+      "members": [
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt10",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Test User",
+          "userId": "00000000-0000-0000-0000-000000000001",
+          "email": "test.user@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt11",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Riley Placeholder",
+          "userId": "00000000-0000-0000-0000-000000000103",
+          "email": "riley.placeholder@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt12",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Jordan Fixture",
+          "userId": "00000000-0000-0000-0000-000000000104",
+          "email": "jordan.fixture@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt13",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Casey Mockwell",
+          "userId": "00000000-0000-0000-0000-000000000105",
+          "email": "casey.mockwell@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        }
+      ],
+      "lastMessagePreview": {
+        "id": "1760680000005",
+        "createdDateTime": "2026-10-17T08:15:00Z",
+        "isDeleted": false,
+        "messageType": "message",
+        "body": {
+          "contentType": "html",
+          "content": "<p>Here's the timeline we agreed on:</p><ul><li>Code freeze Monday</li><li>Launch Thursday</li></ul>"
+        },
+        "from": {
+          "user": {
+            "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+            "id": "00000000-0000-0000-0000-000000000105",
+            "displayName": "Casey Mockwell",
+            "userIdentityType": "aadUser",
+            "tenantId": "00000000-0000-0000-0000-0000000000f1"
+          },
+          "application": null,
+          "device": null
+        }
+      }
+    },
+    {
+      "id": "19:mock-quinn_mock-me@unq.gbl.spaces",
+      "topic": null,
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "lastUpdatedDateTime": "2026-10-16T16:30:00Z",
+      "chatType": "oneOnOne",
+      "webUrl": "https://teams.example.com/l/chat/mock-2",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1",
+      "viewpoint": {
+        "isHidden": false,
+        "lastMessageReadDateTime": "2026-10-16T17:00:00Z"
+      },
+      "members": [
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt20",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Test User",
+          "userId": "00000000-0000-0000-0000-000000000001",
+          "email": "test.user@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt21",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Quinn Testington",
+          "userId": "00000000-0000-0000-0000-000000000106",
+          "email": "quinn.testington@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        }
+      ],
+      "lastMessagePreview": {
+        "id": "1760670000002",
+        "createdDateTime": "2026-10-16T16:30:00Z",
+        "isDeleted": false,
+        "messageType": "message",
+        "body": {
+          "contentType": "html",
+          "content": "<p>Sure, the usual place at 12:30.</p>"
+        },
+        "from": {
+          "user": {
+            "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+            "id": "00000000-0000-0000-0000-000000000106",
+            "displayName": "Quinn Testington",
+            "userIdentityType": "aadUser",
+            "tenantId": "00000000-0000-0000-0000-0000000000f1"
+          },
+          "application": null,
+          "device": null
+        }
+      }
+    },
+    {
+      "id": "19:meeting_mock-weekly-sync@thread.v2",
+      "topic": "Weekly sync",
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "lastUpdatedDateTime": "2026-10-15T15:05:00Z",
+      "chatType": "meeting",
+      "webUrl": "https://teams.example.com/l/chat/mock-3",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1",
+      "viewpoint": {
+        "isHidden": false,
+        "lastMessageReadDateTime": "2026-10-15T15:05:00Z"
+      },
+      "members": [
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt30",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Test User",
+          "userId": "00000000-0000-0000-0000-000000000001",
+          "email": "test.user@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt31",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Morgan Sample",
+          "userId": "00000000-0000-0000-0000-000000000101",
+          "email": "morgan.sample@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt32",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Sage Exemplar",
+          "userId": "00000000-0000-0000-0000-000000000107",
+          "email": "sage.exemplar@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt33",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Riley Placeholder",
+          "userId": "00000000-0000-0000-0000-000000000103",
+          "email": "riley.placeholder@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        }
+      ],
+      "lastMessagePreview": {
+        "id": "1760660000002",
+        "createdDateTime": "2026-10-15T15:05:00Z",
+        "isDeleted": false,
+        "messageType": "message",
+        "body": {
+          "contentType": "html",
+          "content": "<p>Notes from today's sync are in the shared folder.</p>"
+        },
+        "from": {
+          "user": {
+            "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+            "id": "00000000-0000-0000-0000-000000000107",
+            "displayName": "Sage Exemplar",
+            "userIdentityType": "aadUser",
+            "tenantId": "00000000-0000-0000-0000-0000000000f1"
+          },
+          "application": null,
+          "device": null
+        }
+      }
+    },
+    {
+      "id": "19:mock-sage_mock-me@unq.gbl.spaces",
+      "topic": null,
+      "createdDateTime": "2026-08-01T08:00:00Z",
+      "lastUpdatedDateTime": "2026-10-09T11:20:00Z",
+      "chatType": "oneOnOne",
+      "webUrl": "https://teams.example.com/l/chat/mock-4",
+      "tenantId": "00000000-0000-0000-0000-0000000000f1",
+      "viewpoint": {
+        "isHidden": false,
+        "lastMessageReadDateTime": "2026-10-09T12:00:00Z"
+      },
+      "members": [
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt40",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Test User",
+          "userId": "00000000-0000-0000-0000-000000000001",
+          "email": "test.user@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "id": "bW9jay1tZW1iZXIt41",
+          "roles": [
+            "owner"
+          ],
+          "displayName": "Sage Exemplar",
+          "userId": "00000000-0000-0000-0000-000000000107",
+          "email": "sage.exemplar@contoso.example",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        }
+      ],
+      "lastMessagePreview": {
+        "id": "1760600000001",
+        "createdDateTime": "2026-10-09T11:20:00Z",
+        "isDeleted": false,
+        "messageType": "message",
+        "body": {
+          "contentType": "html",
+          "content": "<p>Thanks for the help with the onboarding checklist!</p>"
+        },
+        "from": {
+          "user": {
+            "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+            "id": "00000000-0000-0000-0000-000000000107",
+            "displayName": "Sage Exemplar",
+            "userIdentityType": "aadUser",
+            "tenantId": "00000000-0000-0000-0000-0000000000f1"
+          },
+          "application": null,
+          "device": null
+        }
+      }
+    }
+  ]
+}

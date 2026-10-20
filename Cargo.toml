@@ -1,0 +1,94 @@
+[workspace]
+resolver = "3"
+members = ["crates/*", "apps/*", "xtask"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+rust-version = "1.90"
+publish = false
+
+[workspace.dependencies]
+# internal
+quorum-model = { path = "crates/model", version = "0.1.0" }
+quorum-sanitize = { path = "crates/sanitize", version = "0.1.0" }
+quorum-graph = { path = "crates/graph", version = "0.1.0" }
+quorum-auth = { path = "crates/auth", version = "0.1.0" }
+quorum-store = { path = "crates/store", version = "0.1.0" }
+quorum-sync = { path = "crates/sync", version = "0.1.0" }
+quorum-engine = { path = "crates/engine", version = "0.1.0" }
+quorum-ipc = { path = "crates/ipc", version = "0.1.0" }
+quorum-mcp = { path = "crates/mcp", version = "0.1.0" }
+quorum-control = { path = "crates/control", version = "0.1.0" }
+
+# foundation
+thiserror = "2"
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
+futures = "0.3"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time", "net", "io-util", "io-std", "fs", "signal"] }
+jiff = { version = "0.2", features = ["serde"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+rand = "0.9"
+base64 = "0.22"
+sha2 = "0.10"
+url = "2"
+mimalloc = "0.1"
+clap = { version = "4", features = ["derive"] }
+
+# network / auth
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls", "gzip", "brotli", "http2", "stream"] }
+keyring = { version = "3", features = ["apple-native", "windows-native", "linux-native"] }
+
+# store
+rusqlite = { version = "0.40", features = ["bundled"] } # bundled SQLite includes FTS5
+chacha20poly1305 = "0.10"
+tempfile = "3" # dev-only: temp dirs for file-backed store tests
+
+# html
+ammonia = "4"
+html5ever = "0.40" # must match ammonia's html5ever (shared TreeSink / rcdom types)
+
+# ui
+leptos = { version = "0.8", features = ["csr"] }
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+js-sys = "0.3"
+web-sys = { version = "0.3", features = ["Window", "Document", "Element", "HtmlElement", "KeyboardEvent", "console"] }
+serde-wasm-bindgen = "0.6"
+
+# app shell
+tauri = { version = "2", features = [] }
+tauri-build = { version = "2", features = [] }
+# official Tauri 2 plugins (MIT OR Apache-2.0): native notifications, one instance, window
+# size/position, quorum:// and mailto: links, login item
+tauri-plugin-notification = "2"
+tauri-plugin-single-instance = { version = "2", features = ["deep-link"] }
+tauri-plugin-window-state = "2"
+tauri-plugin-deep-link = "2"
+tauri-plugin-autostart = "2"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+missing_debug_implementations = "warn"
+
+[workspace.lints.clippy]
+dbg_macro = "warn"
+todo = "warn"
+print_stdout = "warn"
+allow_attributes = "warn"
+too_many_arguments = "allow"
+type_complexity = "allow"
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 16
+strip = "debuginfo"

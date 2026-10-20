@@ -1,0 +1,9 @@
+{
+  "id": "mock-folder-inbox",
+  "displayName": "Inbox",
+  "parentFolderId": "mock-folder-root",
+  "childFolderCount": 1,
+  "unreadItemCount": 6,
+  "totalItemCount": 16,
+  "isHidden": false
+}

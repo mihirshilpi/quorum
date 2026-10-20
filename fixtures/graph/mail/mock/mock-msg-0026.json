@@ -1,0 +1,46 @@
+{
+  "id": "mock-msg-0026",
+  "conversationId": "mock-conv-0010",
+  "parentFolderId": "mock-folder-deleted",
+  "subject": "Platform Digest: October 2026",
+  "from": {
+    "emailAddress": {
+      "name": "Harper Hale",
+      "address": "harper.hale@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Harper Hale",
+      "address": "harper.hale@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Engineering",
+        "address": "engineering@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-12T07:00:00Z",
+  "sentDateTime": "2026-10-12T07:00:00Z",
+  "bodyPreview": "Platform Digest. October 2026 · Issue 14. Your monthly round-up of what the Platform team shipped, who joined and what",
+  "isRead": true,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#f3f4f6\"><tr><td align=\"center\" style=\"padding:24px 12px\"><table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#ffffff;font-family:Helvetica, Arial, sans-serif\"><tr><td style=\"background-color:#1b3a5c;padding:20px 24px;color:#ffffff\"><img src=\"https://images.example.com/digest-header.png\" alt=\"\" width=\"40\" height=\"40\" style=\"vertical-align:middle\"><span style=\"font-size:20pt;font-weight:bold;vertical-align:middle;padding-left:8px\">Platform Digest</span><div style=\"font-size:10pt;color:#c9d6e3;padding-top:4px\">October 2026 &middot; Issue 14</div></td></tr><tr><td style=\"padding:20px 24px 4px 24px;font-size:11pt;color:#333333\">Your monthly round-up of what the Platform team shipped, who joined and what is coming up.</td></tr><tr><td style=\"padding:12px 24px\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"background-color:#e8f1fb;padding:16px 20px;border-radius:6px\"><h2 style=\"margin:0 0 6px 0;font-size:16pt;color:#1b3a5c\">Release 2.4 ships Monday</h2><p style=\"margin:0 0 8px 0;font-size:11pt;color:#333333\">Offline sync fixes, faster mail search and a new attachment preview. Rollout runs Monday to Wednesday.</p><a href=\"https://example.com/releases/2.4/notes\" style=\"color:#0b5cad;font-weight:bold;text-decoration:none\">Read more</a></td></tr><tr><td style=\"height:12px;line-height:12px\">&nbsp;</td></tr><tr><td style=\"background-color:#eef7ee;padding:16px 20px;border-radius:6px\"><h2 style=\"margin:0 0 6px 0;font-size:16pt;color:#1b3a5c\">Welcome to the team</h2><p style=\"margin:0 0 8px 0;font-size:11pt;color:#333333\">Three new engineers join the Platform team this month. Say hello in the team channel.</p><a href=\"https://example.com/people/new-starters\" style=\"color:#0b5cad;font-weight:bold;text-decoration:none\">Read more</a></td></tr><tr><td style=\"height:12px;line-height:12px\">&nbsp;</td></tr><tr><td style=\"background-color:#fdf3e6;padding:16px 20px;border-radius:6px\"><h2 style=\"margin:0 0 6px 0;font-size:16pt;color:#1b3a5c\">Brown-bag: profiling async Rust</h2><p style=\"margin:0 0 8px 0;font-size:11pt;color:#333333\">Thursday, October 22 at 12:00 in the fourth-floor kitchen. Bring lunch.</p><a href=\"https://example.com/events/brown-bag-async-rust\" style=\"color:#0b5cad;font-weight:bold;text-decoration:none\">Read more</a></td></tr><tr><td style=\"height:12px;line-height:12px\">&nbsp;</td></tr></table></td></tr><tr><td style=\"background-color:#f3f4f6;padding:16px 24px;font-size:9pt;color:#6b7280\">You receive this because you are in the Engineering group. <a href=\"https://example.com/digest/preferences\" style=\"color:#6b7280\">Manage preferences</a></td></tr></table></td></tr></table></body></html>"
+  }
+}

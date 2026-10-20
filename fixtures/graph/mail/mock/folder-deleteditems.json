@@ -1,0 +1,9 @@
+{
+  "id": "mock-folder-deleted",
+  "displayName": "Deleted Items",
+  "parentFolderId": "mock-folder-root",
+  "childFolderCount": 0,
+  "unreadItemCount": 1,
+  "totalItemCount": 1,
+  "isHidden": false
+}

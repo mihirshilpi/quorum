@@ -1,0 +1,35 @@
+{
+  "value": [
+    {
+      "id": "local-alias-1",
+      "name": "Budget.xlsx",
+      "lastModifiedDateTime": "2026-10-10T08:00:00Z",
+      "remoteItem": {
+        "id": "01REMOTEITEM0000000000000000001",
+        "name": "Budget.xlsx",
+        "size": 4096,
+        "file": {
+          "mimeType": "application/vnd.ms-excel"
+        },
+        "parentReference": {
+          "driveId": "b!synthetic-drive-0002",
+          "id": "01REMOTEPARENT00000000000000001"
+        },
+        "webUrl": "https://contoso.sharepoint.com/sites/x/Budget.xlsx",
+        "shared": {
+          "owner": {
+            "user": {
+              "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+              "id": "00000000-0000-0000-0000-000000000012",
+              "displayName": "Alex Sample",
+              "userIdentityType": "aadUser",
+              "tenantId": "00000000-0000-0000-0000-0000000000f1"
+            },
+            "application": null,
+            "device": null
+          }
+        }
+      }
+    }
+  ]
+}

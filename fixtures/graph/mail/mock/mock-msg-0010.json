@@ -1,0 +1,52 @@
+{
+  "id": "mock-msg-0010",
+  "conversationId": "mock-conv-0005",
+  "parentFolderId": "mock-folder-inbox",
+  "subject": "RE: Security review findings: file upload service",
+  "from": {
+    "emailAddress": {
+      "name": "Devon Dahl",
+      "address": "devon.dahl@example.com"
+    }
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Devon Dahl",
+      "address": "devon.dahl@example.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "Emery Ellis",
+        "address": "emery.ellis@example.com"
+      }
+    },
+    {
+      "emailAddress": {
+        "name": "Alex Example",
+        "address": "you@example.com"
+      }
+    }
+  ],
+  "ccRecipients": [],
+  "bccRecipients": [],
+  "replyTo": [],
+  "receivedDateTime": "2026-10-16T10:15:00Z",
+  "sentDateTime": "2026-10-16T10:15:00Z",
+  "bodyPreview": "I'll take the high finding. We already have a normaliser for attachment names, so the fix is small; PR by Tuesday. On",
+  "isRead": false,
+  "isDraft": false,
+  "importance": "normal",
+  "flag": {
+    "flagStatus": "notFlagged"
+  },
+  "categories": [],
+  "hasAttachments": false,
+  "inferenceClassification": "focused",
+  "webLink": "https://outlook.office.example/owa/?ItemID=synthetic",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style></head><body dir=\"ltr\"><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">I'll take the high finding. We already have a normaliser for attachment names, so the fix is small; PR by Tuesday.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">On token lifetime: going straight to 1 hour breaks resumable uploads on slow connections. Can we do 4 hours in 2.4.1 and 1 hour in 2.5, once the client refreshes tokens mid-upload?</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Devon</div><div id=\"appendonsend\"></div><hr style=\"display:inline-block;width:98%\" tabindex=\"-1\"><div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" style=\"font-size:11pt\" color=\"#000000\"><b>From:</b> Emery Ellis &lt;emery.ellis@example.com&gt;<br><b>Sent:</b> Thursday, October 15, 2026 1:30 PM<br><b>To:</b> Alex Example &lt;you@example.com&gt;<br><b>Cc:</b> Devon Dahl &lt;devon.dahl@example.com&gt;<br><b>Subject:</b> Security review findings: file upload service</font><div>&nbsp;</div></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Hi Alex,</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">The security review of the file upload service is complete. Summary:<ul><li><b>High</b>: uploaded file names are not normalised before they are written to the log</li><li><b>Medium</b>: upload tokens stay valid for 24 hours; recommend 1 hour</li><li><b>Low</b>: error responses include the internal service version</li></ul></div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Full report: <a href=\"https://example.com/security/reviews/file-upload\">https://example.com/security/reviews/file-upload</a>. We'd like a plan for the high finding by October 23.</div><div><br></div><div class=\"elementToProof\" style=\"font-family:Calibri,sans-serif;font-size:12pt\">Thanks,<br>Emery</div></body></html>"
+  }
+}

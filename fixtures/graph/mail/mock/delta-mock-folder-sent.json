@@ -1,0 +1,218 @@
+{
+  "value": [
+    {
+      "id": "mock-msg-0017",
+      "conversationId": "mock-conv-0000",
+      "parentFolderId": "mock-folder-sent",
+      "subject": "RE: Q4 team offsite logistics",
+      "from": {
+        "emailAddress": {
+          "name": "Alex Example",
+          "address": "you@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Alex Example",
+          "address": "you@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Casey Castillo",
+            "address": "casey.castillo@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Avery Adler",
+            "address": "avery.adler@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Blake Brook",
+            "address": "blake.brook@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-15T16:30:00Z",
+      "sentDateTime": "2026-10-15T16:30:00Z",
+      "bodyPreview": "The outline looks good. I added a 45-minute slot for the roadmap review and moved the breakouts after lunch. Avery",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0019",
+      "conversationId": "mock-conv-0002",
+      "parentFolderId": "mock-folder-sent",
+      "subject": "RE: Release 2.4 go/no-go",
+      "from": {
+        "emailAddress": {
+          "name": "Alex Example",
+          "address": "you@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Alex Example",
+          "address": "you@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Jordan Ito",
+            "address": "jordan.ito@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Emery Ellis",
+            "address": "emery.ellis@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Devon Dahl",
+            "address": "devon.dahl@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-14T09:10:00Z",
+      "sentDateTime": "2026-10-14T09:10:00Z",
+      "bodyPreview": "Thanks Jordan. My view: we can ship without the full REL-219 fix if we cap previews at 20 MB and show a download button",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0018",
+      "conversationId": "mock-conv-0001",
+      "parentFolderId": "mock-folder-sent",
+      "subject": "FW: Analytics vendor contract renewal",
+      "from": {
+        "emailAddress": {
+          "name": "Alex Example",
+          "address": "you@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Alex Example",
+          "address": "you@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Kai Jensen",
+            "address": "kai.jensen@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Finley Fischer",
+            "address": "finley.fischer@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-13T09:15:00Z",
+      "sentDateTime": "2026-10-13T09:15:00Z",
+      "bodyPreview": "Hi Kai, Forwarding our procurement summary below. Would you be able to hold the current licence price if we commit to a",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    },
+    {
+      "id": "mock-msg-0016",
+      "conversationId": "mock-conv-0000",
+      "parentFolderId": "mock-folder-sent",
+      "subject": "RE: Q4 team offsite logistics",
+      "from": {
+        "emailAddress": {
+          "name": "Alex Example",
+          "address": "you@example.com"
+        }
+      },
+      "sender": {
+        "emailAddress": {
+          "name": "Alex Example",
+          "address": "you@example.com"
+        }
+      },
+      "toRecipients": [
+        {
+          "emailAddress": {
+            "name": "Avery Adler",
+            "address": "avery.adler@example.com"
+          }
+        },
+        {
+          "emailAddress": {
+            "name": "Casey Castillo",
+            "address": "casey.castillo@example.com"
+          }
+        }
+      ],
+      "ccRecipients": [
+        {
+          "emailAddress": {
+            "name": "Blake Brook",
+            "address": "blake.brook@example.com"
+          }
+        }
+      ],
+      "bccRecipients": [],
+      "replyTo": [],
+      "receivedDateTime": "2026-10-12T08:45:00Z",
+      "sentDateTime": "2026-10-12T08:45:00Z",
+      "bodyPreview": "Hi Avery, Happy to take day 2 with Casey. Two questions before we start: 1. Is there budget for an external facilitator",
+      "isRead": true,
+      "isDraft": false,
+      "importance": "normal",
+      "flag": {
+        "flagStatus": "notFlagged"
+      },
+      "categories": [],
+      "hasAttachments": false,
+      "inferenceClassification": "focused",
+      "webLink": "https://outlook.office.example/owa/?ItemID=synthetic"
+    }
+  ],
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-sent/messages/delta?$deltatoken=mock-1"
+}

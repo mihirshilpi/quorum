@@ -1,0 +1,30 @@
+{
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/sites/s/lists/l/items?$skiptoken=items-2",
+  "value": [
+    {
+      "id": "1",
+      "createdDateTime": "2026-10-01T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-02T08:00:00Z",
+      "webUrl": "https://contoso.sharepoint.com/sites/SyntheticSite/Lists/Tasks/1_.000",
+      "fields": {
+        "@odata.etag": "\"1\"",
+        "Title": "Synthetic task",
+        "Status": "Open",
+        "Priority": 2,
+        "Tags": [
+          "a",
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "fields": null
+    },
+    {
+      "fields": {
+        "Title": "no id"
+      }
+    }
+  ]
+}

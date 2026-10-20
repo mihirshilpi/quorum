@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "id": "1",
+      "status": 200,
+      "headers": { "Content-Type": "application/json" },
+      "body": { "id": "00000000-0000-0000-0000-000000000001", "displayName": "Test User" }
+    },
+    {
+      "id": "2",
+      "status": 429,
+      "headers": { "Retry-After": "3" },
+      "body": { "error": { "code": "TooManyRequests", "message": "Too many requests." } }
+    },
+    {
+      "id": "3",
+      "status": 424,
+      "body": { "error": { "code": "FailedDependency", "message": "Dependency failed." } }
+    },
+    {
+      "id": "4",
+      "status": 404,
+      "body": { "error": { "code": "ErrorItemNotFound", "message": "Not found." } }
+    }
+  ]
+}

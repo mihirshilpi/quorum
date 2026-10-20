@@ -1,0 +1,135 @@
+{
+  "value": [
+    {
+      "searchTerms": [
+        "synthetic"
+      ],
+      "hitsContainers": [
+        {
+          "total": 2,
+          "moreResultsAvailable": true,
+          "hits": [
+            {
+              "hitId": "AAMkAD-msg-0001=",
+              "rank": 1,
+              "summary": "<c0>Synthetic</c0> subject",
+              "resource": {
+                "@odata.type": "#microsoft.graph.message",
+                "id": "AAMkAD-msg-0001=",
+                "subject": "Synthetic subject 1",
+                "from": {
+                  "emailAddress": {
+                    "name": "Avery Example",
+                    "address": "avery@contoso.example"
+                  }
+                },
+                "receivedDateTime": "2026-10-19T09:00:00Z",
+                "bodyPreview": "Synthetic preview"
+              }
+            },
+            {
+              "hitId": "AAMkAD-evt-0001=",
+              "rank": 2,
+              "summary": "",
+              "resource": {
+                "@odata.type": "#microsoft.graph.event",
+                "id": "AAMkAD-evt-0001=",
+                "subject": "Synthetic meeting",
+                "start": {
+                  "dateTime": "2026-10-21T09:00:00.0000000",
+                  "timeZone": "UTC"
+                },
+                "end": {
+                  "dateTime": "2026-10-21T10:00:00.0000000",
+                  "timeZone": "UTC"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "total": 4,
+          "moreResultsAvailable": false,
+          "hits": [
+            {
+              "hitId": "01SYNTHETICDRIVEITEM",
+              "rank": 3,
+              "summary": "",
+              "resource": {
+                "@odata.type": "#microsoft.graph.driveItem",
+                "id": "01SYNTHETICDRIVEITEM",
+                "name": "synthetic.docx",
+                "size": 2048,
+                "webUrl": "https://contoso.example/sites/x/synthetic.docx",
+                "parentReference": {
+                  "driveId": "b!synthetic-drive"
+                },
+                "lastModifiedDateTime": "2026-10-18T09:00:00Z"
+              }
+            },
+            {
+              "hitId": "chat-1",
+              "rank": 4,
+              "resource": {
+                "@odata.type": "#microsoft.graph.chatMessage",
+                "id": "1700000000000",
+                "chatId": "19:synthetic@thread.v2",
+                "from": {
+                  "emailAddress": {
+                    "name": "Avery Example",
+                    "address": "avery@contoso.example"
+                  }
+                },
+                "createdDateTime": "2026-10-18T09:00:00Z"
+              }
+            },
+            {
+              "hitId": "person-1",
+              "rank": 5,
+              "resource": {
+                "@odata.type": "#microsoft.graph.person",
+                "id": "00000000-0000-0000-0000-000000000003",
+                "displayName": "Alex Synthetic",
+                "emailAddresses": [
+                  {
+                    "address": "user03@contoso.example"
+                  }
+                ],
+                "jobTitle": "Synthetic Engineer"
+              }
+            },
+            {
+              "hitId": "site-1",
+              "rank": 6,
+              "resource": {
+                "@odata.type": "#microsoft.graph.site",
+                "id": "contoso.example,00000000-0000-0000-0000-000000000051",
+                "displayName": "Synthetic site",
+                "webUrl": "https://contoso.example/sites/synthetic"
+              }
+            },
+            {
+              "hitId": "li-1",
+              "rank": 7,
+              "resource": {
+                "@odata.type": "#microsoft.graph.listItem",
+                "id": "1",
+                "name": "Synthetic list item",
+                "webUrl": "https://contoso.example/sites/synthetic/Lists/x/1"
+              }
+            },
+            {
+              "hitId": "new-1",
+              "rank": 8,
+              "resource": {
+                "@odata.type": "#microsoft.graph.bookmark",
+                "id": "b1",
+                "title": "Future type"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

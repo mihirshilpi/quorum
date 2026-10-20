@@ -1,0 +1,20 @@
+{
+  "value": [
+    {
+      "id": "00000000-0000-0000-0000-0000000000b1",
+      "displayName": "Synthetic Team",
+      "description": "For tests",
+      "isArchived": false,
+      "webUrl": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b2",
+      "displayName": "Archived Team",
+      "description": null,
+      "isArchived": true
+    },
+    {
+      "displayName": "no id"
+    }
+  ]
+}

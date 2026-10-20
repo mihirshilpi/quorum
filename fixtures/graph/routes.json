@@ -1,0 +1,690 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/me",
+      "responses": [{ "status": 200, "headers": { "request-id": "00000000-0000-0000-0000-00000000a001" }, "file": "me.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/messages",
+      "responses": [{ "status": 200, "file": "messages-page1.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/messages",
+      "query": { "$skiptoken": "page2" },
+      "responses": [{ "status": 200, "file": "messages-page2.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/mailFolders/inbox/messages/delta",
+      "responses": [{ "status": 200, "file": "messages-delta-page1.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/mailFolders/inbox/messages/delta",
+      "query": { "$skiptoken": "delta-page2" },
+      "responses": [{ "status": 200, "file": "messages-delta-page2.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/mailFolders/inbox/messages/delta",
+      "query": { "$deltatoken": "expired-token" },
+      "responses": [{ "status": 410, "file": "delta-expired.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/presence",
+      "responses": [{ "status": 200, "file": "presence/mock-me.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/communications/getPresencesByUserId",
+      "responses": [{ "status": 200, "file": "presence/mock-presences.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/me/presence/setUserPreferredPresence",
+      "responses": [{ "status": 200, "body": {} }]
+    },
+    {
+      "method": "POST",
+      "path": "/me/presence/clearUserPreferredPresence",
+      "responses": [{ "status": 200, "body": {} }]
+    },
+    {
+      "method": "POST",
+      "path": "/me/presence/setPresence",
+      "responses": [{ "status": 200, "body": {} }]
+    },
+    {
+      "method": "POST",
+      "path": "/me/presence/clearPresence",
+      "responses": [{ "status": 200, "body": {} }]
+    },
+    {
+      "method": "POST",
+      "path": "/me/presence/setStatusMessage",
+      "responses": [{ "status": 200, "body": {} }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/people",
+      "responses": [{ "status": 200, "file": "people/mock-people.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/users",
+      "responses": [{ "status": 200, "file": "people/mock-users.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/users/00000000-0000-0000-0000-000000000001/manager",
+      "responses": [{ "status": 200, "file": "people/mock-manager.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/users/00000000-0000-0000-0000-000000000101/manager",
+      "responses": [{ "status": 200, "file": "people/mock-manager-2.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/users/00000000-0000-0000-0000-000000000001/directReports",
+      "responses": [{ "status": 200, "file": "people/mock-reports.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/users/00000000-0000-0000-0000-000000000101",
+      "responses": [{ "status": 200, "file": "people/mock-manager.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/users/00000000-0000-0000-0000-000000000102",
+      "responses": [{ "status": 200, "file": "people/mock-manager-2.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/search/query",
+      "responses": [{ "status": 200, "file": "people/search-mixed.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/chats",
+      "responses": [{ "status": 200, "file": "chat/mock-chats.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/chats/19:mock-morgan_mock-me@unq.gbl.spaces/messages",
+      "responses": [{ "status": 200, "file": "chat/mock-messages-0.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-morgan_mock-me@unq.gbl.spaces/messages",
+      "responses": [{ "status": 201, "file": "chat/mock-sent.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-morgan_mock-me@unq.gbl.spaces/markChatReadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-morgan_mock-me@unq.gbl.spaces/markChatUnreadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "GET",
+      "path": "/chats/19:mock-launch-crew@thread.v2/messages",
+      "responses": [{ "status": 200, "file": "chat/mock-messages-1.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-launch-crew@thread.v2/messages",
+      "responses": [{ "status": 201, "file": "chat/mock-sent.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-launch-crew@thread.v2/markChatReadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-launch-crew@thread.v2/markChatUnreadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "GET",
+      "path": "/chats/19:mock-quinn_mock-me@unq.gbl.spaces/messages",
+      "responses": [{ "status": 200, "file": "chat/mock-messages-2.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-quinn_mock-me@unq.gbl.spaces/messages",
+      "responses": [{ "status": 201, "file": "chat/mock-sent.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-quinn_mock-me@unq.gbl.spaces/markChatReadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-quinn_mock-me@unq.gbl.spaces/markChatUnreadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "GET",
+      "path": "/chats/19:meeting_mock-weekly-sync@thread.v2/messages",
+      "responses": [{ "status": 200, "file": "chat/mock-messages-3.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:meeting_mock-weekly-sync@thread.v2/messages",
+      "responses": [{ "status": 201, "file": "chat/mock-sent.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:meeting_mock-weekly-sync@thread.v2/markChatReadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:meeting_mock-weekly-sync@thread.v2/markChatUnreadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "GET",
+      "path": "/chats/19:mock-sage_mock-me@unq.gbl.spaces/messages",
+      "responses": [{ "status": 200, "file": "chat/mock-messages-4.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-sage_mock-me@unq.gbl.spaces/messages",
+      "responses": [{ "status": 201, "file": "chat/mock-sent.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-sage_mock-me@unq.gbl.spaces/markChatReadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "POST",
+      "path": "/chats/19:mock-sage_mock-me@unq.gbl.spaces/markChatUnreadForUser",
+      "responses": [{ "status": 204 }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/joinedTeams",
+      "responses": [{ "status": 200, "file": "teams/mock-teams.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/teams/00000000-0000-0000-0000-00000000f001/channels",
+      "responses": [{ "status": 200, "file": "teams/mock-channels-0.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/teams/00000000-0000-0000-0000-00000000f001/allChannels",
+      "responses": [{ "status": 200, "file": "teams/mock-channels-0.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/teams/00000000-0000-0000-0000-00000000f001/channels/19:mock-product-general@thread.tacv2/messages/delta",
+      "responses": [{ "status": 200, "file": "teams/mock-delta-0-0.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/teams/00000000-0000-0000-0000-00000000f001/channels/19:mock-product-general@thread.tacv2/messages",
+      "responses": [{ "status": 201, "file": "teams/mock-post-sent.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/teams/00000000-0000-0000-0000-00000000f001/channels/19:mock-product-launch@thread.tacv2/messages/delta",
+      "responses": [{ "status": 200, "file": "teams/mock-delta-0-1.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/teams/00000000-0000-0000-0000-00000000f001/channels/19:mock-product-launch@thread.tacv2/messages",
+      "responses": [{ "status": 201, "file": "teams/mock-post-sent.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/teams/00000000-0000-0000-0000-00000000f001/channels/19:mock-product-design@thread.tacv2/messages/delta",
+      "responses": [{ "status": 200, "file": "teams/mock-delta-0-2.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/teams/00000000-0000-0000-0000-00000000f001/channels/19:mock-product-design@thread.tacv2/messages",
+      "responses": [{ "status": 201, "file": "teams/mock-post-sent.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/teams/00000000-0000-0000-0000-00000000f002/channels",
+      "responses": [{ "status": 200, "file": "teams/mock-channels-1.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/teams/00000000-0000-0000-0000-00000000f002/allChannels",
+      "responses": [{ "status": 200, "file": "teams/mock-channels-1.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/teams/00000000-0000-0000-0000-00000000f002/channels/19:mock-eng-general@thread.tacv2/messages/delta",
+      "responses": [{ "status": 200, "file": "teams/mock-delta-1-0.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/teams/00000000-0000-0000-0000-00000000f002/channels/19:mock-eng-general@thread.tacv2/messages",
+      "responses": [{ "status": 201, "file": "teams/mock-post-sent.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/teams/00000000-0000-0000-0000-00000000f002/channels/19:mock-eng-builds@thread.tacv2/messages/delta",
+      "responses": [{ "status": 200, "file": "teams/mock-delta-1-1.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/teams/00000000-0000-0000-0000-00000000f002/channels/19:mock-eng-builds@thread.tacv2/messages",
+      "responses": [{ "status": 201, "file": "teams/mock-post-sent.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/drive",
+      "responses": [{ "status": 200, "file": "files/drive.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/root/delta",
+      "responses": [{ "status": 200, "file": "files/mock/mydrive-delta.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/root/delta",
+      "query": { "token": "mock-mine-1" },
+      "responses": [{ "status": 200, "file": "files/mock/mydrive-delta-empty.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/drive/recent",
+      "responses": [{ "status": 200, "file": "files/mock/recent.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/drive/sharedWithMe",
+      "responses": [{ "status": 200, "file": "files/mock/shared.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/me/followedSites",
+      "responses": [{ "status": 200, "file": "files/sites-followed.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/sites/contoso.sharepoint.com,00000000-0000-0000-0000-0000000000c1,00000000-0000-0000-0000-0000000000c2/drives",
+      "responses": [{ "status": 200, "file": "files/mock/site-drives.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/sites/contoso.sharepoint.com,00000000-0000-0000-0000-0000000000c1,00000000-0000-0000-0000-0000000000c2/lists",
+      "responses": [{ "status": 200, "file": "files/lists.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/sites/contoso.sharepoint.com,00000000-0000-0000-0000-0000000000c1,00000000-0000-0000-0000-0000000000c2/lists/00000000-0000-0000-0000-0000000000d1/columns",
+      "responses": [{ "status": 200, "file": "files/mock/list-columns.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/sites/contoso.sharepoint.com,00000000-0000-0000-0000-0000000000c1,00000000-0000-0000-0000-0000000000c2/lists/00000000-0000-0000-0000-0000000000d1/items",
+      "responses": [{ "status": 200, "file": "files/mock/list-items.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-library-0001/root/delta",
+      "responses": [{ "status": 200, "file": "files/mock/library-delta.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-library-0001/root/delta",
+      "query": { "token": "mock-lib-1" },
+      "responses": [{ "status": 200, "file": "files/mock/library-delta-empty.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKROOT0000000000000000000000/children",
+      "responses": [{ "status": 201, "file": "files/mock/created-folder.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000001/preview",
+      "responses": [{ "status": 200, "file": "files/mock/preview.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000001/permissions",
+      "responses": [{ "status": 200, "file": "files/permissions.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000001/versions",
+      "responses": [{ "status": 200, "file": "files/versions.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000005/preview",
+      "responses": [{ "status": 200, "file": "files/mock/preview.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000005/permissions",
+      "responses": [{ "status": 200, "file": "files/permissions.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000005/versions",
+      "responses": [{ "status": 200, "file": "files/versions.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000009/preview",
+      "responses": [{ "status": 200, "file": "files/mock/preview.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000009/permissions",
+      "responses": [{ "status": 200, "file": "files/permissions.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000009/versions",
+      "responses": [{ "status": 200, "file": "files/versions.json" }]
+    },
+    {
+      "method": "POST",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000006/preview",
+      "responses": [{ "status": 200, "file": "files/mock/preview.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000006/permissions",
+      "responses": [{ "status": 200, "file": "files/permissions.json" }]
+    },
+    {
+      "method": "GET",
+      "path": "/drives/b!synthetic-drive-0001/items/01MOCKITEM0000000000000000000006/versions",
+      "responses": [{ "status": 200, "file": "files/versions.json" }]
+    },
+    {"method": "GET", "path": "/me/mailFolders/inbox", "responses": [{"status": 200, "file": "mail/mock/folder-inbox.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/drafts", "responses": [{"status": 200, "file": "mail/mock/folder-drafts.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/sentitems", "responses": [{"status": 200, "file": "mail/mock/folder-sentitems.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/deleteditems", "responses": [{"status": 200, "file": "mail/mock/folder-deleteditems.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/archive", "responses": [{"status": 200, "file": "mail/mock/folder-archive.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/junkemail", "responses": [{"status": 200, "file": "mail/mock/folder-junkemail.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/outbox", "responses": [{"status": 200, "file": "mail/mock/folder-outbox.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/delta", "responses": [{"status": 200, "file": "mail/mock/folders-delta.json"}]},
+    {"method": "GET", "path": "/me/mailboxSettings", "responses": [{"status": 200, "file": "mail/mailbox-settings.json"}]},
+    {"method": "PATCH", "path": "/me/mailboxSettings", "responses": [{"status": 200, "file": "mail/mailbox-settings.json"}]},
+    {"method": "GET", "path": "/me/outlook/masterCategories", "responses": [{"status": 200, "file": "mail/categories.json"}]},
+    {"method": "POST", "path": "/me/sendMail", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/messages", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "PATCH", "path": "/me/messages/mock-draft-server-0001", "responses": [{"status": 200, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-draft-server-0001/send", "responses": [{"status": 202, "body": {}}]},
+    {"method": "GET", "path": "/me/messages/mock-draft-server-0001", "responses": [{"status": 200, "body": {"id": "mock-draft-server-0001", "isDraft": true, "body": {"contentType": "html", "content": "<html><body><hr><p><b>From:</b> Synthetic sender<br>Synthetic quoted original.</p></body></html>"}}}]},
+    {"method": "DELETE", "path": "/me/messages/mock-draft-server-0001", "responses": [{"status": 204, "body": {}}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-inbox/messages", "responses": [{"status": 200, "file": "mail/mock/messages-mock-folder-inbox.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-inbox/messages/delta", "responses": [{"status": 200, "file": "mail/mock/delta-mock-folder-inbox.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-inbox/messages/delta", "responses": [{"status": 200, "body": {"value": [], "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-inbox/messages/delta?$deltatoken=mock-1"}}], "query": {"$deltatoken": "mock-1"}},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-drafts/messages", "responses": [{"status": 200, "file": "mail/mock/messages-mock-folder-drafts.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-drafts/messages/delta", "responses": [{"status": 200, "file": "mail/mock/delta-mock-folder-drafts.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-drafts/messages/delta", "responses": [{"status": 200, "body": {"value": [], "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-drafts/messages/delta?$deltatoken=mock-1"}}], "query": {"$deltatoken": "mock-1"}},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-sent/messages", "responses": [{"status": 200, "file": "mail/mock/messages-mock-folder-sent.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-sent/messages/delta", "responses": [{"status": 200, "file": "mail/mock/delta-mock-folder-sent.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-sent/messages/delta", "responses": [{"status": 200, "body": {"value": [], "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-sent/messages/delta?$deltatoken=mock-1"}}], "query": {"$deltatoken": "mock-1"}},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-deleted/messages", "responses": [{"status": 200, "file": "mail/mock/messages-mock-folder-deleted.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-deleted/messages/delta", "responses": [{"status": 200, "file": "mail/mock/delta-mock-folder-deleted.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-deleted/messages/delta", "responses": [{"status": 200, "body": {"value": [], "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-deleted/messages/delta?$deltatoken=mock-1"}}], "query": {"$deltatoken": "mock-1"}},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-archive/messages", "responses": [{"status": 200, "file": "mail/mock/messages-mock-folder-archive.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-archive/messages/delta", "responses": [{"status": 200, "file": "mail/mock/delta-mock-folder-archive.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-archive/messages/delta", "responses": [{"status": 200, "body": {"value": [], "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-archive/messages/delta?$deltatoken=mock-1"}}], "query": {"$deltatoken": "mock-1"}},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-junk/messages", "responses": [{"status": 200, "file": "mail/mock/messages-mock-folder-junk.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-junk/messages/delta", "responses": [{"status": 200, "file": "mail/mock/delta-mock-folder-junk.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-junk/messages/delta", "responses": [{"status": 200, "body": {"value": [], "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-junk/messages/delta?$deltatoken=mock-1"}}], "query": {"$deltatoken": "mock-1"}},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-outbox/messages", "responses": [{"status": 200, "file": "mail/mock/messages-mock-folder-outbox.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-outbox/messages/delta", "responses": [{"status": 200, "file": "mail/mock/delta-mock-folder-outbox.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-outbox/messages/delta", "responses": [{"status": 200, "body": {"value": [], "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-outbox/messages/delta?$deltatoken=mock-1"}}], "query": {"$deltatoken": "mock-1"}},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-projects/messages", "responses": [{"status": 200, "file": "mail/mock/messages-mock-folder-projects.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-projects/messages/delta", "responses": [{"status": 200, "file": "mail/mock/delta-mock-folder-projects.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-projects/messages/delta", "responses": [{"status": 200, "body": {"value": [], "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-projects/messages/delta?$deltatoken=mock-1"}}], "query": {"$deltatoken": "mock-1"}},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-receipts/messages", "responses": [{"status": 200, "file": "mail/mock/messages-mock-folder-receipts.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-receipts/messages/delta", "responses": [{"status": 200, "file": "mail/mock/delta-mock-folder-receipts.json"}]},
+    {"method": "GET", "path": "/me/mailFolders/mock-folder-receipts/messages/delta", "responses": [{"status": 200, "body": {"value": [], "@odata.deltaLink": "https://graph.microsoft.com/v1.0/me/mailFolders/mock-folder-receipts/messages/delta?$deltatoken=mock-1"}}], "query": {"$deltatoken": "mock-1"}},
+    {"method": "GET", "path": "/me/messages/mock-msg-0000", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0000.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0000/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0000"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0000/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0000/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0000/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0001", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0001.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0001/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0001"}}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0001/attachments", "responses": [{"status": 200, "file": "mail/mock/attachments.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0001/attachments/mock-att-0001/$value", "responses": [{"status": 200, "file": "mail/mock/attachment-content.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0001/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0001/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0001/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0002", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0002.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0002/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0002"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0002/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0002/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0002/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0003", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0003.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0003/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0003"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0003/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0003/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0003/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0004", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0004.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0004/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0004"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0004/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0004/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0004/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0005", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0005.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0005/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0005"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0005/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0005/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0005/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0006", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0006.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0006/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0006"}}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0006/attachments", "responses": [{"status": 200, "file": "mail/mock/attachments.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0006/attachments/mock-att-0001/$value", "responses": [{"status": 200, "file": "mail/mock/attachment-content.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0006/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0006/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0006/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0007", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0007.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0007/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0007"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0007/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0007/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0007/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0008", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0008.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0008/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0008"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0008/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0008/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0008/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0009", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0009.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0009/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0009"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0009/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0009/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0009/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0010", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0010.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0010/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0010"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0010/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0010/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0010/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0011", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0011.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0011/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0011"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0011/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0011/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0011/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0012", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0012.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0012/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0012"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0012/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0012/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0012/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0013", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0013.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0013/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0013"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0013/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0013/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0013/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0014", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0014.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0014/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0014"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0014/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0014/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0014/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0015", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0015.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0015/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0015"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0015/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0015/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0015/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0016", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0016.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0016/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0016"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0016/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0016/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0016/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0017", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0017.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0017/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0017"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0017/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0017/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0017/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0018", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0018.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0018/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0018"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0018/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0018/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0018/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0019", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0019.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0019/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0019"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0019/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0019/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0019/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0026", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0026.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0026/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0026"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0026/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0026/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0026/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0020", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0020.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0020/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0020"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0020/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0020/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0020/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0021", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0021.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0021/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0021"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0021/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0021/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0021/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0022", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0022.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0022/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0022"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0022/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0022/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0022/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0023", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0023.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0023/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0023"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0023/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0023/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0023/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0024", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0024.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0024/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0024"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0024/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0024/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0024/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/messages/mock-msg-0025", "responses": [{"status": 200, "file": "mail/mock/mock-msg-0025.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0025/move", "responses": [{"status": 200, "body": {"id": "mock-msg-0025"}}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0025/createReply", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0025/createReplyAll", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "POST", "path": "/me/messages/mock-msg-0025/createForward", "responses": [{"status": 201, "file": "mail/mock/draft-created.json"}]},
+    {"method": "GET", "path": "/me/calendars", "responses": [{"status": 200, "file": "calendar/mock/calendars.json"}]},
+    {"method": "GET", "path": "/me/calendarGroups", "responses": [{"status": 200, "file": "calendar/mock/calendar-groups.json"}]},
+    {"method": "GET", "path": "/me/calendarGroups/mock-grp-1/calendars", "responses": [{"status": 200, "file": "calendar/mock/calendars.json"}]},
+    {"method": "GET", "path": "/me/memberOf/microsoft.graph.group", "responses": [{"status": 200, "file": "calendar/mock/member-of.json"}]},
+    {"method": "GET", "path": "/me/calendarView/delta", "responses": [{"status": 200, "file": "calendar/mock/view-delta.json"}]},
+    {"method": "GET", "path": "/me/calendarView/delta", "query": {"$deltatoken": "mock-cal-1"}, "responses": [{"status": 200, "file": "calendar/mock/view-delta-empty.json"}]},
+    {"method": "GET", "path": "/me/calendars/mock-cal-birthdays/calendarView", "responses": [{"status": 200, "file": "calendar/mock/view-birthdays.json"}]},
+    {"method": "GET", "path": "/me/calendars/mock-cal-team/calendarView", "responses": [{"status": 200, "file": "calendar/mock/view-team.json"}]},
+    {"method": "GET", "path": "/groups/mock-group-1/calendarView", "responses": [{"status": 200, "file": "calendar/mock/view-group.json"}]},
+    {"method": "GET", "path": "/users/kai.novak@contoso.example/calendars", "responses": [{"status": 200, "file": "calendar/mock/kai-calendars.json"}]},
+    {"method": "GET", "path": "/users/kai.novak@contoso.example/calendars/mock-cal-kai/calendarView", "responses": [{"status": 200, "file": "calendar/mock/view-kai.json"}]},
+    {"method": "GET", "path": "/users/riley.ito@contoso.example/calendars", "responses": [{"status": 403, "body": {"error": {"code": "ErrorAccessDenied", "message": "Access is denied."}}}]},
+    {"method": "POST", "path": "/me/calendar/getSchedule", "responses": [{"status": 200, "file": "calendar/mock/schedule.json"}]},
+    {"method": "POST", "path": "/me/findMeetingTimes", "responses": [{"status": 200, "file": "calendar/find-meeting-times.json"}]},
+    {"method": "GET", "path": "/places/microsoft.graph.room", "responses": [{"status": 200, "file": "calendar/rooms.json"}]},
+    {"method": "GET", "path": "/places/microsoft.graph.roomlist", "responses": [{"status": 200, "file": "calendar/room-lists.json"}]},
+    {"method": "POST", "path": "/me/events", "responses": [{"status": 201, "file": "calendar/mock/created.json"}]},
+    {"method": "POST", "path": "/me/calendars/mock-cal-birthdays/events", "responses": [{"status": 201, "file": "calendar/mock/created.json"}]},
+    {"method": "PATCH", "path": "/me/events/mock-evt-new", "responses": [{"status": 200, "file": "calendar/mock/created.json"}]},
+    {"method": "DELETE", "path": "/me/events/mock-evt-new", "responses": [{"status": 204}]},
+    {"method": "POST", "path": "/me/events/mock-evt-invite/accept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-invite/tentativelyAccept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-invite/decline", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-invite/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-retro/accept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-retro/tentativelyAccept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-retro/decline", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-retro/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-vendor/accept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-vendor/tentativelyAccept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-vendor/decline", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-vendor/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-hiring/accept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-hiring/tentativelyAccept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-hiring/decline", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-hiring/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-review/accept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-review/tentativelyAccept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-review/decline", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-review/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-1on1/accept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-1on1/tentativelyAccept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-1on1/decline", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-1on1/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-group-1/accept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-group-1/tentativelyAccept", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-group-1/decline", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-group-1/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "PATCH", "path": "/me/events/mock-evt-plan", "responses": [{"status": 200, "file": "calendar/mock/created.json"}]},
+    {"method": "DELETE", "path": "/me/events/mock-evt-plan", "responses": [{"status": 204}]},
+    {"method": "POST", "path": "/me/events/mock-evt-plan/cancel", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-plan/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "PATCH", "path": "/me/events/mock-evt-lunch", "responses": [{"status": 200, "file": "calendar/mock/created.json"}]},
+    {"method": "DELETE", "path": "/me/events/mock-evt-lunch", "responses": [{"status": 204}]},
+    {"method": "POST", "path": "/me/events/mock-evt-lunch/cancel", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-lunch/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "PATCH", "path": "/me/events/mock-evt-focus", "responses": [{"status": 200, "file": "calendar/mock/created.json"}]},
+    {"method": "DELETE", "path": "/me/events/mock-evt-focus", "responses": [{"status": 204}]},
+    {"method": "POST", "path": "/me/events/mock-evt-focus/cancel", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-focus/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "PATCH", "path": "/me/events/mock-evt-security", "responses": [{"status": 200, "file": "calendar/mock/created.json"}]},
+    {"method": "DELETE", "path": "/me/events/mock-evt-security", "responses": [{"status": 204}]},
+    {"method": "POST", "path": "/me/events/mock-evt-security/cancel", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-security/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "PATCH", "path": "/me/events/mock-evt-status", "responses": [{"status": 200, "file": "calendar/mock/created.json"}]},
+    {"method": "DELETE", "path": "/me/events/mock-evt-status", "responses": [{"status": 204}]},
+    {"method": "POST", "path": "/me/events/mock-evt-status/cancel", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-status/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "PATCH", "path": "/me/events/mock-evt-late", "responses": [{"status": 200, "file": "calendar/mock/created.json"}]},
+    {"method": "DELETE", "path": "/me/events/mock-evt-late", "responses": [{"status": 204}]},
+    {"method": "POST", "path": "/me/events/mock-evt-late/cancel", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-late/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "PATCH", "path": "/me/events/mock-evt-offsite", "responses": [{"status": 200, "file": "calendar/mock/created.json"}]},
+    {"method": "DELETE", "path": "/me/events/mock-evt-offsite", "responses": [{"status": 204}]},
+    {"method": "POST", "path": "/me/events/mock-evt-offsite/cancel", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-offsite/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "PATCH", "path": "/me/events/mock-evt-new", "responses": [{"status": 200, "file": "calendar/mock/created.json"}]},
+    {"method": "DELETE", "path": "/me/events/mock-evt-new", "responses": [{"status": 204}]},
+    {"method": "POST", "path": "/me/events/mock-evt-new/cancel", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-new/forward", "responses": [{"status": 202, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-plan/snoozeReminder", "responses": [{"status": 200, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-plan/dismissReminder", "responses": [{"status": 200, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-invite/snoozeReminder", "responses": [{"status": 200, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-invite/dismissReminder", "responses": [{"status": 200, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-retro/snoozeReminder", "responses": [{"status": 200, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-retro/dismissReminder", "responses": [{"status": 200, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-status/snoozeReminder", "responses": [{"status": 200, "body": {}}]},
+    {"method": "POST", "path": "/me/events/mock-evt-status/dismissReminder", "responses": [{"status": 200, "body": {}}]}
+  ]
+}

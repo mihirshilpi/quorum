@@ -1,0 +1,219 @@
+{
+  "@odata.deltaLink": "https://graph.microsoft.com/v1.0/teams/00000000-0000-0000-0000-00000000f001/channels/19:mock-product-general@thread.tacv2/messages/delta?$deltatoken=mock-0-0",
+  "value": [
+    {
+      "id": "1760500000001",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-15T09:00:00Z",
+      "lastModifiedDateTime": "2026-10-15T09:00:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "Welcome",
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000103",
+          "displayName": "Riley Placeholder",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Welcome to the new Product team space! Pinned resources are in the Files tab.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "replies": [
+        {
+          "id": "1760500000101",
+          "replyToId": "1760500000001",
+          "messageType": "message",
+          "createdDateTime": "2026-10-15T09:10:00Z",
+          "lastModifiedDateTime": "2026-10-15T09:10:00Z",
+          "lastEditedDateTime": null,
+          "deletedDateTime": null,
+          "subject": null,
+          "importance": "normal",
+          "from": {
+            "user": {
+              "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+              "id": "00000000-0000-0000-0000-000000000104",
+              "displayName": "Jordan Fixture",
+              "userIdentityType": "aadUser",
+              "tenantId": "00000000-0000-0000-0000-0000000000f1"
+            },
+            "application": null,
+            "device": null
+          },
+          "body": {
+            "contentType": "html",
+            "content": "<p>Thanks Riley!</p>"
+          },
+          "attachments": [],
+          "mentions": [],
+          "reactions": []
+        },
+        {
+          "id": "1760500000102",
+          "replyToId": "1760500000001",
+          "messageType": "message",
+          "createdDateTime": "2026-10-15T09:20:00Z",
+          "lastModifiedDateTime": "2026-10-15T09:20:00Z",
+          "lastEditedDateTime": null,
+          "deletedDateTime": null,
+          "subject": null,
+          "importance": "normal",
+          "from": {
+            "user": {
+              "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+              "id": "00000000-0000-0000-0000-000000000001",
+              "displayName": "Test User",
+              "userIdentityType": "aadUser",
+              "tenantId": "00000000-0000-0000-0000-0000000000f1"
+            },
+            "application": null,
+            "device": null
+          },
+          "body": {
+            "contentType": "html",
+            "content": "<p>Great to have this.</p>"
+          },
+          "attachments": [],
+          "mentions": [],
+          "reactions": [
+            {
+              "reactionType": "like",
+              "createdDateTime": "2026-10-15T09:20:00Z",
+              "user": {
+                "user": {
+                  "id": "00000000-0000-0000-0000-000000000103",
+                  "displayName": "Riley Placeholder",
+                  "userIdentityType": "aadUser"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1760500000002",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T13:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T13:00:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "Quarterly planning",
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000105",
+          "displayName": "Casey Mockwell",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Reminder: quarterly planning inputs are due <b>Friday</b>.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reactionType": "👍",
+          "createdDateTime": "2026-10-16T13:00:00Z",
+          "user": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000101",
+              "displayName": "Morgan Sample",
+              "userIdentityType": "aadUser"
+            }
+          }
+        },
+        {
+          "reactionType": "👍",
+          "createdDateTime": "2026-10-16T13:00:00Z",
+          "user": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "displayName": "Test User",
+              "userIdentityType": "aadUser"
+            }
+          }
+        }
+      ],
+      "replies": []
+    },
+    {
+      "id": "1760500000003",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-17T08:30:00Z",
+      "lastModifiedDateTime": "2026-10-17T08:30:00Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "importance": "normal",
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000101",
+          "displayName": "Morgan Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>Customer feedback summary for September is up. Highlights: onboarding is faster, search needs work.</p>"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "replies": [
+        {
+          "id": "1760500000301",
+          "replyToId": "1760500000003",
+          "messageType": "message",
+          "createdDateTime": "2026-10-17T08:45:00Z",
+          "lastModifiedDateTime": "2026-10-17T08:45:00Z",
+          "lastEditedDateTime": null,
+          "deletedDateTime": null,
+          "subject": null,
+          "importance": "normal",
+          "from": {
+            "user": {
+              "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+              "id": "00000000-0000-0000-0000-000000000107",
+              "displayName": "Sage Exemplar",
+              "userIdentityType": "aadUser",
+              "tenantId": "00000000-0000-0000-0000-0000000000f1"
+            },
+            "application": null,
+            "device": null
+          },
+          "body": {
+            "contentType": "html",
+            "content": "<p>Search is on the roadmap for next quarter.</p>"
+          },
+          "attachments": [],
+          "mentions": [],
+          "reactions": []
+        }
+      ]
+    }
+  ]
+}

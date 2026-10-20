@@ -1,0 +1,24 @@
+{
+  "value": [
+    {
+      "id": "b!synthetic-drive-0001",
+      "driveType": "business",
+      "name": "OneDrive"
+    },
+    {
+      "id": "b!synthetic-drive-0002",
+      "driveType": "documentLibrary",
+      "name": "Documents",
+      "owner": {
+        "group": {
+          "id": "g",
+          "displayName": "Synthetic Group"
+        }
+      }
+    },
+    {
+      "id": "b!x",
+      "driveType": null
+    }
+  ]
+}

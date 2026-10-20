@@ -1,0 +1,17 @@
+{
+ "value": [
+  {
+   "id": "mock-cal-kai",
+   "name": "Calendar",
+   "color": "lightBlue",
+   "hexColor": "",
+   "isDefaultCalendar": true,
+   "canShare": false,
+   "canEdit": false,
+   "owner": {
+    "name": "Kai Novak",
+    "address": "kai.novak@contoso.example"
+   }
+  }
+ ]
+}

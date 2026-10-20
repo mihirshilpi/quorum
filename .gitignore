@@ -1,0 +1,10 @@
+/target
+/target-*
+/temp
+/crates/ui/dist
+.DS_Store
+*.log
+/.playwright-mcp
+
+# per-agent build dirs anywhere (relative CARGO_TARGET_DIR from a crate dir)
+target-*/

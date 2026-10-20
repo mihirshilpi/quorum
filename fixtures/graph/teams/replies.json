@@ -1,0 +1,32 @@
+{
+  "value": [
+    {
+      "id": "1760000001001",
+      "replyToId": null,
+      "messageType": "message",
+      "createdDateTime": "2026-10-16T08:00:00Z",
+      "lastModifiedDateTime": "2026-10-16T08:05:00Z",
+      "deletedDateTime": null,
+      "subject": null,
+      "channelIdentity": {
+        "teamId": "00000000-0000-0000-0000-0000000000b1",
+        "channelId": "19:synthetic-channel-0001@thread.tacv2"
+      },
+      "from": {
+        "user": {
+          "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+          "id": "00000000-0000-0000-0000-000000000012",
+          "displayName": "Alex Sample",
+          "userIdentityType": "aadUser",
+          "tenantId": "00000000-0000-0000-0000-0000000000f1"
+        },
+        "application": null,
+        "device": null
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<p>post 1760000001001</p>"
+      }
+    }
+  ]
+}
