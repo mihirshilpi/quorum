@@ -1,0 +1,5 @@
+# Same bytes on every OS: tests compare files with include_str!, and shell scripts must stay LF.
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.icns binary
